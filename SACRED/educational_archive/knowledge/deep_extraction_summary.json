@@ -1,0 +1,23 @@
+{
+  "extraction_type": "deep_specialized_educational",
+  "extraction_version": "2.0",
+  "domains": [
+    "advanced_mathematics",
+    "advanced_physics",
+    "advanced_chemistry",
+    "engineering_technology",
+    "life_sciences"
+  ],
+  "results": {
+    "advanced_mathematics": 2032,
+    "advanced_physics": 218,
+    "advanced_chemistry": 1008,
+    "engineering_technology": 1763,
+    "life_sciences": 2079
+  },
+  "total_articles": 7100,
+  "extraction_date": "2026-01-24 19:01:37",
+  "databases_location": "/Volumes/Natna v1/NATNA AI/SACRED/educational_archive/knowledge",
+  "mining_depth": "3 levels",
+  "specialization": "Advanced academic domains"
+}

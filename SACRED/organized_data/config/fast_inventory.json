@@ -1,0 +1,7014 @@
+{
+  "metadata": {
+    "created": "2025-12-30T00:46:22.229072",
+    "total_cells": 22200,
+    "method": "fast_pandas_stack"
+  },
+  "cells": [
+    {
+      "row": 1,
+      "col": 1,
+      "value": "World History Timeline",
+      "type": "str",
+      "length": 22
+    },
+    {
+      "row": 3,
+      "col": 1,
+      "value": "\u25bc",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 3,
+      "col": 3,
+      "value": "Entries: 19726",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 3,
+      "col": 13,
+      "value": "\u25b2",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 3,
+      "col": 21,
+      "value": "-3400",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 46,
+      "value": "-3350.0",
+      "type": "float",
+      "length": 7
+    },
+    {
+      "row": 3,
+      "col": 71,
+      "value": "-3300",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 96,
+      "value": "-3250",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 121,
+      "value": "-3200",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 146,
+      "value": "-3150",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 171,
+      "value": "-3100",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 196,
+      "value": "-3050",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 221,
+      "value": "-3000",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 246,
+      "value": "-2950.0",
+      "type": "float",
+      "length": 7
+    },
+    {
+      "row": 3,
+      "col": 271,
+      "value": "-2900",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 296,
+      "value": "-2850.0",
+      "type": "float",
+      "length": 7
+    },
+    {
+      "row": 3,
+      "col": 321,
+      "value": "-2800",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 346,
+      "value": "-2750",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 371,
+      "value": "-2700",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 396,
+      "value": "-2650.0",
+      "type": "float",
+      "length": 7
+    },
+    {
+      "row": 3,
+      "col": 421,
+      "value": "-2600",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 446,
+      "value": "-2550.0",
+      "type": "float",
+      "length": 7
+    },
+    {
+      "row": 3,
+      "col": 471,
+      "value": "-2500",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 496,
+      "value": "-2450",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 521,
+      "value": "-2400",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 546,
+      "value": "-2350",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 571,
+      "value": "-2300",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 596,
+      "value": "-2250",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 621,
+      "value": "-2200",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 646,
+      "value": "-2150.0",
+      "type": "float",
+      "length": 7
+    },
+    {
+      "row": 3,
+      "col": 671,
+      "value": "-2100",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 696,
+      "value": "-2050.0",
+      "type": "float",
+      "length": 7
+    },
+    {
+      "row": 3,
+      "col": 721,
+      "value": "-2000",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 746,
+      "value": "-1950",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 771,
+      "value": "-1900",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 796,
+      "value": "-1850.0",
+      "type": "float",
+      "length": 7
+    },
+    {
+      "row": 3,
+      "col": 821,
+      "value": "-1800",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 846,
+      "value": "-1750",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 871,
+      "value": "-1700",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 896,
+      "value": "-1650",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 921,
+      "value": "-1600",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 946,
+      "value": "-1550",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 971,
+      "value": "-1500",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 996,
+      "value": "-1450",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 1021,
+      "value": "-1400",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 1046,
+      "value": "-1350",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 1071,
+      "value": "-1300",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 1096,
+      "value": "-1250",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 1121,
+      "value": "-1200",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 1146,
+      "value": "-1150",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 1171,
+      "value": "-1100",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 1196,
+      "value": "-1050",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 1221,
+      "value": "-1000",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 1246,
+      "value": "-950",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 1271,
+      "value": "-900",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 1296,
+      "value": "-850",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 1321,
+      "value": "-800",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 1346,
+      "value": "-750",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 1371,
+      "value": "-700",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 1396,
+      "value": "-650",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 1421,
+      "value": "-600",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 1446,
+      "value": "-550",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 1471,
+      "value": "-500",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 1496,
+      "value": "-450",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 1521,
+      "value": "-400",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 1546,
+      "value": "-350",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 1571,
+      "value": "-300",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 1596,
+      "value": "-250",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 1621,
+      "value": "-200",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 1646,
+      "value": "-150",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 1671,
+      "value": "-100",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 1696,
+      "value": "-50",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 3,
+      "col": 1720,
+      "value": "1BC ",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 1721,
+      "value": " AD 1",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 1746,
+      "value": "50",
+      "type": "str",
+      "length": 2
+    },
+    {
+      "row": 3,
+      "col": 1773,
+      "value": "100",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 3,
+      "col": 1798,
+      "value": "150",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 3,
+      "col": 1824,
+      "value": "200",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 3,
+      "col": 1857,
+      "value": "250",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 3,
+      "col": 1899,
+      "value": "300",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 3,
+      "col": 1924,
+      "value": "350",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 3,
+      "col": 1950,
+      "value": "400",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 3,
+      "col": 1975,
+      "value": "450",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 3,
+      "col": 2003,
+      "value": "500",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 3,
+      "col": 2028,
+      "value": "550",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 3,
+      "col": 2053,
+      "value": "600",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 3,
+      "col": 2078,
+      "value": "650",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 3,
+      "col": 2103,
+      "value": "700",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 3,
+      "col": 2128,
+      "value": "750",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 3,
+      "col": 2153,
+      "value": "800",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 3,
+      "col": 2178,
+      "value": "850",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 3,
+      "col": 2203,
+      "value": "900",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 3,
+      "col": 2228,
+      "value": "950",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 3,
+      "col": 2253,
+      "value": "1000",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 2278,
+      "value": "1050",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 2303,
+      "value": "1100 ",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 3,
+      "col": 2328,
+      "value": "1150",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 2353,
+      "value": "1200",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 2378,
+      "value": "1250",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 2403,
+      "value": "1300",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 2428,
+      "value": "1350",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 2453,
+      "value": "1400",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 2478,
+      "value": "1450",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 2503,
+      "value": "1500",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 2528,
+      "value": "1550",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 2553,
+      "value": "1600",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 2578,
+      "value": "1650",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 2603,
+      "value": "1700",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 2628,
+      "value": "1750",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 2653,
+      "value": "1800",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 2678,
+      "value": "1850",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 2703,
+      "value": "1900",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 2728,
+      "value": "1950",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 3,
+      "col": 2754,
+      "value": "2000",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 6,
+      "col": 1,
+      "value": "EGYPT",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 7,
+      "col": 1,
+      "value": "World population \u2192  ",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 7,
+      "col": 15,
+      "value": "\u2190 4000 BC - 7 million",
+      "type": "str",
+      "length": 21
+    },
+    {
+      "row": 7,
+      "col": 221,
+      "value": "14 million",
+      "type": "str",
+      "length": 10
+    },
+    {
+      "row": 7,
+      "col": 721,
+      "value": "27 million",
+      "type": "str",
+      "length": 10
+    },
+    {
+      "row": 7,
+      "col": 1221,
+      "value": "50 million",
+      "type": "str",
+      "length": 10
+    },
+    {
+      "row": 7,
+      "col": 1471,
+      "value": "100 million",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 7,
+      "col": 1721,
+      "value": "200 million",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 7,
+      "col": 2253,
+      "value": "400 million",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 7,
+      "col": 2503,
+      "value": "458 million",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 7,
+      "col": 2553,
+      "value": "580 million",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 7,
+      "col": 2603,
+      "value": "682 million",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 7,
+      "col": 2628,
+      "value": "791 million",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 7,
+      "col": 2653,
+      "value": "1 billion",
+      "type": "str",
+      "length": 9
+    },
+    {
+      "row": 7,
+      "col": 2678,
+      "value": "1.262 billion",
+      "type": "str",
+      "length": 13
+    },
+    {
+      "row": 7,
+      "col": 2703,
+      "value": "1.65 billion",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 7,
+      "col": 2728,
+      "value": "2.519 billion",
+      "type": "str",
+      "length": 13
+    },
+    {
+      "row": 7,
+      "col": 2753,
+      "value": "6.114 billion",
+      "type": "str",
+      "length": 13
+    },
+    {
+      "row": 7,
+      "col": 2765,
+      "value": "~ 8.1 billion (2024)",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 9,
+      "col": 13,
+      "value": "S",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 9,
+      "col": 146,
+      "value": "Egyptian Chronology",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 9,
+      "col": 171,
+      "value": "Ancient Egyptian King Lists",
+      "type": "str",
+      "length": 27
+    },
+    {
+      "row": 11,
+      "col": 2,
+      "value": "Egyptian",
+      "type": "str",
+      "length": 8
+    },
+    {
+      "row": 11,
+      "col": 21,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 11,
+      "col": 24,
+      "value": "Ancient Egypt",
+      "type": "str",
+      "length": 13
+    },
+    {
+      "row": 11,
+      "col": 169,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 11,
+      "col": 171,
+      "value": "Ancient Egypt (c. 3100 - 332 BC)",
+      "type": "str",
+      "length": 32
+    },
+    {
+      "row": 11,
+      "col": 1560,
+      "value": "Classical Antiquity (323 BC - AD 641)",
+      "type": "str",
+      "length": 37
+    },
+    {
+      "row": 11,
+      "col": 2074,
+      "value": "Middle Ages (AD 641 - AD 1517)",
+      "type": "str",
+      "length": 30
+    },
+    {
+      "row": 11,
+      "col": 2511,
+      "value": "Early Modern Egypt (AD 1517 - AD 1914)",
+      "type": "str",
+      "length": 38
+    },
+    {
+      "row": 11,
+      "col": 2694,
+      "value": "Modern Egypt (AD 1882 - present)",
+      "type": "str",
+      "length": 32
+    },
+    {
+      "row": 13,
+      "col": 2,
+      "value": "Period",
+      "type": "str",
+      "length": 6
+    },
+    {
+      "row": 13,
+      "col": 122,
+      "value": "\u2190 Pre-Dynastic Period \u2192",
+      "type": "str",
+      "length": 23
+    },
+    {
+      "row": 13,
+      "col": 171,
+      "value": "Early Dynastic Period (3100\u20132686 BC)",
+      "type": "str",
+      "length": 36
+    },
+    {
+      "row": 13,
+      "col": 376,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 13,
+      "col": 378,
+      "value": "Old Kingdom (2686\u20132181 BC)",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 13,
+      "col": 628,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 13,
+      "col": 630,
+      "value": "1st Intermediate Period (2181\u20132055 BC)",
+      "type": "str",
+      "length": 38
+    },
+    {
+      "row": 13,
+      "col": 692,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 13,
+      "col": 694,
+      "value": "Middle Kingdom (2055\u20131802 BC)",
+      "type": "str",
+      "length": 29
+    },
+    {
+      "row": 13,
+      "col": 818,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 13,
+      "col": 820,
+      "value": "2nd Intermediate Period (1802\u20131550 BC)",
+      "type": "str",
+      "length": 38
+    },
+    {
+      "row": 13,
+      "col": 896,
+      "value": "Abydos Dynasty (4 Pharaohs)",
+      "type": "str",
+      "length": 27
+    },
+    {
+      "row": 13,
+      "col": 944,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 13,
+      "col": 946,
+      "value": "New Kingdom (1550\u20131077 BC)",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 13,
+      "col": 1180,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 13,
+      "col": 1182,
+      "value": "3rd Intermediate Period (1077\u2013664 BC)",
+      "type": "str",
+      "length": 37
+    },
+    {
+      "row": 13,
+      "col": 1353,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 13,
+      "col": 1355,
+      "value": "Late Period (732\u201330 BC)",
+      "type": "str",
+      "length": 23
+    },
+    {
+      "row": 13,
+      "col": 1704,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 13,
+      "col": 1706,
+      "value": "Roman and Byzantine Egypt (30 BC\u2013641 AD)",
+      "type": "str",
+      "length": 40
+    },
+    {
+      "row": 13,
+      "col": 2074,
+      "value": "Arab Egypt (AD 641\u2013969)",
+      "type": "str",
+      "length": 23
+    },
+    {
+      "row": 13,
+      "col": 2237,
+      "value": "Fatimid Egypt (AD 969\u20131171)",
+      "type": "str",
+      "length": 27
+    },
+    {
+      "row": 13,
+      "col": 2339,
+      "value": "Ayyubid Egypt (AD 1171\u20131250)",
+      "type": "str",
+      "length": 28
+    },
+    {
+      "row": 13,
+      "col": 2378,
+      "value": "Mamluk Egypt (AD 1250\u20131517)",
+      "type": "str",
+      "length": 27
+    },
+    {
+      "row": 13,
+      "col": 2511,
+      "value": "Ottoman Egypt (AD 1517\u20131867)",
+      "type": "str",
+      "length": 28
+    },
+    {
+      "row": 13,
+      "col": 2686,
+      "value": "Khedivate of Egypt",
+      "type": "str",
+      "length": 18
+    },
+    {
+      "row": 13,
+      "col": 2710,
+      "value": "Sultanate of Egypt",
+      "type": "str",
+      "length": 18
+    },
+    {
+      "row": 13,
+      "col": 2729,
+      "value": "Republic of Egypt (AD 1953 - present)",
+      "type": "str",
+      "length": 37
+    },
+    {
+      "row": 15,
+      "col": 1,
+      "value": "Egypt",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 15,
+      "col": 23,
+      "value": "Egyptian",
+      "type": "str",
+      "length": 8
+    },
+    {
+      "row": 15,
+      "col": 33,
+      "value": "Language",
+      "type": "str",
+      "length": 8
+    },
+    {
+      "row": 15,
+      "col": 43,
+      "value": "Period",
+      "type": "str",
+      "length": 6
+    },
+    {
+      "row": 15,
+      "col": 58,
+      "value": "Era",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 15,
+      "col": 79,
+      "value": "Script",
+      "type": "str",
+      "length": 6
+    },
+    {
+      "row": 15,
+      "col": 114,
+      "value": "Upper Egypt",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 15,
+      "col": 122,
+      "value": "? \u2190 Dynasty 00 (3 rulers)",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 15,
+      "col": 146,
+      "value": "Dynasty 0 (4 rulers)",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 15,
+      "col": 171,
+      "value": "1st Dynasty (10 Pharaohs)",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 15,
+      "col": 271,
+      "value": "2nd Dynasty (11 Pharoahs)",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 15,
+      "col": 376,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 15,
+      "col": 378,
+      "value": "3rd Dynasty (5 Pharaohs)",
+      "type": "str",
+      "length": 24
+    },
+    {
+      "row": 15,
+      "col": 414,
+      "value": "4th Dynasty (8 Pharaohs)",
+      "type": "str",
+      "length": 24
+    },
+    {
+      "row": 15,
+      "col": 472,
+      "value": "5th Dynasty (9 Pharaohs)",
+      "type": "str",
+      "length": 24
+    },
+    {
+      "row": 15,
+      "col": 548,
+      "value": "6th Dynasty (8 Pharaohs)",
+      "type": "str",
+      "length": 24
+    },
+    {
+      "row": 15,
+      "col": 630,
+      "value": "7th and 8th Dynasties",
+      "type": "str",
+      "length": 21
+    },
+    {
+      "row": 15,
+      "col": 641,
+      "value": "9th Dynasty",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 15,
+      "col": 656,
+      "value": "10th Dynasty (18 Pharaohs inc. the 9th Dynasty)",
+      "type": "str",
+      "length": 47
+    },
+    {
+      "row": 15,
+      "col": 725,
+      "value": "12th Dynasty (9 Pharaohs)",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 15,
+      "col": 820,
+      "value": "13th Dynasty (60 Pharaohs)",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 15,
+      "col": 898,
+      "value": "?",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 15,
+      "col": 924,
+      "value": "Apex of the Hyksos' power",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 15,
+      "col": 946,
+      "value": "18th Dynasty (14 Pharaohs)",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 15,
+      "col": 1075,
+      "value": "19th Dynasty (8 Pharaohs)",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 15,
+      "col": 1187,
+      "value": "21st Dynasty (7 Pharaohs + 9 High Priests of Amun)",
+      "type": "str",
+      "length": 50
+    },
+    {
+      "row": 15,
+      "col": 1249,
+      "value": "22nd Dynasty (11 Pharaohs)",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 15,
+      "col": 1385,
+      "value": "26th Dynasty (7 Pharaohs)",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 15,
+      "col": 1459,
+      "value": "27th Dynasty (11 Pharaohs) - (First Persion 'Achaemenid' period)",
+      "type": "str",
+      "length": 64
+    },
+    {
+      "row": 15,
+      "col": 1519,
+      "value": "28th Dynasty (1 Pharaoh)",
+      "type": "str",
+      "length": 24
+    },
+    {
+      "row": 15,
+      "col": 1531,
+      "value": "30th Dynasty (3 Pharaohs)",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 15,
+      "col": 1550,
+      "value": "31st Dynasty (4 Pharaohs)",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 15,
+      "col": 1569,
+      "value": "Ptolemaic Dynasty",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 15,
+      "col": 2062,
+      "value": "Sasanian Egypt",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 15,
+      "col": 2652,
+      "value": "French occupation",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 15,
+      "col": 2694,
+      "value": "British occupation",
+      "type": "str",
+      "length": 18
+    },
+    {
+      "row": 15,
+      "col": 2729,
+      "value": "Egyptian Revolution",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 17,
+      "col": 23,
+      "value": "Language",
+      "type": "str",
+      "length": 8
+    },
+    {
+      "row": 17,
+      "col": 33,
+      "value": "Archaic Egyptian",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 17,
+      "col": 43,
+      "value": "before 2600 BC",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 17,
+      "col": 58,
+      "value": "Early Dynastic Period",
+      "type": "str",
+      "length": 21
+    },
+    {
+      "row": 17,
+      "col": 79,
+      "value": "Early Hieroglyphs",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 17,
+      "col": 114,
+      "value": "Lower Egypt",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 17,
+      "col": 122,
+      "value": "? \u2190",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 17,
+      "col": 125,
+      "value": "8 rulers - Only known from the\u00a0Palermo stone",
+      "type": "str",
+      "length": 44
+    },
+    {
+      "row": 17,
+      "col": 151,
+      "value": "\u2192 ?",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 17,
+      "col": 169,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 17,
+      "col": 171,
+      "value": "Narmer",
+      "type": "str",
+      "length": 6
+    },
+    {
+      "row": 17,
+      "col": 376,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 17,
+      "col": 378,
+      "value": "Djoser",
+      "type": "str",
+      "length": 6
+    },
+    {
+      "row": 17,
+      "col": 414,
+      "value": "Sneferu",
+      "type": "str",
+      "length": 7
+    },
+    {
+      "row": 17,
+      "col": 438,
+      "value": "Djedefre",
+      "type": "str",
+      "length": 8
+    },
+    {
+      "row": 17,
+      "col": 455,
+      "value": "Menkaure",
+      "type": "str",
+      "length": 8
+    },
+    {
+      "row": 17,
+      "col": 471,
+      "value": "Thamphthis",
+      "type": "str",
+      "length": 10
+    },
+    {
+      "row": 17,
+      "col": 534,
+      "value": "Unas",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 17,
+      "col": 582,
+      "value": "Neferkare Pepi II",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 17,
+      "col": 630,
+      "value": "(16 Pharaohs)",
+      "type": "str",
+      "length": 13
+    },
+    {
+      "row": 17,
+      "col": 654,
+      "value": "11th Dynasty (8 - possibly 11 - Pharaohs)",
+      "type": "str",
+      "length": 41
+    },
+    {
+      "row": 17,
+      "col": 819,
+      "value": "14th Dynasty (29 Pharaohs)",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 17,
+      "col": 896,
+      "value": "16th Dynasty (15 Pharaohs)",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 17,
+      "col": 946,
+      "value": "Ahmose I",
+      "type": "str",
+      "length": 8
+    },
+    {
+      "row": 17,
+      "col": 961,
+      "value": "Thutmose I",
+      "type": "str",
+      "length": 10
+    },
+    {
+      "row": 17,
+      "col": 980,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 17,
+      "col": 982,
+      "value": "Hatshepsut",
+      "type": "str",
+      "length": 10
+    },
+    {
+      "row": 17,
+      "col": 1009,
+      "value": "Amenhotep II",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 17,
+      "col": 1026,
+      "value": "Amenhotep III\u00a0The Magnificent King",
+      "type": "str",
+      "length": 34
+    },
+    {
+      "row": 17,
+      "col": 1054,
+      "value": "Smenkhkare",
+      "type": "str",
+      "length": 10
+    },
+    {
+      "row": 17,
+      "col": 1061,
+      "value": "Horemheb",
+      "type": "str",
+      "length": 8
+    },
+    {
+      "row": 17,
+      "col": 1080,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 17,
+      "col": 1082,
+      "value": "Ramesses II\u00a0the Great",
+      "type": "str",
+      "length": 21
+    },
+    {
+      "row": 17,
+      "col": 1126,
+      "value": "20th Dynasty (10 Pharaohs)",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 17,
+      "col": 1302,
+      "value": "23rd Dynasty (8 Pharaohs)",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 17,
+      "col": 1355,
+      "value": "24th Dynasty (2 Pharaohs)",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 17,
+      "col": 1522,
+      "value": "29th Dynasty (4 Pharaohs)",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 17,
+      "col": 1541,
+      "value": "Nectanebo II",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 17,
+      "col": 1555,
+      "value": "Argead Dynasty (3 Pharaohs)",
+      "type": "str",
+      "length": 27
+    },
+    {
+      "row": 17,
+      "col": 1704,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 17,
+      "col": 1706,
+      "value": "Cleopatra VII\u00a0commits suicide. She is the last pharaoh of Egypt as it comes under the rule of the Roman Empire",
+      "type": "str",
+      "length": 110
+    },
+    {
+      "row": 17,
+      "col": 2655,
+      "value": "Egypt under Muhammad Ali",
+      "type": "str",
+      "length": 24
+    },
+    {
+      "row": 17,
+      "col": 2714,
+      "value": "Kingdom of Egypt",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 17,
+      "col": 2732,
+      "value": "United Arab Republic",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 19,
+      "col": 33,
+      "value": "Old Egyptian",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 19,
+      "col": 43,
+      "value": "2686 BC \u2013 2181 BC",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 19,
+      "col": 58,
+      "value": "Old Kingdom",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 19,
+      "col": 79,
+      "value": "Hieroglyphs\u00a0and\u00a0Hieratic",
+      "type": "str",
+      "length": 24
+    },
+    {
+      "row": 19,
+      "col": 371,
+      "value": "Papyrus is developed as a writing surface",
+      "type": "str",
+      "length": 41
+    },
+    {
+      "row": 19,
+      "col": 416,
+      "value": "Meidum Pyramid",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 19,
+      "col": 427,
+      "value": "Khufu",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 19,
+      "col": 442,
+      "value": "Khafre",
+      "type": "str",
+      "length": 6
+    },
+    {
+      "row": 19,
+      "col": 469,
+      "value": "Shepseskaf",
+      "type": "str",
+      "length": 10
+    },
+    {
+      "row": 19,
+      "col": 637,
+      "value": "Qakare Ibi",
+      "type": "str",
+      "length": 10
+    },
+    {
+      "row": 19,
+      "col": 824,
+      "value": "Ameny Qemau (13th Dynasty)",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 19,
+      "col": 839,
+      "value": "Khendjer",
+      "type": "str",
+      "length": 8
+    },
+    {
+      "row": 19,
+      "col": 866,
+      "value": "14th Dynasty (alt start)",
+      "type": "str",
+      "length": 24
+    },
+    {
+      "row": 19,
+      "col": 896,
+      "value": "17th Dynasty (9 Pharaohs)",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 19,
+      "col": 950,
+      "value": "Amenhotep I",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 19,
+      "col": 975,
+      "value": "Thutmose II",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 19,
+      "col": 990,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 19,
+      "col": 992,
+      "value": "Thutmose III",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 19,
+      "col": 1021,
+      "value": "Thutmose IV",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 19,
+      "col": 1045,
+      "value": "Akhenaten",
+      "type": "str",
+      "length": 9
+    },
+    {
+      "row": 19,
+      "col": 1054,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 19,
+      "col": 1055,
+      "value": "Tutankhamun",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 19,
+      "col": 1345,
+      "value": "25th Dynasty (5 Pharaohs)",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 19,
+      "col": 1459,
+      "value": "The Persian Empire conquers and rules Egypt",
+      "type": "str",
+      "length": 43
+    },
+    {
+      "row": 19,
+      "col": 1555,
+      "value": "Alexander the Great",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 19,
+      "col": 2074,
+      "value": "The Arabs conquer Egypt and convert the land to\u00a0Islam",
+      "type": "str",
+      "length": 53
+    },
+    {
+      "row": 19,
+      "col": 2687,
+      "value": "Construction on the Suez Canal is completed",
+      "type": "str",
+      "length": 43
+    },
+    {
+      "row": 19,
+      "col": 2714,
+      "value": "The UK recognizes Egypt as an independent country. Fuad I becomes King of Egypt.",
+      "type": "str",
+      "length": 80
+    },
+    {
+      "row": 21,
+      "col": 21,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 21,
+      "col": 23,
+      "value": "Heiroglyphs",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 21,
+      "col": 33,
+      "value": "Middle Egyptian",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 21,
+      "col": 43,
+      "value": "2055 BC \u2013 1650 BC",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 21,
+      "col": 58,
+      "value": "Middle Kingdom",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 21,
+      "col": 79,
+      "value": "Hieroglyphs\u00a0and\u00a0Hieratic",
+      "type": "str",
+      "length": 24
+    },
+    {
+      "row": 21,
+      "col": 171,
+      "value": "Narmer\u00a0unifies Upper and Lower Egypt",
+      "type": "str",
+      "length": 36
+    },
+    {
+      "row": 21,
+      "col": 385,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 21,
+      "col": 387,
+      "value": "First Egyptian pyramid constructed (conjectured date)",
+      "type": "str",
+      "length": 53
+    },
+    {
+      "row": 21,
+      "col": 417,
+      "value": "Bent Pyramid",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 21,
+      "col": 455,
+      "value": "Baka/Bauefr\u00ea",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 21,
+      "col": 794,
+      "value": "Earliest parts of\u00a0Temple of Karnak\u00a0built",
+      "type": "str",
+      "length": 40
+    },
+    {
+      "row": 21,
+      "col": 814,
+      "value": "Egyptians control\u00a0Nubia",
+      "type": "str",
+      "length": 23
+    },
+    {
+      "row": 21,
+      "col": 884,
+      "value": "15th Dynasty (6 Pharaohs)",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 21,
+      "col": 993,
+      "value": "Battle of Meggido",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 21,
+      "col": 1034,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 21,
+      "col": 1036,
+      "value": "Nefertiti",
+      "type": "str",
+      "length": 9
+    },
+    {
+      "row": 21,
+      "col": 1059,
+      "value": "Ay",
+      "type": "str",
+      "length": 2
+    },
+    {
+      "row": 21,
+      "col": 1082,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 21,
+      "col": 1084,
+      "value": "Battle of Kadesh",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 21,
+      "col": 1319,
+      "value": "The Libu",
+      "type": "str",
+      "length": 8
+    },
+    {
+      "row": 21,
+      "col": 1541,
+      "value": "Last native ruler of Ancient Egypt",
+      "type": "str",
+      "length": 34
+    },
+    {
+      "row": 21,
+      "col": 1621,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 21,
+      "col": 1623,
+      "value": "Rosetta Stone is inscribed",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 21,
+      "col": 1947,
+      "value": "The last known example of Egyptian hieroglyphics",
+      "type": "str",
+      "length": 48
+    },
+    {
+      "row": 23,
+      "col": 23,
+      "value": "(z\u1e96\u021d n mdw-n\u1e6fr)\n\"writing of the words of god\"",
+      "type": "str",
+      "length": 45
+    },
+    {
+      "row": 23,
+      "col": 33,
+      "value": "Late Egyptian",
+      "type": "str",
+      "length": 13
+    },
+    {
+      "row": 23,
+      "col": 43,
+      "value": "1069 BC \u2013 700 BC",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 23,
+      "col": 58,
+      "value": "Third Intermediate Period",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 23,
+      "col": 79,
+      "value": "Hieroglyphs\u00a0and\u00a0Hieratic",
+      "type": "str",
+      "length": 24
+    },
+    {
+      "row": 23,
+      "col": 171,
+      "value": "Hieroglyphic script\u00a0developed (c. 3100)",
+      "type": "str",
+      "length": 39
+    },
+    {
+      "row": 23,
+      "col": 419,
+      "value": "Red Pyramid",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 23,
+      "col": 434,
+      "value": "Construction of pyramids",
+      "type": "str",
+      "length": 24
+    },
+    {
+      "row": 23,
+      "col": 449,
+      "value": "on the Giza Plateau",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 23,
+      "col": 543,
+      "value": "The\u00a0Pyramid of Unas\u00a0is inscribed with the earliest instance of the\u00a0pyramid texts",
+      "type": "str",
+      "length": 80
+    },
+    {
+      "row": 23,
+      "col": 640,
+      "value": "Pyramid\u00a0at Saqqara inscribed with the last known instance of the\u00a0Pyramid Texts",
+      "type": "str",
+      "length": 78
+    },
+    {
+      "row": 23,
+      "col": 827,
+      "value": "Pyramid\u00a0at Dashur",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 23,
+      "col": 842,
+      "value": "Pyramid\u00a0at Saqqara",
+      "type": "str",
+      "length": 18
+    },
+    {
+      "row": 23,
+      "col": 884,
+      "value": "The Hyksos form their own dynasty, the 15th Dynasty",
+      "type": "str",
+      "length": 51
+    },
+    {
+      "row": 23,
+      "col": 914,
+      "value": "Khyan (Hyksos pharaoh)",
+      "type": "str",
+      "length": 22
+    },
+    {
+      "row": 23,
+      "col": 948,
+      "value": "Ahmose I conquers north of Egypt from the Hyksos",
+      "type": "str",
+      "length": 48
+    },
+    {
+      "row": 23,
+      "col": 1023,
+      "value": "Dream Stele constructed by Thutmose IV",
+      "type": "str",
+      "length": 38
+    },
+    {
+      "row": 23,
+      "col": 1043,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 23,
+      "col": 1045,
+      "value": "Amarna Period",
+      "type": "str",
+      "length": 13
+    },
+    {
+      "row": 23,
+      "col": 1092,
+      "value": "Egyptian\u2013Hittite peace treaty signed",
+      "type": "str",
+      "length": 36
+    },
+    {
+      "row": 23,
+      "col": 1360,
+      "value": "Sais: (725 BC - 715 BC) - XXIV dynasty",
+      "type": "str",
+      "length": 38
+    },
+    {
+      "row": 23,
+      "col": 1385,
+      "value": "Assyrians\u00a0attack Egypt",
+      "type": "str",
+      "length": 22
+    },
+    {
+      "row": 23,
+      "col": 1520,
+      "value": "Sais: (404 BC - 399 BC) - XXVIII dynasty",
+      "type": "str",
+      "length": 40
+    },
+    {
+      "row": 23,
+      "col": 1553,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 23,
+      "col": 1555,
+      "value": "Alexander the Great conquers Egypt and establishes the city of Alexandria",
+      "type": "str",
+      "length": 73
+    },
+    {
+      "row": 23,
+      "col": 2652,
+      "value": "Napoleon Bonaparte invades Egypt",
+      "type": "str",
+      "length": 32
+    },
+    {
+      "row": 23,
+      "col": 2694,
+      "value": "Battle of Tel el-Kebir",
+      "type": "str",
+      "length": 22
+    },
+    {
+      "row": 26,
+      "col": 3,
+      "value": "Pharaoh",
+      "type": "str",
+      "length": 7
+    },
+    {
+      "row": 26,
+      "col": 33,
+      "value": "Demotic",
+      "type": "str",
+      "length": 7
+    },
+    {
+      "row": 26,
+      "col": 43,
+      "value": "c. 650 BC \u2013 5th cent. AD",
+      "type": "str",
+      "length": 24
+    },
+    {
+      "row": 26,
+      "col": 58,
+      "value": "Late Period\u00a0through\u00a0Roman times",
+      "type": "str",
+      "length": 31
+    },
+    {
+      "row": 26,
+      "col": 79,
+      "value": "Script derived from Hieratic",
+      "type": "str",
+      "length": 28
+    },
+    {
+      "row": 26,
+      "col": 172,
+      "value": "Thinis\u00a0(Actual Location Unknown) (the first capital of\u00a0Upper and Lower Egypt)",
+      "type": "str",
+      "length": 77
+    },
+    {
+      "row": 26,
+      "col": 247,
+      "value": "Memphis: (2950 BC - 2180 BC) - I to VIII dynasties",
+      "type": "str",
+      "length": 50
+    },
+    {
+      "row": 26,
+      "col": 642,
+      "value": "Herakleopolis Magna: (2180 BC - 2060 BC) - IX and X dynasties",
+      "type": "str",
+      "length": 61
+    },
+    {
+      "row": 26,
+      "col": 692,
+      "value": "Thebes: (2135 BC - 1985 BC) - XI dynasty",
+      "type": "str",
+      "length": 40
+    },
+    {
+      "row": 26,
+      "col": 730,
+      "value": "Itjtawy: (1985 BC - 1785 BC) - XII dynasty",
+      "type": "str",
+      "length": 42
+    },
+    {
+      "row": 26,
+      "col": 830,
+      "value": "Thebes: (1785 BC - 1650 BC) - XIII dynasty",
+      "type": "str",
+      "length": 42
+    },
+    {
+      "row": 26,
+      "col": 897,
+      "value": "Avaris: (1650 BC - 1580 BC) - XV dynasty (Hyksos)",
+      "type": "str",
+      "length": 49
+    },
+    {
+      "row": 26,
+      "col": 971,
+      "value": "Pharaohs begin to be buried at the\u00a0Valley of the Kings",
+      "type": "str",
+      "length": 54
+    },
+    {
+      "row": 26,
+      "col": 1021,
+      "value": "Construction on the Temple of Luxor is started",
+      "type": "str",
+      "length": 46
+    },
+    {
+      "row": 26,
+      "col": 1056,
+      "value": "Thebes: (c. 1332 BC - 1279 BC) - XVIII to XIX dynasty",
+      "type": "str",
+      "length": 53
+    },
+    {
+      "row": 26,
+      "col": 1083,
+      "value": "Pi-Ramesses: (1279 BC - 1078 BC) - XIX and XX dynasty",
+      "type": "str",
+      "length": 53
+    },
+    {
+      "row": 26,
+      "col": 1183,
+      "value": "Tanis: (1078 BC - 945 BC) - XXI dynasty",
+      "type": "str",
+      "length": 39
+    },
+    {
+      "row": 26,
+      "col": 1250,
+      "value": "Bubastis: (945 BC - 715 BC) - XXII dynasty",
+      "type": "str",
+      "length": 42
+    },
+    {
+      "row": 26,
+      "col": 1390,
+      "value": "Sais: (664 BC - 525 BC) - XXVI dynasty",
+      "type": "str",
+      "length": 38
+    },
+    {
+      "row": 26,
+      "col": 1461,
+      "value": "XXVII dynasty was\u00a0Persian",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 26,
+      "col": 1523,
+      "value": "Mendes: (399 BC - 380 BC) - XXIX dynasty",
+      "type": "str",
+      "length": 40
+    },
+    {
+      "row": 26,
+      "col": 1556,
+      "value": "Alexandria: (332 BC - 641 AD)",
+      "type": "str",
+      "length": 29
+    },
+    {
+      "row": 26,
+      "col": 2075,
+      "value": "Al-Fustat: (641 AD - 750 AD)",
+      "type": "str",
+      "length": 28
+    },
+    {
+      "row": 26,
+      "col": 2129,
+      "value": "Al-Askar: (750 - 868 AD)",
+      "type": "str",
+      "length": 24
+    },
+    {
+      "row": 26,
+      "col": 2188,
+      "value": "Al-Qata'i: (868 - 905 AD)",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 26,
+      "col": 2206,
+      "value": "Al-Fustat: (905 - 969 AD)",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 26,
+      "col": 2238,
+      "value": "Al-Qahira (Cairo): (969 AD - Present)",
+      "type": "str",
+      "length": 37
+    },
+    {
+      "row": 26,
+      "col": 2765,
+      "value": "\u2190 Al-Qahira (Cairo): (969 AD - Present) \u2192",
+      "type": "str",
+      "length": 41
+    },
+    {
+      "row": 28,
+      "col": 3,
+      "value": "Capital of Egypt",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 28,
+      "col": 33,
+      "value": "Coptic",
+      "type": "str",
+      "length": 6
+    },
+    {
+      "row": 28,
+      "col": 43,
+      "value": "1st cent. AD \u2013 17th cent. AD",
+      "type": "str",
+      "length": 28
+    },
+    {
+      "row": 28,
+      "col": 58,
+      "value": "Early\u00a0Roman times\u00a0to\u00a0early modern times",
+      "type": "str",
+      "length": 39
+    },
+    {
+      "row": 28,
+      "col": 79,
+      "value": "Coptic alphabet",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 28,
+      "col": 864,
+      "value": "Xois: (1715 BC - 1650 BC) - XIV dynasty",
+      "type": "str",
+      "length": 39
+    },
+    {
+      "row": 28,
+      "col": 897,
+      "value": "Thebes: (1650 BC - c. 1353 BC) - XVII dynasty and XVIII dynasty before\u00a0Akhenaten",
+      "type": "str",
+      "length": 80
+    },
+    {
+      "row": 28,
+      "col": 1046,
+      "value": "Akhetaten: (c. 1353 BC - c. 1332 BC) -\u00a0XVIII dynasty",
+      "type": "str",
+      "length": 52
+    },
+    {
+      "row": 28,
+      "col": 1077,
+      "value": "Memphis: XIX dynasty during rule of Seti I only",
+      "type": "str",
+      "length": 47
+    },
+    {
+      "row": 28,
+      "col": 1313,
+      "value": "Tanis: (818 BC - 715 BC) - XXIII dynasty",
+      "type": "str",
+      "length": 40
+    },
+    {
+      "row": 28,
+      "col": 1365,
+      "value": "Napata/Memphis\u00a0(715 BC - 664 BC): The Kushite XXV dynasty",
+      "type": "str",
+      "length": 57
+    },
+    {
+      "row": 28,
+      "col": 1532,
+      "value": "Sebennytos: (380 BC - 333 BC) - XXX dynasty",
+      "type": "str",
+      "length": 43
+    },
+    {
+      "row": 28,
+      "col": 2733,
+      "value": "Construction of the Aswan High Dam",
+      "type": "str",
+      "length": 34
+    },
+    {
+      "row": 29,
+      "col": 2650,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 29,
+      "col": 2652,
+      "value": "Rosetta Stone is discovered",
+      "type": "str",
+      "length": 27
+    },
+    {
+      "row": 30,
+      "col": 16,
+      "value": "\u2190 Archaic Egyptian \u2192",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 30,
+      "col": 420,
+      "value": "\u2190 Archaic Egyptian",
+      "type": "str",
+      "length": 18
+    },
+    {
+      "row": 30,
+      "col": 694,
+      "value": "Middle Egyptian",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 30,
+      "col": 896,
+      "value": "Middle Egyptian (enduring until the\u00a0Amarna Period)",
+      "type": "str",
+      "length": 50
+    },
+    {
+      "row": 30,
+      "col": 1045,
+      "value": "Middle Egyptian (continuing as a\u00a0literary language\u00a0into the 4th century AD)",
+      "type": "str",
+      "length": 75
+    },
+    {
+      "row": 30,
+      "col": 1949,
+      "value": "\u2190 Middle Egyptian",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 30,
+      "col": 2731,
+      "value": "Suez Crisis",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 30,
+      "col": 2740,
+      "value": "Yom Kippur War",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 32,
+      "col": 3,
+      "value": "Egyptian Language",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 32,
+      "col": 378,
+      "value": "Old Egyptian",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 32,
+      "col": 629,
+      "value": "\u2190 Old Egyptian",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 32,
+      "col": 1045,
+      "value": "Late Egyptian (Armana Period)",
+      "type": "str",
+      "length": 29
+    },
+    {
+      "row": 32,
+      "col": 1187,
+      "value": "Late Egyptian (Third Intermediate Period)",
+      "type": "str",
+      "length": 41
+    },
+    {
+      "row": 32,
+      "col": 1370,
+      "value": "\u2190 Late Egyptian",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 32,
+      "col": 1396,
+      "value": "Demotic",
+      "type": "str",
+      "length": 7
+    },
+    {
+      "row": 32,
+      "col": 2024,
+      "value": "\u2190 Demotic",
+      "type": "str",
+      "length": 9
+    },
+    {
+      "row": 32,
+      "col": 2737,
+      "value": "Six-Day War",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 34,
+      "col": 921,
+      "value": "c. 1600 BC - The chariot is introduced",
+      "type": "str",
+      "length": 38
+    },
+    {
+      "row": 34,
+      "col": 1731,
+      "value": "Coptic",
+      "type": "str",
+      "length": 6
+    },
+    {
+      "row": 34,
+      "col": 2564,
+      "value": "\u2190 Coptic",
+      "type": "str",
+      "length": 8
+    },
+    {
+      "row": 34,
+      "col": 2566,
+      "value": "Coptic survives as the liturgical language\u00a0of the\u00a0Coptic Orthodox Church\u00a0and the\u00a0Coptic Catholic Church.",
+      "type": "str",
+      "length": 104
+    },
+    {
+      "row": 36,
+      "col": 2731,
+      "value": "Closure of the Suez Canal",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 43,
+      "col": 1,
+      "value": "MESOPOTAMIA & LEVANT",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 45,
+      "col": 1,
+      "value": "Mesopotamia\nand the Levant",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 45,
+      "col": 23,
+      "value": "Chronology of the Ancient Near East",
+      "type": "str",
+      "length": 35
+    },
+    {
+      "row": 45,
+      "col": 71,
+      "value": "Near East Bronze Age Divisions",
+      "type": "str",
+      "length": 30
+    },
+    {
+      "row": 47,
+      "col": 23,
+      "value": "Usage of the term \"Levant\"",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 47,
+      "col": 1121,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 49,
+      "col": 70,
+      "value": "\u2190 Neolithic Age",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 49,
+      "col": 71,
+      "value": "Early Bronze Age\u00a0(EBA) (c. 3300 - 2100 BC)",
+      "type": "str",
+      "length": 42
+    },
+    {
+      "row": 49,
+      "col": 221,
+      "value": "EBA II: 3000\u20132700",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 49,
+      "col": 371,
+      "value": "EBA III: 2700\u20132200",
+      "type": "str",
+      "length": 18
+    },
+    {
+      "row": 49,
+      "col": 621,
+      "value": "EBA IV: 2200\u20132100",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 49,
+      "col": 671,
+      "value": "Middle Bronze Age\u00a0(MBA) (c. 2100 - 1550 BC)",
+      "type": "str",
+      "length": 43
+    },
+    {
+      "row": 49,
+      "col": 720,
+      "value": "MBA I: 2100\u20132000",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 49,
+      "col": 721,
+      "value": "MBA II A: 2000\u20131750",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 49,
+      "col": 846,
+      "value": "MBA II B: 1750\u20131650",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 49,
+      "col": 896,
+      "value": "MBA II C: 1650\u20131550",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 49,
+      "col": 946,
+      "value": "Late Bronze Age\u00a0(LBA) (c. 1550 - 1200 BC)",
+      "type": "str",
+      "length": 41
+    },
+    {
+      "row": 49,
+      "col": 1021,
+      "value": "LBA IIA: 1400\u20131300",
+      "type": "str",
+      "length": 18
+    },
+    {
+      "row": 49,
+      "col": 1071,
+      "value": "LBA II B: 1300\u20131200 ",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 49,
+      "col": 1121,
+      "value": "Late Bronze Age collapse",
+      "type": "str",
+      "length": 24
+    },
+    {
+      "row": 52,
+      "col": 23,
+      "value": "\u2190 7000\u20134500 Neolithic villages emerge in the Levant and Iran; domestication of grains, cattle, sheep, and goats",
+      "type": "str",
+      "length": 111
+    },
+    {
+      "row": 52,
+      "col": 1071,
+      "value": "Iron Age: Proto-historic Iron Age (c. 1300 - 600)",
+      "type": "str",
+      "length": 49
+    },
+    {
+      "row": 52,
+      "col": 1421,
+      "value": "Historic Iron Age: c. 600 BC \u2192",
+      "type": "str",
+      "length": 30
+    },
+    {
+      "row": 55,
+      "col": 2,
+      "value": "Phoenicia",
+      "type": "str",
+      "length": 9
+    },
+    {
+      "row": 55,
+      "col": 23,
+      "value": "Tyrian Purple",
+      "type": "str",
+      "length": 13
+    },
+    {
+      "row": 55,
+      "col": 344,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 55,
+      "col": 346,
+      "value": "The\u00a0city\u00a0of\u00a0Tyre\u00a0is founded",
+      "type": "str",
+      "length": 27
+    },
+    {
+      "row": 55,
+      "col": 1096,
+      "value": "c. 1250\u00a0BC - c. 1150\u00a0BC Destruction of many Canaanite towns hints at a possible invasion of the Israelites into\u00a0Canaan",
+      "type": "str",
+      "length": 118
+    },
+    {
+      "row": 55,
+      "col": 1166,
+      "value": "Traditional founding date for the Phoenician colony of\u00a0Gades\u00a0(Cadiz)",
+      "type": "str",
+      "length": 68
+    },
+    {
+      "row": 55,
+      "col": 1221,
+      "value": "c. 1000\u00a0BC Height of\u00a0Tyre's power",
+      "type": "str",
+      "length": 33
+    },
+    {
+      "row": 55,
+      "col": 1314,
+      "value": "Traditional founding date for the Phoenician colony of\u00a0Carthage\u00a0by\u00a0Tyre",
+      "type": "str",
+      "length": 71
+    },
+    {
+      "row": 55,
+      "col": 1545,
+      "value": "Artaxerxes III sacks\u00a0Sidon",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 55,
+      "col": 1570,
+      "value": "Phoenician\u00a0cities under the rule of the Ptolemies, rulers of\u00a0hellenistic\u00a0Egypt",
+      "type": "str",
+      "length": 78
+    },
+    {
+      "row": 57,
+      "col": 23,
+      "value": "\u2190 c. 4000\u00a0BC Earliest evidence of human settlement in the area of the\u00a0city\u00a0of\u00a0Sidon",
+      "type": "str",
+      "length": 83
+    },
+    {
+      "row": 57,
+      "col": 1121,
+      "value": "c. 1200\u00a0BC - c. 800\u00a0BC First wave of\u00a0Phoenician colonization\u00a0where largely trading-posts are founded throughout the\u00a0Mediterranean",
+      "type": "str",
+      "length": 129
+    },
+    {
+      "row": 57,
+      "col": 1321,
+      "value": "c. 800\u00a0BC - 600\u00a0BC Second stage of\u00a0Phoenician colonization\u00a0where trading-posts become full colonies throughout the\u00a0Mediterranean",
+      "type": "str",
+      "length": 128
+    },
+    {
+      "row": 57,
+      "col": 1427,
+      "value": "Neo-Babylonian emperor Nebuchadnezzar besieges the rebellious city of Tyre, resulting in its capitulation",
+      "type": "str",
+      "length": 105
+    },
+    {
+      "row": 57,
+      "col": 1555,
+      "value": "Alexander the Great\u00a0sacks\u00a0Sidon",
+      "type": "str",
+      "length": 31
+    },
+    {
+      "row": 57,
+      "col": 1584,
+      "value": "The first Syrian\u00a0war, marking the beginning of the contest between the Ptolemies and the Seleucids for\u00a0Phoenicia\u00a0and Coele-Syria",
+      "type": "str",
+      "length": 128
+    },
+    {
+      "row": 57,
+      "col": 1689,
+      "value": "Phoenicia is incorporated into the Roman province of Syria, with Tyre and Sidon retaining a measure of self-government",
+      "type": "str",
+      "length": 118
+    },
+    {
+      "row": 59,
+      "col": 23,
+      "value": "\u2190 c. 4000\u00a0BC - c. 3000\u00a0BC Trade\u00a0contact between\u00a0Byblos\u00a0and\u00a0Egypt",
+      "type": "str",
+      "length": 64
+    },
+    {
+      "row": 59,
+      "col": 1170,
+      "value": "Traditional founding date for the Phoenician colony of\u00a0Utica\u00a0by\u00a0Sidon\u00a0(or\u00a0Tyre)",
+      "type": "str",
+      "length": 79
+    },
+    {
+      "row": 59,
+      "col": 1231,
+      "value": "Hiram I reigns as king of\u00a0Tyre",
+      "type": "str",
+      "length": 30
+    },
+    {
+      "row": 59,
+      "col": 1305,
+      "value": "Pygmalion rules as king of\u00a0Tyre",
+      "type": "str",
+      "length": 31
+    },
+    {
+      "row": 59,
+      "col": 1346,
+      "value": "Phoenicians\u00a0found the colony of Motya on\u00a0Sicily",
+      "type": "str",
+      "length": 47
+    },
+    {
+      "row": 59,
+      "col": 1555,
+      "value": "Alexander the Great\u00a0sacks\u00a0Baalbek\u00a0and renames it Heliopolis",
+      "type": "str",
+      "length": 59
+    },
+    {
+      "row": 59,
+      "col": 1623,
+      "value": "After the\u00a0battle\u00a0at Panion, the Seleucids finally take the rule of\u00a0Phoenicia\u00a0from the Ptolemies",
+      "type": "str",
+      "length": 95
+    },
+    {
+      "row": 61,
+      "col": 1121,
+      "value": "Sea Peoples\u00a0invade the\u00a0Levant",
+      "type": "str",
+      "length": 29
+    },
+    {
+      "row": 61,
+      "col": 1169,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 61,
+      "col": 1171,
+      "value": "Development of the Phoenician\u00a0alphabet",
+      "type": "str",
+      "length": 38
+    },
+    {
+      "row": 61,
+      "col": 1221,
+      "value": "Death\u00a0of Ahiram of\u00a0Byblos, whose sarcophagus bears the oldest inscription of the Phoenician\u00a0alphabet",
+      "type": "str",
+      "length": 100
+    },
+    {
+      "row": 61,
+      "col": 1555,
+      "value": "Alexander the Great\u00a0besieges and conquers\u00a0Tyre",
+      "type": "str",
+      "length": 46
+    },
+    {
+      "row": 63,
+      "col": 896,
+      "value": "Hattu\u0161ili\u0161 I (1650\u20131620 BC) founds Hittite capital of Hattu\u0161a\u0161; Hittite expansion into Kizzuwadna (Cilicia) and Syria",
+      "type": "str",
+      "length": 117
+    },
+    {
+      "row": 63,
+      "col": 1162,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 63,
+      "col": 1164,
+      "value": "Reign of\u00a0Tiglath-Pileser I\u00a0of\u00a0Assyria\u00a0who conquers\u00a0Phoenicia\u00a0and revitalizes the\u00a0empire",
+      "type": "str",
+      "length": 87
+    },
+    {
+      "row": 65,
+      "col": 554,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 65,
+      "col": 665,
+      "value": "Ur-Nammu",
+      "type": "str",
+      "length": 8
+    },
+    {
+      "row": 65,
+      "col": 901,
+      "value": "Venus tablet of Ammisaduqa",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 65,
+      "col": 1036,
+      "value": "Suppiluliumas I restores Hittite power in Anatolia, defeats Mitanni, and conquers northern Syria",
+      "type": "str",
+      "length": 96
+    },
+    {
+      "row": 65,
+      "col": 1121,
+      "value": "Hattusha taken by the Sea Peoples",
+      "type": "str",
+      "length": 33
+    },
+    {
+      "row": 65,
+      "col": 1391,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 65,
+      "col": 1393,
+      "value": "Library of Ashurbanipal established",
+      "type": "str",
+      "length": 35
+    },
+    {
+      "row": 67,
+      "col": 2,
+      "value": "Syria",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 67,
+      "col": 42,
+      "value": "\u2190 c. 3500 BC - Martu",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 67,
+      "col": 554,
+      "value": "Akkadian Empire",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 67,
+      "col": 644,
+      "value": "Gutians",
+      "type": "str",
+      "length": 7
+    },
+    {
+      "row": 67,
+      "col": 665,
+      "value": "Third Dynasty of Ur\u00a0(Sumerian Renaissance)",
+      "type": "str",
+      "length": 42
+    },
+    {
+      "row": 67,
+      "col": 719,
+      "value": "Mari\u00a0and other\u00a0Amorite\u00a0city-states",
+      "type": "str",
+      "length": 34
+    },
+    {
+      "row": 67,
+      "col": 921,
+      "value": "Mitanni\u00a0(Hurrians)",
+      "type": "str",
+      "length": 18
+    },
+    {
+      "row": 67,
+      "col": 1121,
+      "value": "Bronze Age collapse\u00a0(\"Sea Peoples\")",
+      "type": "str",
+      "length": 35
+    },
+    {
+      "row": 67,
+      "col": 1146,
+      "value": "Phoenicia",
+      "type": "str",
+      "length": 9
+    },
+    {
+      "row": 67,
+      "col": 1357,
+      "value": "Neo-Assyrian Empire",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 67,
+      "col": 2071,
+      "value": "Rashidun period",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 67,
+      "col": 2084,
+      "value": "Umayyad period",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 67,
+      "col": 2128,
+      "value": "Abbasid period",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 67,
+      "col": 2238,
+      "value": "Fatimid Caliphate",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 67,
+      "col": 2340,
+      "value": "Ayyubid dynasty",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 67,
+      "col": 2511,
+      "value": "Ottoman Syria",
+      "type": "str",
+      "length": 13
+    },
+    {
+      "row": 67,
+      "col": 2715,
+      "value": "Mandate for Syria & the Lebanon",
+      "type": "str",
+      "length": 31
+    },
+    {
+      "row": 67,
+      "col": 2735,
+      "value": "Syrian Arab Republic",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 69,
+      "col": 816,
+      "value": "Yamhad",
+      "type": "str",
+      "length": 6
+    },
+    {
+      "row": 69,
+      "col": 1347,
+      "value": "Sargon II",
+      "type": "str",
+      "length": 9
+    },
+    {
+      "row": 69,
+      "col": 1377,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 69,
+      "col": 1379,
+      "value": "Ashurbanipal",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 69,
+      "col": 1422,
+      "value": "Babylonian Captivity",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 69,
+      "col": 1690,
+      "value": "Roman Syria",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 69,
+      "col": 1823,
+      "value": "Coele Syria (Roman province) (AD 198 - end of 4th century)",
+      "type": "str",
+      "length": 58
+    },
+    {
+      "row": 69,
+      "col": 1957,
+      "value": "Syria Prima (Byzantine province)",
+      "type": "str",
+      "length": 32
+    },
+    {
+      "row": 69,
+      "col": 2198,
+      "value": "Hamdanid Dynasty",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 69,
+      "col": 2265,
+      "value": "Mirdasid dynasty",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 69,
+      "col": 2317,
+      "value": "Zengid State (also in Northern Iraq)",
+      "type": "str",
+      "length": 36
+    },
+    {
+      "row": 69,
+      "col": 2383,
+      "value": "Mamluk Syria",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 69,
+      "col": 2711,
+      "value": "Occupied Enemy Territory Administration (OETA)",
+      "type": "str",
+      "length": 46
+    },
+    {
+      "row": 69,
+      "col": 2736,
+      "value": "Syrian Arab Republic (Ba'thist Syria) (1963 - present)",
+      "type": "str",
+      "length": 54
+    },
+    {
+      "row": 71,
+      "col": 21,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 71,
+      "col": 23,
+      "value": "Ancient Syria",
+      "type": "str",
+      "length": 13
+    },
+    {
+      "row": 71,
+      "col": 821,
+      "value": "Old Babylonian Empire\u00a0(Southern Akkadians)",
+      "type": "str",
+      "length": 42
+    },
+    {
+      "row": 71,
+      "col": 1011,
+      "value": "New Hittite Kingdom",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 71,
+      "col": 1132,
+      "value": "Arameans",
+      "type": "str",
+      "length": 8
+    },
+    {
+      "row": 71,
+      "col": 1146,
+      "value": "Aram-Damascus",
+      "type": "str",
+      "length": 13
+    },
+    {
+      "row": 71,
+      "col": 1377,
+      "value": "Babylon destroyed by Sennacherib",
+      "type": "str",
+      "length": 32
+    },
+    {
+      "row": 71,
+      "col": 1402,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 71,
+      "col": 1404,
+      "value": "Nebuchadnezzar II",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 71,
+      "col": 1565,
+      "value": "Seleucid Empire (in Syria and Mesopotamia)",
+      "type": "str",
+      "length": 42
+    },
+    {
+      "row": 71,
+      "col": 1821,
+      "value": "Province of Syria Phoenice",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 71,
+      "col": 2071,
+      "value": "Bilad al-Sham",
+      "type": "str",
+      "length": 13
+    },
+    {
+      "row": 71,
+      "col": 2248,
+      "value": "Uqaylid dynasty (also in Northern Iraq)",
+      "type": "str",
+      "length": 39
+    },
+    {
+      "row": 71,
+      "col": 2302,
+      "value": "County of Edessa (Crusader state)",
+      "type": "str",
+      "length": 33
+    },
+    {
+      "row": 71,
+      "col": 2712,
+      "value": "Arab Kingdom of Syria",
+      "type": "str",
+      "length": 21
+    },
+    {
+      "row": 71,
+      "col": 2726,
+      "value": "Independent First Syrian Republic",
+      "type": "str",
+      "length": 33
+    },
+    {
+      "row": 73,
+      "col": 362,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 73,
+      "col": 364,
+      "value": "Gilgamesh believed to have reigned during the ED II period",
+      "type": "str",
+      "length": 58
+    },
+    {
+      "row": 73,
+      "col": 823,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 73,
+      "col": 825,
+      "value": "Hammurabi",
+      "type": "str",
+      "length": 9
+    },
+    {
+      "row": 73,
+      "col": 898,
+      "value": "Ammisaduqa",
+      "type": "str",
+      "length": 10
+    },
+    {
+      "row": 73,
+      "col": 921,
+      "value": "Aleppo comes under\u00a0Hittite\u00a0control until c. 800 BC",
+      "type": "str",
+      "length": 50
+    },
+    {
+      "row": 73,
+      "col": 1087,
+      "value": "Hattu\u0161ali\u0161 III expands Hattu\u0161a\u0161 and dedicates sanctuary of Yazilikaya",
+      "type": "str",
+      "length": 69
+    },
+    {
+      "row": 73,
+      "col": 1146,
+      "value": "Syro-Hittite states",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 73,
+      "col": 1408,
+      "value": "Neo-Babylonian Empire\u00a0(Chaldeans)",
+      "type": "str",
+      "length": 33
+    },
+    {
+      "row": 73,
+      "col": 1452,
+      "value": "Eber-Nari (Satrapy of the Achaemenid Empire)",
+      "type": "str",
+      "length": 44
+    },
+    {
+      "row": 73,
+      "col": 1597,
+      "value": "Parthian Empire (in Syria and Mesopotamia)",
+      "type": "str",
+      "length": 42
+    },
+    {
+      "row": 73,
+      "col": 1867,
+      "value": "Palmyrene Empire",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 73,
+      "col": 2187,
+      "value": "Tulunids",
+      "type": "str",
+      "length": 8
+    },
+    {
+      "row": 73,
+      "col": 2220,
+      "value": "Ikhshidid dynasty",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 73,
+      "col": 2296,
+      "value": "Seljuk Empire (also in Iraq)",
+      "type": "str",
+      "length": 28
+    },
+    {
+      "row": 73,
+      "col": 2714,
+      "value": "Syrian Federation",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 73,
+      "col": 2728,
+      "value": "Second Syrian Republic",
+      "type": "str",
+      "length": 22
+    },
+    {
+      "row": 75,
+      "col": 833,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 75,
+      "col": 835,
+      "value": "Code of Hammurabi",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 75,
+      "col": 1452,
+      "value": "Babylon falls to Cyrus the Great",
+      "type": "str",
+      "length": 32
+    },
+    {
+      "row": 75,
+      "col": 2302,
+      "value": "Principality of Antioch (Crusader state)",
+      "type": "str",
+      "length": 40
+    },
+    {
+      "row": 75,
+      "col": 2715,
+      "value": "State of Syria",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 75,
+      "col": 2732,
+      "value": "United Arab Republic",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 76,
+      "col": 1339,
+      "value": "Assyrian eclipse",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 77,
+      "col": 2,
+      "value": "Iraq",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 77,
+      "col": 21,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 77,
+      "col": 23,
+      "value": "Mesopotamia",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 77,
+      "col": 774,
+      "value": "Babylon becomes an independent City-State",
+      "type": "str",
+      "length": 41
+    },
+    {
+      "row": 77,
+      "col": 827,
+      "value": "Babylon becomes the Capital of Hammurabi's Babylonian Empire",
+      "type": "str",
+      "length": 60
+    },
+    {
+      "row": 77,
+      "col": 1104,
+      "value": "Babylon taken by Assyrians",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 77,
+      "col": 1144,
+      "value": "Babylon taken by Elamites",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 77,
+      "col": 1415,
+      "value": "Destruction of Nineveh",
+      "type": "str",
+      "length": 22
+    },
+    {
+      "row": 77,
+      "col": 1655,
+      "value": "Osroene Kingdom",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 77,
+      "col": 2304,
+      "value": "County of Tripoli (Crusader state)",
+      "type": "str",
+      "length": 34
+    },
+    {
+      "row": 77,
+      "col": 2718,
+      "value": "Mandatory Syrian Republic",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 79,
+      "col": 2,
+      "value": "including:",
+      "type": "str",
+      "length": 10
+    },
+    {
+      "row": 79,
+      "col": 721,
+      "value": "Kingdom of Simurrum",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 79,
+      "col": 1837,
+      "value": "Asoristan (province of the Sasanian Empire)",
+      "type": "str",
+      "length": 43
+    },
+    {
+      "row": 79,
+      "col": 2244,
+      "value": "Marwanid dynasty",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 79,
+      "col": 2321,
+      "value": "Eldiguzids",
+      "type": "str",
+      "length": 10
+    },
+    {
+      "row": 79,
+      "col": 2381,
+      "value": "Ilkhanate",
+      "type": "str",
+      "length": 9
+    },
+    {
+      "row": 79,
+      "col": 2438,
+      "value": "Timurid Empire",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 79,
+      "col": 2520,
+      "value": "Ottoman Iraq",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 81,
+      "col": 2,
+      "value": "\u009f Northern Mesopotamia",
+      "type": "str",
+      "length": 22
+    },
+    {
+      "row": 81,
+      "col": 42,
+      "value": "\u2190 c. 3500 BC - Subartu",
+      "type": "str",
+      "length": 22
+    },
+    {
+      "row": 81,
+      "col": 554,
+      "value": "Akkadian Empire",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 81,
+      "col": 644,
+      "value": "Gutians",
+      "type": "str",
+      "length": 7
+    },
+    {
+      "row": 81,
+      "col": 665,
+      "value": "Third Dynasty of Ur\u00a0(Sumerian Renaissance)",
+      "type": "str",
+      "length": 42
+    },
+    {
+      "row": 81,
+      "col": 821,
+      "value": "Old Babylonian Empire\u00a0(Southern Akkadians)",
+      "type": "str",
+      "length": 42
+    },
+    {
+      "row": 81,
+      "col": 923,
+      "value": "Mitanni\u00a0(Hurrians)",
+      "type": "str",
+      "length": 18
+    },
+    {
+      "row": 81,
+      "col": 1146,
+      "value": "Arameans",
+      "type": "str",
+      "length": 8
+    },
+    {
+      "row": 81,
+      "col": 1278,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 81,
+      "col": 1280,
+      "value": "Ashurnasirpal II",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 81,
+      "col": 1346,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 81,
+      "col": 1348,
+      "value": "Tiglath-Pileser III",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 81,
+      "col": 1408,
+      "value": "also Neo-Babylonian Empire\u00a0(Chaldeans) (from 626 BC)",
+      "type": "str",
+      "length": 52
+    },
+    {
+      "row": 81,
+      "col": 1452,
+      "value": "Achaemenid Empire",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 81,
+      "col": 1781,
+      "value": "Mesopotamia (Roman province)",
+      "type": "str",
+      "length": 28
+    },
+    {
+      "row": 81,
+      "col": 1823,
+      "value": "Mesopotamia (Roman province)",
+      "type": "str",
+      "length": 28
+    },
+    {
+      "row": 81,
+      "col": 2198,
+      "value": "Hamdanid Dynasty",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 81,
+      "col": 2339,
+      "value": "Ayyubid dynasty",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 81,
+      "col": 2440,
+      "value": "Qara Qoyunlu",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 81,
+      "col": 2605,
+      "value": "Mamluk dynasty of Iraq",
+      "type": "str",
+      "length": 22
+    },
+    {
+      "row": 81,
+      "col": 2713,
+      "value": "Mandatory Iraq",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 81,
+      "col": 2732,
+      "value": "Iraqi Republic",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 81,
+      "col": 2755,
+      "value": "Republic of Iraq (Coalition Provisional Authority)",
+      "type": "str",
+      "length": 50
+    },
+    {
+      "row": 83,
+      "col": 421,
+      "value": "Early Assyrian period c.\u00a02600\u20132025 BC",
+      "type": "str",
+      "length": 37
+    },
+    {
+      "row": 83,
+      "col": 709,
+      "value": "Old Assyrian period c.\u00a02025\u20131364 BC",
+      "type": "str",
+      "length": 35
+    },
+    {
+      "row": 83,
+      "col": 1039,
+      "value": "Middle Assyrian period c.\u00a01363\u2013912 BC",
+      "type": "str",
+      "length": 37
+    },
+    {
+      "row": 83,
+      "col": 1265,
+      "value": "Neo-Assyrian period 911\u2013609 BC",
+      "type": "str",
+      "length": 30
+    },
+    {
+      "row": 83,
+      "col": 1417,
+      "value": "Post-imperial period 609 BC \u2013\u00a0c.\u00a0AD 240",
+      "type": "str",
+      "length": 39
+    },
+    {
+      "row": 83,
+      "col": 2071,
+      "value": "Rashidun period",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 83,
+      "col": 2084,
+      "value": "Umayyad period",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 83,
+      "col": 2128,
+      "value": "Abbasid period",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 83,
+      "col": 2442,
+      "value": "Aq Qoyunlu",
+      "type": "str",
+      "length": 10
+    },
+    {
+      "row": 83,
+      "col": 2719,
+      "value": "Kingdom of Iraq",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 83,
+      "col": 2738,
+      "value": "Iraqi Republic",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 83,
+      "col": 2755,
+      "value": "Occupation of Iraq",
+      "type": "str",
+      "length": 18
+    },
+    {
+      "row": 85,
+      "col": 22,
+      "value": "\u2190 c. 5000 BC - c. 1800 BC - Sumer",
+      "type": "str",
+      "length": 33
+    },
+    {
+      "row": 85,
+      "col": 55,
+      "value": "Uruk XIV-V: 4100 \u2013 3300 BC",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 85,
+      "col": 71,
+      "value": "Uruk IV period: 3300 \u2013 3100 BC",
+      "type": "str",
+      "length": 30
+    },
+    {
+      "row": 85,
+      "col": 171,
+      "value": "Jemdet Nasr period\u00a0(Uruk III): 3100 \u2013 2900 BC",
+      "type": "str",
+      "length": 45
+    },
+    {
+      "row": 85,
+      "col": 271,
+      "value": "Early Dynastic I period: 2900\u20132750 BC",
+      "type": "str",
+      "length": 37
+    },
+    {
+      "row": 85,
+      "col": 346,
+      "value": "Early Dynastic II period: 2750\u20132600 BC (Gilgamesh)",
+      "type": "str",
+      "length": 50
+    },
+    {
+      "row": 85,
+      "col": 421,
+      "value": "Early Dynastic IIIa period: 2600\u20132450 BC",
+      "type": "str",
+      "length": 40
+    },
+    {
+      "row": 85,
+      "col": 496,
+      "value": "Early Dynastic IIIb period: c. 2450\u20132334 BC",
+      "type": "str",
+      "length": 43
+    },
+    {
+      "row": 85,
+      "col": 554,
+      "value": "Akkadian Empire",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 85,
+      "col": 644,
+      "value": "Gutians",
+      "type": "str",
+      "length": 7
+    },
+    {
+      "row": 85,
+      "col": 665,
+      "value": "Third Dynasty of Ur\u00a0(Sumerian Renaissance)",
+      "type": "str",
+      "length": 42
+    },
+    {
+      "row": 85,
+      "col": 719,
+      "value": "Isin/Larsa\u00a0and other\u00a0Amorite\u00a0city-states",
+      "type": "str",
+      "length": 40
+    },
+    {
+      "row": 85,
+      "col": 824,
+      "value": "Old Babylonian Empire\u00a0(Southern Akkadians)",
+      "type": "str",
+      "length": 42
+    },
+    {
+      "row": 85,
+      "col": 921,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 85,
+      "col": 923,
+      "value": "Kardunia\u0161\u00a0(Kassites)",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 85,
+      "col": 1146,
+      "value": "Middle Babylonia\u00a0(Isin II)",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 85,
+      "col": 1355,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 85,
+      "col": 1357,
+      "value": "Neo-Assyrian Empire",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 85,
+      "col": 1801,
+      "value": "Kingdom of Hatra (2nd century AD \u2013 AD 241)",
+      "type": "str",
+      "length": 42
+    },
+    {
+      "row": 85,
+      "col": 2220,
+      "value": "Buyid dynasty",
+      "type": "str",
+      "length": 13
+    },
+    {
+      "row": 85,
+      "col": 2420,
+      "value": "Jalayirid Sultanate",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 85,
+      "col": 2504,
+      "value": "Safavid Empire",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 85,
+      "col": 2750,
+      "value": "Republic of Iraq",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 87,
+      "col": 2,
+      "value": "\u009f Southern Mesopotamia",
+      "type": "str",
+      "length": 22
+    },
+    {
+      "row": 87,
+      "col": 22,
+      "value": "\u2190 Ubaid period: 5300 \u2013 4100 BC (Pottery\u00a0Neolithic\u00a0to\u00a0Chalcolithic)",
+      "type": "str",
+      "length": 66
+    },
+    {
+      "row": 87,
+      "col": 546,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 87,
+      "col": 547,
+      "value": "Akkadian",
+      "type": "str",
+      "length": 8
+    },
+    {
+      "row": 87,
+      "col": 554,
+      "value": "Sargon the Great",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 87,
+      "col": 586,
+      "value": "Manishtushu",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 87,
+      "col": 612,
+      "value": "Shar-Kali-Sharri",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 87,
+      "col": 637,
+      "value": "Shu-turul",
+      "type": "str",
+      "length": 9
+    },
+    {
+      "row": 87,
+      "col": 774,
+      "value": "Babylonia",
+      "type": "str",
+      "length": 9
+    },
+    {
+      "row": 87,
+      "col": 1146,
+      "value": "Chaldeans",
+      "type": "str",
+      "length": 9
+    },
+    {
+      "row": 87,
+      "col": 1408,
+      "value": "also Neo-Babylonian Empire\u00a0(Chaldeans) (from 626 BC)",
+      "type": "str",
+      "length": 52
+    },
+    {
+      "row": 87,
+      "col": 2234,
+      "value": "Mazyadid Emirate",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 87,
+      "col": 2756,
+      "value": "Republic of Iraq",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 89,
+      "col": 23,
+      "value": "\u2190 3500\u20133100 Cities and cuneiform writing in Sumer; Sumerian merchants active across the Near East; Transmission of urban civilization from Sumer to Near East",
+      "type": "str",
+      "length": 157
+    },
+    {
+      "row": 89,
+      "col": 547,
+      "value": "Rulers",
+      "type": "str",
+      "length": 6
+    },
+    {
+      "row": 89,
+      "col": 582,
+      "value": "Rimush",
+      "type": "str",
+      "length": 6
+    },
+    {
+      "row": 89,
+      "col": 593,
+      "value": "Naram-Sin",
+      "type": "str",
+      "length": 9
+    },
+    {
+      "row": 89,
+      "col": 627,
+      "value": "Dudu",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 89,
+      "col": 923,
+      "value": "Fall of Babylon to the Kassites",
+      "type": "str",
+      "length": 31
+    },
+    {
+      "row": 89,
+      "col": 1419,
+      "value": "Babylon becomes the capital of the Neo-Babylonian Empire",
+      "type": "str",
+      "length": 56
+    },
+    {
+      "row": 89,
+      "col": 2714,
+      "value": "Official English name of the country changed from Mesopotamia to Iraq",
+      "type": "str",
+      "length": 69
+    },
+    {
+      "row": 91,
+      "col": 576,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 91,
+      "col": 578,
+      "value": "Founding of Babylon",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 93,
+      "col": 21,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 93,
+      "col": 23,
+      "value": "Cuneiform writing",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 95,
+      "col": 2,
+      "value": "Jordan",
+      "type": "str",
+      "length": 6
+    },
+    {
+      "row": 95,
+      "col": 1096,
+      "value": "\u2190 Ancient history",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 95,
+      "col": 1571,
+      "value": "Classical period",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 95,
+      "col": 2071,
+      "value": "Islamic era",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 95,
+      "col": 2312,
+      "value": "Crusader period",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 95,
+      "col": 2511,
+      "value": "Ottoman Empire",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 95,
+      "col": 2712,
+      "value": "Emirate and mandate",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 95,
+      "col": 2726,
+      "value": "Post-independence",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 97,
+      "col": 21,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 97,
+      "col": 23,
+      "value": "Ancient Jordan",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 97,
+      "col": 1105,
+      "value": "Kingdom of Edom (c. 13th century BC \u2013 c. 553 BC)",
+      "type": "str",
+      "length": 48
+    },
+    {
+      "row": 97,
+      "col": 1444,
+      "value": "\u2190 Kingdom of Edom (c. 13th century BC \u2013 c. 553 BC)",
+      "type": "str",
+      "length": 50
+    },
+    {
+      "row": 97,
+      "col": 1584,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 97,
+      "col": 1586,
+      "value": "Nabataean Kingdom",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 97,
+      "col": 1822,
+      "value": "Tanukhids (AD 196 \u2013 AD 1100)",
+      "type": "str",
+      "length": 28
+    },
+    {
+      "row": 97,
+      "col": 2302,
+      "value": "\u2190 Tanukhids (AD 196 \u2013 AD 1100)",
+      "type": "str",
+      "length": 30
+    },
+    {
+      "row": 97,
+      "col": 2378,
+      "value": "Mamluk Sultanate",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 97,
+      "col": 2711,
+      "value": "Occupied Enemy Territory Administration (OETA)",
+      "type": "str",
+      "length": 46
+    },
+    {
+      "row": 99,
+      "col": 1105,
+      "value": "Kingdom of Moab (c. 13th century BC \u2013 c. 400 BC)",
+      "type": "str",
+      "length": 48
+    },
+    {
+      "row": 99,
+      "col": 1520,
+      "value": "\u2190 Kingdom of Moab (c. 13th century BC \u2013 c. 400 BC)",
+      "type": "str",
+      "length": 50
+    },
+    {
+      "row": 99,
+      "col": 1651,
+      "value": "Hasmonean dynasty",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 99,
+      "col": 1776,
+      "value": "Province of Roman Empire and Byzantine Empire",
+      "type": "str",
+      "length": 45
+    },
+    {
+      "row": 99,
+      "col": 2071,
+      "value": "Rashidun period",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 99,
+      "col": 2084,
+      "value": "Umayyad period",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 99,
+      "col": 2128,
+      "value": "Abbasid period",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 99,
+      "col": 2237,
+      "value": "Fatimid period",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 99,
+      "col": 2339,
+      "value": "Ayyubid Sultanate of Egypt",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 99,
+      "col": 2714,
+      "value": "Hashemites (House of Hashim) (1921 - present)",
+      "type": "str",
+      "length": 45
+    },
+    {
+      "row": 101,
+      "col": 1252,
+      "value": "Kingdom of Ammon (c.\u200910th century BC \u2013 332 BC)",
+      "type": "str",
+      "length": 46
+    },
+    {
+      "row": 101,
+      "col": 1554,
+      "value": "\u2190 Kingdom of Ammon (c.\u200910th century BC \u2013 332 BC)",
+      "type": "str",
+      "length": 48
+    },
+    {
+      "row": 101,
+      "col": 1834,
+      "value": "Ghassanids",
+      "type": "str",
+      "length": 10
+    },
+    {
+      "row": 101,
+      "col": 2312,
+      "value": "Lordship of Oultrejordain\u00a0(Vassal of the Kingdom of Jerusalem)",
+      "type": "str",
+      "length": 62
+    },
+    {
+      "row": 101,
+      "col": 2714,
+      "value": "Emirate of Transjordan (British protectorate)",
+      "type": "str",
+      "length": 45
+    },
+    {
+      "row": 103,
+      "col": 1256,
+      "value": "Kingdom of Israel",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 103,
+      "col": 1914,
+      "value": "Salihids (4th century\u20136th century AD)",
+      "type": "str",
+      "length": 37
+    },
+    {
+      "row": 103,
+      "col": 2071,
+      "value": "Bilad al-Sham - Province of the Umayyad, Abbasid and Fatimid Caliphates",
+      "type": "str",
+      "length": 71
+    },
+    {
+      "row": 103,
+      "col": 2711,
+      "value": "Arab Revolt",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 103,
+      "col": 2726,
+      "value": "Hashemite Kingdom of Jordan (1946 to present)",
+      "type": "str",
+      "length": 45
+    },
+    {
+      "row": 105,
+      "col": 1292,
+      "value": "Qedarite Confederation (9th century BC\u20131st century BC)",
+      "type": "str",
+      "length": 54
+    },
+    {
+      "row": 105,
+      "col": 1688,
+      "value": "\u2190 Qedarite Confederation (9th century BC\u20131st century BC)",
+      "type": "str",
+      "length": 56
+    },
+    {
+      "row": 105,
+      "col": 2071,
+      "value": "Jund al-Urdunn - Province of the Umayyad, Abbasid and Fatimid Caliphates (AD 630s\u2013late 11th century AD)",
+      "type": "str",
+      "length": 103
+    },
+    {
+      "row": 105,
+      "col": 2711,
+      "value": "Sykes\u2013Picot Agreement",
+      "type": "str",
+      "length": 21
+    },
+    {
+      "row": 105,
+      "col": 2727,
+      "value": "Arab\u2013Israeli War",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 105,
+      "col": 2737,
+      "value": "Six-Day War",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 105,
+      "col": 2751,
+      "value": "Israel\u2013Jordan peace treaty",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 107,
+      "col": 2712,
+      "value": "Arab Kingdom of Syria",
+      "type": "str",
+      "length": 21
+    },
+    {
+      "row": 107,
+      "col": 2739,
+      "value": "Black September (Jordanian Civil War)",
+      "type": "str",
+      "length": 37
+    },
+    {
+      "row": 109,
+      "col": 2713,
+      "value": "Interregnum",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 115,
+      "col": 2,
+      "value": "Lebanon",
+      "type": "str",
+      "length": 7
+    },
+    {
+      "row": 115,
+      "col": 468,
+      "value": "\u2190 Ancient period",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 115,
+      "col": 1555,
+      "value": "Classical period",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 115,
+      "col": 2076,
+      "value": "Medieval",
+      "type": "str",
+      "length": 8
+    },
+    {
+      "row": 115,
+      "col": 2511,
+      "value": "Ottoman period",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 115,
+      "col": 2713,
+      "value": "French rule",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 115,
+      "col": 2724,
+      "value": "Republic of Lebanon (1943 to present)",
+      "type": "str",
+      "length": 37
+    },
+    {
+      "row": 117,
+      "col": 471,
+      "value": "Phoenicia\u00a0(2500BC \u2013 64 BC)",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 117,
+      "col": 1688,
+      "value": "\u2190 Phoenicia\u00a0(2500BC \u2013 64 BC)",
+      "type": "str",
+      "length": 28
+    },
+    {
+      "row": 117,
+      "col": 2071,
+      "value": "Rashidun period",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 117,
+      "col": 2084,
+      "value": "Umayyad period",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 117,
+      "col": 2128,
+      "value": "Abbasid period",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 117,
+      "col": 2399,
+      "value": "Mamluk Sultanate",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 117,
+      "col": 2542,
+      "value": "Tripoli Eyalet",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 117,
+      "col": 2697,
+      "value": "Beirut Vilayet",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 117,
+      "col": 2713,
+      "value": "State of Greater Lebanon",
+      "type": "str",
+      "length": 24
+    },
+    {
+      "row": 117,
+      "col": 2741,
+      "value": "Lebanese Civil War",
+      "type": "str",
+      "length": 18
+    },
+    {
+      "row": 119,
+      "col": 971,
+      "value": "New Kingdom of Egypt",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 119,
+      "col": 1279,
+      "value": "Assyrian rule",
+      "type": "str",
+      "length": 13
+    },
+    {
+      "row": 119,
+      "col": 1452,
+      "value": "Persian rule",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 119,
+      "col": 1689,
+      "value": "Roman rule\u00a0(64 BC\u2013646 AD)",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 119,
+      "col": 2075,
+      "value": "\u2190 Roman rule",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 119,
+      "col": 2162,
+      "value": "Tulunids",
+      "type": "str",
+      "length": 8
+    },
+    {
+      "row": 119,
+      "col": 2207,
+      "value": "Fatimid Caliphate",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 119,
+      "col": 2406,
+      "value": "Assafs",
+      "type": "str",
+      "length": 6
+    },
+    {
+      "row": 119,
+      "col": 2583,
+      "value": "Sidon Eyalet",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 119,
+      "col": 2716,
+      "value": "Lebanese Republic",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 119,
+      "col": 2738,
+      "value": "Palestinian insurgency in South Lebanon",
+      "type": "str",
+      "length": 39
+    },
+    {
+      "row": 121,
+      "col": 921,
+      "value": "Hittite rule",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 121,
+      "col": 1419,
+      "value": "Neo-Babylonian Empire",
+      "type": "str",
+      "length": 21
+    },
+    {
+      "row": 121,
+      "col": 1555,
+      "value": "Hellenistic rule\u00a0(332\u201364 BC)",
+      "type": "str",
+      "length": 28
+    },
+    {
+      "row": 121,
+      "col": 2060,
+      "value": "Sassanid occupation",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 121,
+      "col": 2198,
+      "value": "Hamdanid dynasty",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 121,
+      "col": 2271,
+      "value": "Seljuk Empire",
+      "type": "str",
+      "length": 13
+    },
+    {
+      "row": 121,
+      "col": 2498,
+      "value": "Ma'anids",
+      "type": "str",
+      "length": 8
+    },
+    {
+      "row": 121,
+      "col": 2627,
+      "value": "El Assaad Family",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 121,
+      "col": 2746,
+      "value": "Israeli occupation of Southern Lebanon",
+      "type": "str",
+      "length": 38
+    },
+    {
+      "row": 123,
+      "col": 2220,
+      "value": "Ikhshidid dynasty",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 123,
+      "col": 2265,
+      "value": "Mirdasid dynasty",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 123,
+      "col": 2302,
+      "value": "Crusader period",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 123,
+      "col": 2500,
+      "value": "Harfushids",
+      "type": "str",
+      "length": 10
+    },
+    {
+      "row": 123,
+      "col": 2711,
+      "value": "Occupied Enemy Territory Administration (OETA)",
+      "type": "str",
+      "length": 46
+    },
+    {
+      "row": 123,
+      "col": 2742,
+      "value": "Syrian occupation of Lebanon",
+      "type": "str",
+      "length": 28
+    },
+    {
+      "row": 125,
+      "col": 2302,
+      "value": "Kingdom of Jerusalem",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 125,
+      "col": 2511,
+      "value": "Emirate of Mount Lebanon",
+      "type": "str",
+      "length": 24
+    },
+    {
+      "row": 127,
+      "col": 2304,
+      "value": "County of Tripoli",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 127,
+      "col": 2601,
+      "value": "Shihab Dynasty",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 127,
+      "col": 2684,
+      "value": "Mount Lebanon Mutasarrifate",
+      "type": "str",
+      "length": 27
+    },
+    {
+      "row": 129,
+      "col": 2316,
+      "value": "Zengid dynasty",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 129,
+      "col": 2674,
+      "value": "Double Qaim-Maqamate of Mount Lebanon",
+      "type": "str",
+      "length": 37
+    },
+    {
+      "row": 135,
+      "col": 2,
+      "value": "Israel",
+      "type": "str",
+      "length": 6
+    },
+    {
+      "row": 135,
+      "col": 16,
+      "value": "\u2190 Early Bronze Age (3,500\u20132,350 BC)",
+      "type": "str",
+      "length": 35
+    },
+    {
+      "row": 135,
+      "col": 546,
+      "value": "Intermediate Bronze Age\u00a0(2,350\u20132000 BC)",
+      "type": "str",
+      "length": 39
+    },
+    {
+      "row": 135,
+      "col": 721,
+      "value": "Middle Bronze Age (2000\u20131550 BC)",
+      "type": "str",
+      "length": 32
+    },
+    {
+      "row": 135,
+      "col": 946,
+      "value": "Late Bronze Age (1550\u20131200 BC)",
+      "type": "str",
+      "length": 30
+    },
+    {
+      "row": 135,
+      "col": 1121,
+      "value": "Iron Age (1200\u2013586 BC)",
+      "type": "str",
+      "length": 22
+    },
+    {
+      "row": 135,
+      "col": 1427,
+      "value": "Yehud (Babylonian province)",
+      "type": "str",
+      "length": 27
+    },
+    {
+      "row": 135,
+      "col": 1452,
+      "value": "Yehud Medinata (Persian Yehud)",
+      "type": "str",
+      "length": 30
+    },
+    {
+      "row": 135,
+      "col": 1555,
+      "value": "Hellenistic period",
+      "type": "str",
+      "length": 18
+    },
+    {
+      "row": 135,
+      "col": 1688,
+      "value": "Roman period",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 135,
+      "col": 1906,
+      "value": "End of the Roman period",
+      "type": "str",
+      "length": 23
+    },
+    {
+      "row": 135,
+      "col": 1940,
+      "value": "Byzantine period",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 135,
+      "col": 2071,
+      "value": "Rashidun period",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 135,
+      "col": 2084,
+      "value": "Umayyad period",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 135,
+      "col": 2128,
+      "value": "Abbasid period",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 135,
+      "col": 2237,
+      "value": "Fatimid period",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 135,
+      "col": 2302,
+      "value": "Crusader period",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 135,
+      "col": 2385,
+      "value": "Mamluk period",
+      "type": "str",
+      "length": 13
+    },
+    {
+      "row": 135,
+      "col": 2511,
+      "value": "Ottoman period",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 135,
+      "col": 2713,
+      "value": "Mandatory Palestine",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 135,
+      "col": 2727,
+      "value": "State of Israel\u00a0(1948\u2013present)",
+      "type": "str",
+      "length": 30
+    },
+    {
+      "row": 137,
+      "col": 2,
+      "value": "(Ancient Kingdom",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 137,
+      "col": 23,
+      "value": "Upper Paleolithic (c. 50,000 - 12,000 BC)",
+      "type": "str",
+      "length": 41
+    },
+    {
+      "row": 137,
+      "col": 48,
+      "value": "Epipaleolithic (c. 18,000 - 8,000 BC)",
+      "type": "str",
+      "length": 37
+    },
+    {
+      "row": 137,
+      "col": 73,
+      "value": "Neolithic (c.8500 \u2013 c.4500 BC)",
+      "type": "str",
+      "length": 30
+    },
+    {
+      "row": 137,
+      "col": 1134,
+      "value": "Philistines",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 137,
+      "col": 1422,
+      "value": "Babylonian Exile",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 137,
+      "col": 1463,
+      "value": "Second Temple period",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 137,
+      "col": 1780,
+      "value": "Jewish uprisings",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 137,
+      "col": 1791,
+      "value": "Syria Palaestina (Roman province)",
+      "type": "str",
+      "length": 33
+    },
+    {
+      "row": 137,
+      "col": 2071,
+      "value": "Bilad al-Sham - Province of the Umayyad, Abbasid and Fatimid Caliphates",
+      "type": "str",
+      "length": 71
+    },
+    {
+      "row": 137,
+      "col": 2302,
+      "value": "Kingdom of Jerusalem (Crusader state) (1099\u20131187, 1192\u20131291)",
+      "type": "str",
+      "length": 60
+    },
+    {
+      "row": 137,
+      "col": 2511,
+      "value": "Damascus Eyalet",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 137,
+      "col": 2689,
+      "value": "Mutasarrifate of Jerusalem",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 139,
+      "col": 2,
+      "value": "and Modern State)",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 139,
+      "col": 23,
+      "value": "\u2190 Kebaran culture (c. 21,000 \u2013 c. 13,000 BC)",
+      "type": "str",
+      "length": 44
+    },
+    {
+      "row": 139,
+      "col": 48,
+      "value": "\u2190 Mushabian culture (c. 12,000 \u2013 c. 10,500 BC)",
+      "type": "str",
+      "length": 46
+    },
+    {
+      "row": 139,
+      "col": 73,
+      "value": "\u2190 Yarmukian culture (6400 \u2013 6000 BC)",
+      "type": "str",
+      "length": 36
+    },
+    {
+      "row": 139,
+      "col": 987,
+      "value": "In the\u00a0Battle of Megiddo,\u00a0Egyptian\u00a0forces under the command of\u00a0Pharaoh\u00a0Thutmose III\u00a0defeat a large\u00a0Canaanite\u00a0coalition under the king of\u00a0Kadesh",
+      "type": "str",
+      "length": 143
+    },
+    {
+      "row": 139,
+      "col": 1196,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 139,
+      "col": 1197,
+      "value": "Ancient Israel and Judah",
+      "type": "str",
+      "length": 24
+    },
+    {
+      "row": 139,
+      "col": 1451,
+      "value": "Decree of Cyrus allows Jews to return to Jerusalem",
+      "type": "str",
+      "length": 50
+    },
+    {
+      "row": 139,
+      "col": 1651,
+      "value": "Hasmonean dynasty",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 139,
+      "col": 1724,
+      "value": "Province of Roman Judaea created by merging Judea proper, Samaria and Idumea",
+      "type": "str",
+      "length": 76
+    },
+    {
+      "row": 139,
+      "col": 1789,
+      "value": "Jewish Bar Kokhba revolt",
+      "type": "str",
+      "length": 24
+    },
+    {
+      "row": 139,
+      "col": 1906,
+      "value": "Roman Diocese of the East",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 139,
+      "col": 2071,
+      "value": "Jerusalem falls\u00a0to the armies of Rashidun\u00a0caliph\u00a0Umar Ibn el-Khatab.\u00a0Jews are permitted to return to the city after 568 years of Roman and Byzantine rule.",
+      "type": "str",
+      "length": 154
+    },
+    {
+      "row": 139,
+      "col": 2340,
+      "value": "Ayyubid dynasty (1174\u20131260)",
+      "type": "str",
+      "length": 27
+    },
+    {
+      "row": 139,
+      "col": 2711,
+      "value": "Occupied Enemy Territory Administration (OETA)",
+      "type": "str",
+      "length": 46
+    },
+    {
+      "row": 139,
+      "col": 2748,
+      "value": "Palestinian Declaration of Independence",
+      "type": "str",
+      "length": 39
+    },
+    {
+      "row": 141,
+      "col": 48,
+      "value": "\u2190 Natufian culture (13,000 \u2013 9,500 BC)",
+      "type": "str",
+      "length": 38
+    },
+    {
+      "row": 141,
+      "col": 73,
+      "value": "\u2190 Lodian culture (first half of the 5th millennium BC)",
+      "type": "str",
+      "length": 54
+    },
+    {
+      "row": 141,
+      "col": 1197,
+      "value": "Kingdom of Israel - United Monarchy",
+      "type": "str",
+      "length": 35
+    },
+    {
+      "row": 141,
+      "col": 1256,
+      "value": "Kingdom of Israel",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 141,
+      "col": 1427,
+      "value": "Siege and fall of Jerusalem  to Nebuchadnezzar",
+      "type": "str",
+      "length": 46
+    },
+    {
+      "row": 141,
+      "col": 1452,
+      "value": "Construction of the\u00a0Second Temple\u00a0was authorized by\u00a0Cyrus the Great",
+      "type": "str",
+      "length": 67
+    },
+    {
+      "row": 141,
+      "col": 1651,
+      "value": "Seleucid Empire\u00a0vassal",
+      "type": "str",
+      "length": 22
+    },
+    {
+      "row": 141,
+      "col": 1690,
+      "value": "Client state of the\u00a0Roman Republic",
+      "type": "str",
+      "length": 34
+    },
+    {
+      "row": 141,
+      "col": 1757,
+      "value": "Destruction of the Temple of Jerusalem",
+      "type": "str",
+      "length": 38
+    },
+    {
+      "row": 141,
+      "col": 1790,
+      "value": "Jerusalem is turned into the Roman colony of Aelia Capitolina",
+      "type": "str",
+      "length": 61
+    },
+    {
+      "row": 141,
+      "col": 1947,
+      "value": "Byzantine Palaestina",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 141,
+      "col": 2721,
+      "value": "The\u00a0Great Arab Revolt.",
+      "type": "str",
+      "length": 22
+    },
+    {
+      "row": 143,
+      "col": 2,
+      "value": "and",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 143,
+      "col": 48,
+      "value": "\u2190 c. 9000 BC\u00a0\u2013\u00a0Natufian\u00a0hunter-gatherer groups form a permanent settlement that would come to be known as\u00a0Jericho.",
+      "type": "str",
+      "length": 114
+    },
+    {
+      "row": 143,
+      "col": 1256,
+      "value": "Kingdom of Judah",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 143,
+      "col": 1463,
+      "value": "Construction of the\u00a0Second Temple\u00a0completed in the sixth year of the reign of Darius the Great",
+      "type": "str",
+      "length": 94
+    },
+    {
+      "row": 143,
+      "col": 1666,
+      "value": "Independent kingdom",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 143,
+      "col": 1701,
+      "value": "Client state of the\u00a0Parthian Empire",
+      "type": "str",
+      "length": 35
+    },
+    {
+      "row": 143,
+      "col": 1730,
+      "value": "Expulsion of the Jews from Rome",
+      "type": "str",
+      "length": 31
+    },
+    {
+      "row": 143,
+      "col": 1754,
+      "value": "The Great Jewish Revolt against Roman occupation",
+      "type": "str",
+      "length": 48
+    },
+    {
+      "row": 143,
+      "col": 1947,
+      "value": "Palaestina Prima",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 143,
+      "col": 2727,
+      "value": "Declaration of the establishment of the State of Israel",
+      "type": "str",
+      "length": 55
+    },
+    {
+      "row": 145,
+      "col": 48,
+      "value": "\u2190 Harifian culture (8,800 BC \u2013 8,000 BC)",
+      "type": "str",
+      "length": 40
+    },
+    {
+      "row": 145,
+      "col": 1258,
+      "value": "Sack of Jerusalem\u00a0\u2013 Pharaoh\u00a0Sheshonk I\u00a0of the\u00a0Third Intermediate Period\u00a0invades\u00a0Canaan\u00a0following the\u00a0Battle of Bitter Lakes.",
+      "type": "str",
+      "length": 124
+    },
+    {
+      "row": 145,
+      "col": 1361,
+      "value": "The\u00a0Kingdom of Israel\u00a0is conquered by\u00a0Neo-Assyrian Empire\u00a0and parts of the local population is deported and replaced with deportees from other parts of the empire",
+      "type": "str",
+      "length": 162
+    },
+    {
+      "row": 145,
+      "col": 1703,
+      "value": "Herodian dynasty (37 BCE\u20136 CE)",
+      "type": "str",
+      "length": 30
+    },
+    {
+      "row": 145,
+      "col": 1734,
+      "value": "Pontius Pilate - procurator of Judaea",
+      "type": "str",
+      "length": 37
+    },
+    {
+      "row": 145,
+      "col": 1759,
+      "value": "Fall of Masada",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 145,
+      "col": 1945,
+      "value": "Palaestina Secunda",
+      "type": "str",
+      "length": 18
+    },
+    {
+      "row": 145,
+      "col": 2727,
+      "value": "Arab\u2013Israeli War",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 145,
+      "col": 2737,
+      "value": "Six-Day War",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 147,
+      "col": 2,
+      "value": "Palestine",
+      "type": "str",
+      "length": 9
+    },
+    {
+      "row": 147,
+      "col": 21,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 147,
+      "col": 23,
+      "value": "Canaan",
+      "type": "str",
+      "length": 6
+    },
+    {
+      "row": 147,
+      "col": 1120,
+      "value": "\u2190 Canaan (continues throught the Iron Age \u2192)",
+      "type": "str",
+      "length": 44
+    },
+    {
+      "row": 147,
+      "col": 1294,
+      "value": "The\u00a0Battle of Qarqar\u00a0in which Jerusalem's forces were likely involved in an indecisive battle against\u00a0Shalmaneser III\u00a0of\u00a0Neo-Assyria",
+      "type": "str",
+      "length": 132
+    },
+    {
+      "row": 147,
+      "col": 1427,
+      "value": "Solomon's Temple destroyed in sack of Jerusalem",
+      "type": "str",
+      "length": 47
+    },
+    {
+      "row": 147,
+      "col": 1703,
+      "value": "Herodian Kingdom 37 BC - 4BC)",
+      "type": "str",
+      "length": 29
+    },
+    {
+      "row": 147,
+      "col": 1740,
+      "value": "Anti-Jewish riot in Alexandria",
+      "type": "str",
+      "length": 30
+    },
+    {
+      "row": 147,
+      "col": 1995,
+      "value": "Samaritan revolts",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 147,
+      "col": 2060,
+      "value": "Sassanid occupation",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 147,
+      "col": 2740,
+      "value": "Yom Kippur War",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 147,
+      "col": 2751,
+      "value": "The first\u00a0Oslo Accords\u00a0are signed",
+      "type": "str",
+      "length": 33
+    },
+    {
+      "row": 149,
+      "col": 2,
+      "value": "(Geographical region",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 149,
+      "col": 23,
+      "value": "Prior to 4500\u00a0BC - Prehistory\u00a0\u2013\u00a0Stone Age: hunter-gatherer societies slowly giving way to farming and herding societies",
+      "type": "str",
+      "length": 119
+    },
+    {
+      "row": 149,
+      "col": 85,
+      "value": "Early Bronze Age: prior to written records in the area (3500\u20132000\u00a0BC)",
+      "type": "str",
+      "length": 69
+    },
+    {
+      "row": 149,
+      "col": 720,
+      "value": "\u2190 Early Bronze Age: prior to written records in the area (3500\u20132000\u00a0BC)",
+      "type": "str",
+      "length": 71
+    },
+    {
+      "row": 149,
+      "col": 946,
+      "value": "1550\u20131200\u00a0BC (Late Bronze): Egyptian hegemony",
+      "type": "str",
+      "length": 45
+    },
+    {
+      "row": 149,
+      "col": 1123,
+      "value": "After the\u00a0Iron Age\u00a0the periods are named after the various empires that ruled the region.",
+      "type": "str",
+      "length": 89
+    },
+    {
+      "row": 149,
+      "col": 1719,
+      "value": "Tetrarchy 4BC-44AD",
+      "type": "str",
+      "length": 18
+    },
+    {
+      "row": 151,
+      "col": 2,
+      "value": "and State of Palestine)",
+      "type": "str",
+      "length": 23
+    },
+    {
+      "row": 151,
+      "col": 23,
+      "value": "Chalcolithic (Copper) Age: early metal-working and farming (4500\u20133500\u00a0BC)",
+      "type": "str",
+      "length": 73
+    },
+    {
+      "row": 151,
+      "col": 721,
+      "value": "Middle Bronze Age:\u00a0city-states (2000\u20131550\u00a0BC)",
+      "type": "str",
+      "length": 45
+    },
+    {
+      "row": 151,
+      "col": 2727,
+      "value": "Nakba",
+      "type": "str",
+      "length": 5
+    },
+    {
+      "row": 153,
+      "col": 2737,
+      "value": "Naksa period",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 155,
+      "col": 2747,
+      "value": "First Intifada",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 155,
+      "col": 2754,
+      "value": "Second Intifada",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 159,
+      "col": 2,
+      "value": "Cyprus",
+      "type": "str",
+      "length": 6
+    },
+    {
+      "row": 159,
+      "col": 16,
+      "value": "\u2190 Prehistoric\u00a0period",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 159,
+      "col": 1195,
+      "value": "\u2190 Prehistoric\u00a0period",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 159,
+      "col": 1196,
+      "value": "Ancient History (City Kingdoms 1050 BC \u2013 325 BC)",
+      "type": "str",
+      "length": 48
+    },
+    {
+      "row": 159,
+      "col": 1559,
+      "value": "Hellenistic Empire",
+      "type": "str",
+      "length": 18
+    },
+    {
+      "row": 159,
+      "col": 1692,
+      "value": "Roman Empire",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 159,
+      "col": 1948,
+      "value": "Byzantine Empire 395 AD \u2013 1192 AD",
+      "type": "str",
+      "length": 33
+    },
+    {
+      "row": 159,
+      "col": 2349,
+      "value": "Kingdom of Cyprus (Frankish Rule (Lusignan Dynasty)",
+      "type": "str",
+      "length": 51
+    },
+    {
+      "row": 159,
+      "col": 2497,
+      "value": "Rule of Venice",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 159,
+      "col": 2539,
+      "value": "Ottoman Empire",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 159,
+      "col": 2692,
+      "value": "British Cyprus",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 159,
+      "col": 2733,
+      "value": "Republic of Cyprus (1960 to present)",
+      "type": "str",
+      "length": 36
+    },
+    {
+      "row": 161,
+      "col": 16,
+      "value": "\u2190 Chalcolithic Period (Copper Age): 4,000-2,400 BC",
+      "type": "str",
+      "length": 50
+    },
+    {
+      "row": 161,
+      "col": 521,
+      "value": "Early Cypriot period (2400 BC - 1900 BC)",
+      "type": "str",
+      "length": 40
+    },
+    {
+      "row": 161,
+      "col": 771,
+      "value": "Middle Cypriot period (1900 BC - 1650 BC)",
+      "type": "str",
+      "length": 41
+    },
+    {
+      "row": 161,
+      "col": 896,
+      "value": "Late Cypriot period (1650 BC - 1050 BC)",
+      "type": "str",
+      "length": 39
+    },
+    {
+      "row": 161,
+      "col": 1196,
+      "value": "Cypro-Geometric I: 1050-950 BC",
+      "type": "str",
+      "length": 30
+    },
+    {
+      "row": 161,
+      "col": 1246,
+      "value": "Cypro-Geometric II: 950-850 BC",
+      "type": "str",
+      "length": 30
+    },
+    {
+      "row": 161,
+      "col": 1296,
+      "value": "Cypro-Geometric III: 850-700 BC",
+      "type": "str",
+      "length": 31
+    },
+    {
+      "row": 161,
+      "col": 1371,
+      "value": "Cypro-Archaic I: 700-600 BC",
+      "type": "str",
+      "length": 27
+    },
+    {
+      "row": 161,
+      "col": 1421,
+      "value": "Cypro-Archaic II: 600-475 BC",
+      "type": "str",
+      "length": 28
+    },
+    {
+      "row": 161,
+      "col": 1483,
+      "value": "Cypro-Classical I: 475-400 BC",
+      "type": "str",
+      "length": 29
+    },
+    {
+      "row": 161,
+      "col": 1521,
+      "value": "Cypro-Classical II: 400-325 BC",
+      "type": "str",
+      "length": 30
+    },
+    {
+      "row": 161,
+      "col": 2097,
+      "value": "Joint Byzantine-Arab rule",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 161,
+      "col": 2692,
+      "value": "British protectorate",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 161,
+      "col": 2715,
+      "value": "Crown Colony",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 161,
+      "col": 2741,
+      "value": "Turkish invasion of Cyprus",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 163,
+      "col": 15,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 163,
+      "col": 23,
+      "value": "\u2190 The first undisputed settlement in Cyprus occurred in the 9th (or perhaps 10th) millennium BC from the Levant.",
+      "type": "str",
+      "length": 112
+    },
+    {
+      "row": 163,
+      "col": 896,
+      "value": "Late Cypriot I 1650-1400",
+      "type": "str",
+      "length": 24
+    },
+    {
+      "row": 163,
+      "col": 1021,
+      "value": "Late Cypriot II 1400-1200",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 163,
+      "col": 1121,
+      "value": "Late Cypriot III 1200-1050",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 163,
+      "col": 1367,
+      "value": "Assyrians under Sargon II win victory over seven kings",
+      "type": "str",
+      "length": 54
+    },
+    {
+      "row": 163,
+      "col": 1436,
+      "value": "Conquered by Egypt under Amasis",
+      "type": "str",
+      "length": 31
+    },
+    {
+      "row": 163,
+      "col": 1567,
+      "value": "At the beginning of the 4th century BC, Euagoras I, King of Salamis, took control of the whole island",
+      "type": "str",
+      "length": 101
+    },
+    {
+      "row": 163,
+      "col": 2235,
+      "value": "Theme (Byzantine province) of Cyprus",
+      "type": "str",
+      "length": 36
+    },
+    {
+      "row": 163,
+      "col": 2710,
+      "value": "Military Occupation",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 163,
+      "col": 2741,
+      "value": "Autonomous Turkish Cypriot Administration",
+      "type": "str",
+      "length": 41
+    },
+    {
+      "row": 165,
+      "col": 23,
+      "value": "\u2190 Neolithic Period (Stone Age): 7,000-4,000 BC",
+      "type": "str",
+      "length": 46
+    },
+    {
+      "row": 165,
+      "col": 946,
+      "value": "Cypro-Minoan syllabary 1550-1050",
+      "type": "str",
+      "length": 32
+    },
+    {
+      "row": 165,
+      "col": 1387,
+      "value": "Cyprus gained independence for some time",
+      "type": "str",
+      "length": 40
+    },
+    {
+      "row": 165,
+      "col": 1449,
+      "value": "Conquered by the Persians around 545 BC.",
+      "type": "str",
+      "length": 40
+    },
+    {
+      "row": 165,
+      "col": 2345,
+      "value": "1185 Cyprus becomes an independent Empire under the reign of\u00a0Isaak Comnenus.",
+      "type": "str",
+      "length": 76
+    },
+    {
+      "row": 165,
+      "col": 2742,
+      "value": "Turkish Federated State of Cyprus",
+      "type": "str",
+      "length": 33
+    },
+    {
+      "row": 167,
+      "col": 23,
+      "value": "\u2190 Choirokoitia Settlement c. 7,000 BC - c. 4,000 BC",
+      "type": "str",
+      "length": 51
+    },
+    {
+      "row": 167,
+      "col": 1171,
+      "value": "Dorian Greeks arrived c. 1100 BC ",
+      "type": "str",
+      "length": 33
+    },
+    {
+      "row": 167,
+      "col": 1189,
+      "value": "Cypriot syllabary 11th-4th centuries BC",
+      "type": "str",
+      "length": 39
+    },
+    {
+      "row": 167,
+      "col": 2349,
+      "value": "Richard I, King of England,\u00a0conquers Cyprus",
+      "type": "str",
+      "length": 43
+    },
+    {
+      "row": 167,
+      "col": 2745,
+      "value": "Turkish Republic of Northern Cyprus (1983 to present)",
+      "type": "str",
+      "length": 53
+    },
+    {
+      "row": 169,
+      "col": 23,
+      "value": "\u2190 Aceramic Neolithic 7,000 BC - 5,500 BC",
+      "type": "str",
+      "length": 40
+    },
+    {
+      "row": 169,
+      "col": 1116,
+      "value": "Achaeans were colonizing Cyprus from 1210 to 1000 BC",
+      "type": "str",
+      "length": 52
+    },
+    {
+      "row": 171,
+      "col": 23,
+      "value": "\u2190 Ceramic Neolithic 5,500 BC-4,000 BC",
+      "type": "str",
+      "length": 37
+    },
+    {
+      "row": 175,
+      "col": 1,
+      "value": "WEST ASIA",
+      "type": "str",
+      "length": 9
+    },
+    {
+      "row": 178,
+      "col": 1,
+      "value": "West Asia",
+      "type": "str",
+      "length": 9
+    },
+    {
+      "row": 182,
+      "col": 2,
+      "value": "Armenia",
+      "type": "str",
+      "length": 7
+    },
+    {
+      "row": 182,
+      "col": 16,
+      "value": "\u2190 Prehistoric\u00a0period",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 182,
+      "col": 1425,
+      "value": "\u2190 Prehistoric\u00a0period",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 182,
+      "col": 1426,
+      "value": "Antiquity",
+      "type": "str",
+      "length": 9
+    },
+    {
+      "row": 182,
+      "col": 2080,
+      "value": "Middle Ages",
+      "type": "str",
+      "length": 11
+    },
+    {
+      "row": 182,
+      "col": 2504,
+      "value": "Early modern age",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 182,
+      "col": 2711,
+      "value": "Modern age",
+      "type": "str",
+      "length": 10
+    },
+    {
+      "row": 182,
+      "col": 2749,
+      "value": "Contemporary Armenia",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 184,
+      "col": 23,
+      "value": "\u2190 Shulaveri\u2013Shomu culture (c.\u00a06000 BC \u2013\u00a0c.\u00a05000 BC)",
+      "type": "str",
+      "length": 51
+    },
+    {
+      "row": 184,
+      "col": 582,
+      "value": "Trialeti-Vanadzor culture (late 3rd and early 2nd millennium BC) - dates uncertain",
+      "type": "str",
+      "length": 82
+    },
+    {
+      "row": 184,
+      "col": 971,
+      "value": "Lchashen-Metsamor culture (c. 1,500 BC \u2013 c. 700 BC)",
+      "type": "str",
+      "length": 51
+    },
+    {
+      "row": 184,
+      "col": 1370,
+      "value": "\u2190 Lchashen-Metsamor culture (c. 1,500 BC \u2013 c. 700 BC)",
+      "type": "str",
+      "length": 53
+    },
+    {
+      "row": 184,
+      "col": 1436,
+      "value": "Satrapy of Armenia",
+      "type": "str",
+      "length": 18
+    },
+    {
+      "row": 184,
+      "col": 1560,
+      "value": "Kingdom of Armenia (321 BC\u2013428 AD)",
+      "type": "str",
+      "length": 34
+    },
+    {
+      "row": 184,
+      "col": 2072,
+      "value": "Muslim conquest of Armenia",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 184,
+      "col": 2207,
+      "value": "Kingdom of Vaspurakan",
+      "type": "str",
+      "length": 21
+    },
+    {
+      "row": 184,
+      "col": 2354,
+      "value": "Zakarid Armenia",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 184,
+      "col": 2504,
+      "value": "Iranian Armenia",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 184,
+      "col": 2711,
+      "value": "First Republic of Armenia",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 186,
+      "col": 971,
+      "value": "Hayasa-Azzi (16th century BC \u2013 13th century BC) - dates uncertain",
+      "type": "str",
+      "length": 65
+    },
+    {
+      "row": 186,
+      "col": 1148,
+      "value": "Nairi Confederation (c. 13th \u2013 8th centuries BC) - dates uncertain",
+      "type": "str",
+      "length": 66
+    },
+    {
+      "row": 186,
+      "col": 1436,
+      "value": "Orontid dynasty",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 186,
+      "col": 1626,
+      "value": "Artaxiad dynasty",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 186,
+      "col": 1747,
+      "value": "Arsacid dynasty 52\u2013428",
+      "type": "str",
+      "length": 22
+    },
+    {
+      "row": 186,
+      "col": 2080,
+      "value": "Emirate of Armenia",
+      "type": "str",
+      "length": 18
+    },
+    {
+      "row": 186,
+      "col": 2242,
+      "value": "Kingdom of Tashir-Dzoraget",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 186,
+      "col": 2384,
+      "value": "Principality of Khachen",
+      "type": "str",
+      "length": 23
+    },
+    {
+      "row": 186,
+      "col": 2712,
+      "value": "Republic of Mountainous Armenia",
+      "type": "str",
+      "length": 31
+    },
+    {
+      "row": 186,
+      "col": 2749,
+      "value": "Republic of Armenia (1991- present)",
+      "type": "str",
+      "length": 35
+    },
+    {
+      "row": 188,
+      "col": 21,
+      "value": "Kura-Araxes culture (c.\u00a03400 -\u00a0c.\u00a02000 BC)",
+      "type": "str",
+      "length": 42
+    },
+    {
+      "row": 188,
+      "col": 720,
+      "value": "\u2190 Kura-Araxes culture (c.\u00a03400 -\u00a0c.\u00a02000 BC)",
+      "type": "str",
+      "length": 44
+    },
+    {
+      "row": 188,
+      "col": 1289,
+      "value": "\u00ec",
+      "type": "str",
+      "length": 1
+    },
+    {
+      "row": 188,
+      "col": 1291,
+      "value": "Urartu (Kingdom of Van)",
+      "type": "str",
+      "length": 23
+    },
+    {
+      "row": 188,
+      "col": 1481,
+      "value": "Xerxes I inscription at Van",
+      "type": "str",
+      "length": 27
+    },
+    {
+      "row": 188,
+      "col": 1590,
+      "value": "Kingdom of Sophene 3rd century BC\u201395 BC",
+      "type": "str",
+      "length": 39
+    },
+    {
+      "row": 188,
+      "col": 1738,
+      "value": "Iberian\u2013Armenian War",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 188,
+      "col": 1780,
+      "value": "Roman Armenia",
+      "type": "str",
+      "length": 13
+    },
+    {
+      "row": 188,
+      "col": 1900,
+      "value": "Traditional date for the conversion of Armenia to Christianity (AD 301)",
+      "type": "str",
+      "length": 71
+    },
+    {
+      "row": 188,
+      "col": 1944,
+      "value": "Byzantine Armenia 387\u2013536",
+      "type": "str",
+      "length": 25
+    },
+    {
+      "row": 188,
+      "col": 2195,
+      "value": "Bagratid Armenia",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 188,
+      "col": 2371,
+      "value": "Mongol Armenia",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 188,
+      "col": 2554,
+      "value": "Five Melikdoms",
+      "type": "str",
+      "length": 14
+    },
+    {
+      "row": 188,
+      "col": 2667,
+      "value": "Russian Armenia",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 188,
+      "col": 2750,
+      "value": "Admission to the\u00a0United Nations",
+      "type": "str",
+      "length": 31
+    },
+    {
+      "row": 190,
+      "col": 1406,
+      "value": "Scythians (c. 7th - c. 6th centuries BC)",
+      "type": "str",
+      "length": 40
+    },
+    {
+      "row": 190,
+      "col": 1648,
+      "value": "Armenia Minor (2nd century BC to the 1st century AD) - uncertain dates",
+      "type": "str",
+      "length": 70
+    },
+    {
+      "row": 190,
+      "col": 1859,
+      "value": "Sasanian Armenia",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 190,
+      "col": 2148,
+      "value": "Principality of Hamamshen (AD 790\u20131486)",
+      "type": "str",
+      "length": 39
+    },
+    {
+      "row": 190,
+      "col": 2495,
+      "value": "\u2190 Principality of Hamamshen (AD 790\u20131486)",
+      "type": "str",
+      "length": 41
+    },
+    {
+      "row": 190,
+      "col": 2667,
+      "value": "Armenian Oblast",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 190,
+      "col": 2710,
+      "value": "Russian Occupation of Western Armenia",
+      "type": "str",
+      "length": 37
+    },
+    {
+      "row": 190,
+      "col": 2751,
+      "value": "Current constitution",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 192,
+      "col": 1640,
+      "value": "Commagene",
+      "type": "str",
+      "length": 9
+    },
+    {
+      "row": 192,
+      "col": 1952,
+      "value": "Creation of the Armenian alphabet by Mesrop Mashtots",
+      "type": "str",
+      "length": 52
+    },
+    {
+      "row": 192,
+      "col": 2247,
+      "value": "Kingdom of Syunik",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 192,
+      "col": 2714,
+      "value": "Transcaucasian Socialist Federative Soviet Republic",
+      "type": "str",
+      "length": 51
+    },
+    {
+      "row": 194,
+      "col": 2253,
+      "value": "Kingdom of Artsakh",
+      "type": "str",
+      "length": 18
+    },
+    {
+      "row": 194,
+      "col": 2479,
+      "value": "Ottoman Armenia",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 194,
+      "col": 2721,
+      "value": "Armenian Soviet Socialist Republic",
+      "type": "str",
+      "length": 34
+    },
+    {
+      "row": 196,
+      "col": 2293,
+      "value": "Armenian Principality of Cilicia",
+      "type": "str",
+      "length": 32
+    },
+    {
+      "row": 196,
+      "col": 2352,
+      "value": "Armenian Kingdom of Cilicia",
+      "type": "str",
+      "length": 27
+    },
+    {
+      "row": 196,
+      "col": 2667,
+      "value": "Western Armenia",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 198,
+      "col": 2692,
+      "value": "Armenian question",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 200,
+      "col": 2710,
+      "value": "Armenian genocide",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 202,
+      "col": 1683,
+      "value": "Tigranocerta (Tigranakert)",
+      "type": "str",
+      "length": 26
+    },
+    {
+      "row": 202,
+      "col": 2198,
+      "value": "Shirakavan",
+      "type": "str",
+      "length": 10
+    },
+    {
+      "row": 204,
+      "col": 1289,
+      "value": "Historical capitals of Armenia",
+      "type": "str",
+      "length": 30
+    },
+    {
+      "row": 204,
+      "col": 1305,
+      "value": "Tushpa\u00a0(Van)",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 204,
+      "col": 1555,
+      "value": "Armavir",
+      "type": "str",
+      "length": 7
+    },
+    {
+      "row": 204,
+      "col": 1616,
+      "value": "Yervandashat",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 204,
+      "col": 1633,
+      "value": "Artaxata (Artashat)",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 204,
+      "col": 1687,
+      "value": "Artaxata (Artashat)",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 204,
+      "col": 1783,
+      "value": "Vagharshapat",
+      "type": "str",
+      "length": 12
+    },
+    {
+      "row": 204,
+      "col": 1917,
+      "value": "Dvin",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 204,
+      "col": 2196,
+      "value": "Bagaran",
+      "type": "str",
+      "length": 7
+    },
+    {
+      "row": 204,
+      "col": 2217,
+      "value": "Kars",
+      "type": "str",
+      "length": 4
+    },
+    {
+      "row": 204,
+      "col": 2234,
+      "value": "Ani",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 204,
+      "col": 2293,
+      "value": "Tarsus",
+      "type": "str",
+      "length": 6
+    },
+    {
+      "row": 204,
+      "col": 2352,
+      "value": "Sis",
+      "type": "str",
+      "length": 3
+    },
+    {
+      "row": 204,
+      "col": 2712,
+      "value": "Yerevan (1918\u2013present)",
+      "type": "str",
+      "length": 22
+    },
+    {
+      "row": 210,
+      "col": 2,
+      "value": "Azerbaijan",
+      "type": "str",
+      "length": 10
+    },
+    {
+      "row": 210,
+      "col": 16,
+      "value": "\u2190 Prehistoric\u00a0period",
+      "type": "str",
+      "length": 20
+    },
+    {
+      "row": 210,
+      "col": 1371,
+      "value": "Antiquity",
+      "type": "str",
+      "length": 9
+    },
+    {
+      "row": 210,
+      "col": 1991,
+      "value": "Early Middle Ages",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 210,
+      "col": 2522,
+      "value": "Early modern period",
+      "type": "str",
+      "length": 19
+    },
+    {
+      "row": 210,
+      "col": 2711,
+      "value": "Modern period",
+      "type": "str",
+      "length": 13
+    },
+    {
+      "row": 212,
+      "col": 23,
+      "value": "\u2190 Shulaveri\u2013Shomu culture (c.\u00a06000 BC \u2013\u00a0c.\u00a05000 BC)",
+      "type": "str",
+      "length": 51
+    },
+    {
+      "row": 212,
+      "col": 221,
+      "value": "Nakhchivan culture (c.\u00a03000 -\u00a0c.\u00a02000 BC)",
+      "type": "str",
+      "length": 41
+    },
+    {
+      "row": 212,
+      "col": 720,
+      "value": "\u2190 Nakhchivan culture (c.\u00a03000 -\u00a0c.\u00a02000 BC)",
+      "type": "str",
+      "length": 43
+    },
+    {
+      "row": 212,
+      "col": 1021,
+      "value": "Talish-Mughan culture (c.\u00a01400 -\u00a0c.\u00a0700 BC)",
+      "type": "str",
+      "length": 43
+    },
+    {
+      "row": 212,
+      "col": 1446,
+      "value": "Achaemenid Empire",
+      "type": "str",
+      "length": 17
+    },
+    {
+      "row": 212,
+      "col": 1597,
+      "value": "Parthian Empire",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 212,
+      "col": 1836,
+      "value": "Sasanian Empire",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 212,
+      "col": 2184,
+      "value": "Shirvanshah (AD 861 - AD 1538)",
+      "type": "str",
+      "length": 30
+    },
+    {
+      "row": 212,
+      "col": 2521,
+      "value": "\u2190 Shirvanshah (AD 861 - AD 1538)",
+      "type": "str",
+      "length": 32
+    },
+    {
+      "row": 212,
+      "col": 2621,
+      "value": "Afsharid Iran",
+      "type": "str",
+      "length": 13
+    },
+    {
+      "row": 212,
+      "col": 2711,
+      "value": "Transcaucasian Commissariat",
+      "type": "str",
+      "length": 27
+    },
+    {
+      "row": 214,
+      "col": 23,
+      "value": "\u2190 Chalcolithic culture of Nakhchivan (c.\u00a04945 -\u00a0c.\u00a03800 BC)",
+      "type": "str",
+      "length": 59
+    },
+    {
+      "row": 214,
+      "col": 1071,
+      "value": "Khojaly-Gadabay culture (c.\u00a01300 -\u00a0c.\u00a0700 BC)",
+      "type": "str",
+      "length": 45
+    },
+    {
+      "row": 214,
+      "col": 1446,
+      "value": "Satrapy of Media",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 214,
+      "col": 1565,
+      "value": "Seleucid Empire",
+      "type": "str",
+      "length": 15
+    },
+    {
+      "row": 214,
+      "col": 1708,
+      "value": "Roman Empire (vassal state)",
+      "type": "str",
+      "length": 27
+    },
+    {
+      "row": 214,
+      "col": 1859,
+      "value": "Satrapy of Albania",
+      "type": "str",
+      "length": 18
+    },
+    {
+      "row": 214,
+      "col": 2078,
+      "value": "Khazar Khaganate",
+      "type": "str",
+      "length": 16
+    },
+    {
+      "row": 214,
+      "col": 2271,
+      "value": "Seljuk Empire",
+      "type": "str",
+      "length": 13
+    },
+    {
+      "row": 214,
+      "col": 2356,
+      "value": "Mongol Empire",
+      "type": "str",
+      "length": 13
+    }
+  ],
+  "summary": {
+    "total_count": 22200,
+    "expected_from_ad": 19726,
+    "coverage_percent": 112.5
+  }
+}

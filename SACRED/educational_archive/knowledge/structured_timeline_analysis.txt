@@ -1,0 +1,38 @@
+World History Timeline - Structure Analysis
+=============================================
+
+EXTRACTION RESULTS:
+Total entries extracted: 1384
+Advertised entries: 19,726
+Coverage: 7.0%
+
+STRUCTURE MAPPING:
+Year columns mapped: 108
+Event rows identified: 749
+Categories found: 229
+
+SAMPLE ENTRIES:
+ 1.    3400 BC | Unknown              | Kura-Araxes culture (c. 3400 - c. 2000 BC)
+ 2.    3400 BC | Unknown              | Kura-Araxes culture (c. 3400 - c. 2000 BC)
+ 3.    3400 BC | Unknown              | Kura-Araxes culture (c. 3400 - c. 2000 BC)
+ 4.    3400 BC | Unknown              | Kura–Araxes culture (c. 3400 BC – c. 2000 BC)
+ 5.    3300 BC | Mesopotamia
+and the  | Near East Bronze Age Divisions
+ 6.    3300 BC | Unknown              | Early Bronze Age (EBA) (c. 3300 - 2100 BC)
+ 7.    3300 BC | Unknown              | Uruk IV period: 3300 – 3100 BC
+ 8.    3300 BC | Unknown              | Bronze Age Divisions
+ 9.    3300 BC | Unknown              | Bronze Age (c.3300 – c.1200 BC)
+10.    3300 BC | Unknown              | Bronze Age (3300BC – 1300BC)
+11.    3300 BC | Unknown              | Indus Valley Civilisation 3300 – 1300 BC
+12.    3300 BC | Unknown              | Early Harappan Culture 3300 – 2600 BC
+13.    3300 BC | Unknown              | Afanasievo culture (3300–2500 BC)
+14.    3300 BC | Unknown              | Helmand culture/Jiroft culture (c. 3300 BC – c. 2200 BC)
+15.    3300 BC | Unknown              | Yamnaya culture (c. 3300 – 2600 BC)
+16.    3300 BC | Unknown              | San Agustín (3300 BC - AD 1350)
+17.    3300 BC | Hinduism             | Bronze Age (c. 3300 BC – c. 1800 BC)
+18.    3300 BC | Unknown              | Indus Valley civilisation (3300 BC – c. 1300 BC)
+19.    3200 BC | PERSIA
+(Iran)        | Proto-Elamite (c. 3200 BC – c. 2700 BC)
+20.    3200 BC | Greek Period →       | Early Helladic I (c. 3200 - c. 2000 BC)
+
+... and 1364 more entries

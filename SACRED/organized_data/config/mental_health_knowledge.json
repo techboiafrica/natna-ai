@@ -1,0 +1,774 @@
+{
+  "metadata": {
+    "created": "2026-02-07",
+    "source": "WHO mhGAP, PM+, PFA Guidelines",
+    "version": "1.0",
+    "focus": "Tigray Region Mental Health Support",
+    "context": "Designed for non-specialist providers in conflict-affected settings"
+  },
+  "conditions": {
+    "depression": {
+      "name": "Depression",
+      "tigrinya_name": "ሓዘን/ጭንቀት",
+      "symptoms": [
+        "persistent sadness for 2+ weeks",
+        "loss of interest in activities",
+        "fatigue or low energy",
+        "sleep problems (too much or too little)",
+        "changes in appetite",
+        "difficulty concentrating",
+        "feelings of worthlessness"
+      ],
+      "danger_signs": [
+        "thoughts of suicide or self-harm",
+        "complete withdrawal from others",
+        "inability to care for self",
+        "not eating or drinking"
+      ],
+      "immediate_support": [
+        "listen without judgment",
+        "ask directly about suicidal thoughts",
+        "encourage daily routine and physical activity",
+        "help identify trusted support person",
+        "avoid saying 'just be strong' or 'others have it worse'"
+      ],
+      "when_to_refer": [
+        "suicidal thoughts or plans",
+        "symptoms persist more than 2 weeks",
+        "unable to function at home or work",
+        "not eating or drinking adequately"
+      ],
+      "coping_strategies": [
+        "maintain regular sleep schedule",
+        "do one small activity each day",
+        "stay connected with family and community",
+        "avoid alcohol as a coping mechanism",
+        "gentle physical activity like walking"
+      ]
+    },
+    "ptsd": {
+      "name": "Post-Traumatic Stress",
+      "tigrinya_name": "ድሕሪ-ስቓይ ጭንቀት",
+      "symptoms": [
+        "flashbacks or reliving the trauma",
+        "nightmares about the event",
+        "avoiding reminders of trauma",
+        "feeling on edge or easily startled",
+        "difficulty sleeping",
+        "anger outbursts",
+        "difficulty remembering parts of what happened"
+      ],
+      "danger_signs": [
+        "thoughts of suicide or self-harm",
+        "severe flashbacks causing harm",
+        "complete inability to function",
+        "using alcohol or drugs to cope"
+      ],
+      "immediate_support": [
+        "provide calm, safe environment",
+        "use grounding techniques during flashbacks",
+        "validate their experience - 'what you feel is normal'",
+        "help identify triggers and safe places",
+        "do not pressure to talk about trauma"
+      ],
+      "when_to_refer": [
+        "symptoms persist more than 1 month",
+        "suicidal thoughts",
+        "substance use to cope",
+        "unable to care for children or self"
+      ],
+      "coping_strategies": [
+        "grounding: name 5 things you see, 4 you hear, 3 you feel",
+        "slow breathing: 4 counts in, 4 counts out",
+        "remind yourself: 'I am safe now, that was the past'",
+        "talk to trusted person when ready",
+        "gentle daily routine helps healing"
+      ]
+    },
+    "anxiety": {
+      "name": "Anxiety",
+      "tigrinya_name": "ጭንቀት/ፍርሒ",
+      "symptoms": [
+        "excessive worry about many things",
+        "restlessness or feeling on edge",
+        "racing heart or chest tightness",
+        "difficulty sleeping",
+        "muscle tension",
+        "difficulty concentrating",
+        "irritability"
+      ],
+      "danger_signs": [
+        "panic attacks that feel like heart attack",
+        "complete avoidance of daily activities",
+        "not leaving home due to fear",
+        "thoughts of suicide"
+      ],
+      "immediate_support": [
+        "help with slow breathing exercise",
+        "provide reassurance - 'these feelings will pass'",
+        "help identify specific worries",
+        "encourage small steps, not avoidance",
+        "limit excessive news or triggering information"
+      ],
+      "when_to_refer": [
+        "anxiety prevents daily functioning",
+        "panic attacks occurring frequently",
+        "symptoms persist despite self-help",
+        "suicidal thoughts"
+      ],
+      "coping_strategies": [
+        "slow breathing: breathe in 4 counts, out 6 counts",
+        "progressive muscle relaxation",
+        "limit coffee and stimulants",
+        "regular physical activity",
+        "talk about worries with trusted person"
+      ]
+    },
+    "grief": {
+      "name": "Grief and Loss",
+      "tigrinya_name": "ሓዘን",
+      "symptoms": [
+        "intense sadness and crying",
+        "longing for the person lost",
+        "difficulty accepting the loss",
+        "feeling numb or empty",
+        "anger at self, others, or God",
+        "difficulty sleeping or eating",
+        "withdrawal from others"
+      ],
+      "danger_signs": [
+        "suicidal thoughts to 'be with' the person",
+        "prolonged inability to function (months)",
+        "complete denial of the loss",
+        "harmful behaviors"
+      ],
+      "immediate_support": [
+        "be present and listen",
+        "acknowledge the loss - 'I am sorry for your loss'",
+        "allow expression of emotions without judgment",
+        "help with practical needs if appropriate",
+        "do not say 'be strong' or 'move on'"
+      ],
+      "when_to_refer": [
+        "suicidal thoughts",
+        "grief preventing all functioning after 6 months",
+        "complicated grief with severe depression"
+      ],
+      "coping_strategies": [
+        "allow yourself to grieve - there is no timeline",
+        "talk about the person when you want to",
+        "maintain cultural and religious mourning practices",
+        "accept help from community",
+        "take care of basic needs: eat, sleep, move"
+      ]
+    },
+    "acute_stress": {
+      "name": "Acute Stress Response",
+      "tigrinya_name": "ህጹጽ ጭንቀት",
+      "symptoms": [
+        "shock or disbelief immediately after event",
+        "feeling detached or numb",
+        "difficulty remembering the event",
+        "anxiety and hypervigilance",
+        "trouble sleeping",
+        "flashbacks in first days/weeks"
+      ],
+      "danger_signs": [
+        "complete dissociation from reality",
+        "self-harm or suicidal behavior",
+        "severe panic that won't stop",
+        "aggression toward self or others"
+      ],
+      "immediate_support": [
+        "ensure physical safety first",
+        "provide calm, quiet environment",
+        "offer practical help (water, food, blanket)",
+        "listen if they want to talk, do not force",
+        "help connect to family or support"
+      ],
+      "when_to_refer": [
+        "symptoms severe or worsening after 3 days",
+        "suicidal thoughts",
+        "complete inability to function",
+        "psychotic symptoms"
+      ],
+      "coping_strategies": [
+        "focus on immediate safety and basic needs",
+        "slow breathing when overwhelmed",
+        "stay with trusted people",
+        "limit exposure to traumatic reminders",
+        "symptoms often improve naturally in days to weeks"
+      ]
+    },
+    "sexual_trauma": {
+      "name": "Genocidal Sexual Violence",
+      "tigrinya_name": "ጾታዊ ዓመጽ ንዘርኢ-ጥፍኣት",
+      "context": "Sexual violence in Tigray was used systematically as a weapon of genocide - targeting women specifically because they are Tigrayan. Over 120,000 documented cases, estimated 500,000+ total. 80%+ were gang rapes. 90% of survivors receive no support. This was not random violence - perpetrators explicitly stated intent to 'cleanse Tigrayan blood' and destroy reproductive capacity.",
+      "scale_of_violence": {
+        "documented_cases": "120,000+ (local authorities)",
+        "estimated_total": "500,000+ survivors",
+        "prevalence": "1 in 10 women in Tigray subjected to sexual violence",
+        "gang_rape_percentage": "80%+ involved multiple perpetrators",
+        "support_gap": "90% of survivors receive NO support"
+      },
+      "perpetrator_statements_survivors_heard": [
+        "Your womb is our enemy",
+        "We will cleanse Tigrayan blood",
+        "We will make you give birth to Amhara/Eritrean children",
+        "Tigrayans have no history and culture",
+        "You will never give birth to a Tigrayan again",
+        "We want to destroy your identity",
+        "This is what you deserve as a Tigrayan"
+      ],
+      "symptoms": [
+        "flashbacks that feel 'fresh and vivid' even a year later",
+        "feeling like 'head is about to explode'",
+        "getting lost doing routine activities (disorientation)",
+        "nightmares and sleep disturbance",
+        "avoiding people, places, or situations that remind of assault",
+        "feelings of shame about 'secret being exposed' - often worse than assault itself",
+        "difficulty trusting others, especially men",
+        "physical symptoms: vaginal bleeding for months, fistulas, broken teeth",
+        "emotional numbness or feeling disconnected",
+        "anxiety, depression, or anger"
+      ],
+      "danger_signs": [
+        "suicidal thoughts or self-harm",
+        "complete withdrawal from all people",
+        "not eating, drinking, or caring for self",
+        "severe dissociation or flashbacks",
+        "signs of physical injury needing medical care",
+        "HIV symptoms (PEP must be started within 72 hours)",
+        "signs of pregnancy from assault"
+      ],
+      "immediate_support": [
+        "BELIEVE them - say 'I believe you. This was not your fault.'",
+        "acknowledge the ethnic dimension: 'They targeted you because you are Tigrayan - this was genocide'",
+        "let them control the conversation - do not pressure for details",
+        "respect their choices about reporting or not reporting",
+        "ensure physical safety and privacy",
+        "offer practical support without conditions",
+        "maintain strict confidentiality",
+        "validate their identity: 'Your identity was not destroyed by what they did'"
+      ],
+      "do_not": [
+        "do not ask 'why didn't you fight back'",
+        "do not ask about clothing or location",
+        "do not ask about ethnicity of perpetrators initially",
+        "do not say 'at least you survived'",
+        "do not ask if she became pregnant",
+        "do not pressure to report - 80%+ did not report within 72 hours",
+        "do not tell others without explicit permission",
+        "do not compare traumas ('others had it worse')",
+        "do not touch without asking",
+        "do not treat children born of rape differently",
+        "do not suggest forgiveness before they are ready"
+      ],
+      "when_to_refer": [
+        "physical injuries requiring medical attention",
+        "risk of pregnancy - medical care needed",
+        "HIV exposure - PEP must start within 72 hours",
+        "suicidal thoughts or severe self-harm",
+        "severe PTSD symptoms not improving",
+        "fistula or ongoing gynecological issues",
+        "if they request specialized support"
+      ],
+      "coping_strategies": [
+        "healing takes time - there is no 'right' timeline",
+        "you are not to blame for what happened to you",
+        "grounding techniques help during flashbacks: name 5 things you see, 4 you hear, 3 you feel",
+        "choose who to tell and when - you control your story",
+        "physical safety planning if perpetrator is known",
+        "connect with other survivors when ready - you are not alone",
+        "self-care: sleep, eating, gentle movement",
+        "reclaiming identity: speaking Tigrinya, practicing culture = resistance"
+      ],
+      "medical_considerations": {
+        "emergency_timeline": {
+          "pep_for_hiv": "Must start within 72 hours of assault",
+          "emergency_contraception": "Within 72-120 hours",
+          "sti_testing": "Immediate and at 3 months",
+          "pregnancy_testing": "When ready, typically after missed period"
+        },
+        "ongoing_care": [
+          "vaginal bleeding may persist for months - seek care",
+          "fistula repair surgery may be needed",
+          "HIV testing and monitoring",
+          "ongoing gynecological care"
+        ]
+      },
+      "ethnic_identity_healing": [
+        "Your identity was not destroyed by what they did",
+        "Your survival resists their attempt to erase Tigrayans",
+        "Speaking Tigrinya, practicing culture = reclaiming what they tried to take",
+        "Community solidarity is part of healing",
+        "They wanted to destroy your people - your existence is resistance"
+      ],
+      "triple_trauma_burden": "76.5% of survivors experienced sexual + physical + psychological trauma combined"
+    },
+    "pregnancy_from_rape": {
+      "name": "Pregnancy from Sexual Violence",
+      "tigrinya_name": "ጥንሲ ካብ ዓመጽ",
+      "context": "Pregnancy resulting from genocidal rape carries unique trauma - perpetrators explicitly intended to impregnate Tigrayan women with 'enemy' children. Whatever a survivor decides about the pregnancy is HER choice.",
+      "validation": [
+        "This pregnancy does not define you",
+        "Whatever you decide is YOUR choice",
+        "Complex feelings are normal - there is no 'right' way to feel",
+        "You did nothing wrong - this was done TO you",
+        "Feeling conflicted about this pregnancy is completely understandable"
+      ],
+      "medical_options": {
+        "immediate": [
+          "Emergency contraception: effective within 72-120 hours of assault",
+          "Pregnancy testing when you are ready"
+        ],
+        "choices": [
+          "All options are valid choices that only YOU can make",
+          "Continue pregnancy and raise the child",
+          "Continue pregnancy and consider adoption",
+          "Terminate pregnancy if accessible and desired",
+          "Medical care is available without judgment for any choice"
+        ]
+      },
+      "if_continuing_pregnancy": [
+        "You deserve prenatal care and support without judgment",
+        "The child is innocent of how they were conceived",
+        "Complex feelings toward the pregnancy are completely normal",
+        "You can love this child AND grieve what happened - both are true",
+        "Bonding may take time - this is normal after trauma",
+        "You do not owe anyone an explanation about the father"
+      ],
+      "stigma_you_may_face": [
+        "Some husbands abandon wives who were raped - this is THEIR moral failure, not yours",
+        "Some communities reject survivors - they are wrong",
+        "You did nothing to deserve this treatment",
+        "Seeking support is strength, not shame",
+        "The shame belongs to perpetrators, not survivors"
+      ],
+      "support_needs": [
+        "prenatal healthcare without judgment",
+        "mental health support throughout pregnancy",
+        "economic support - many survivors lost everything",
+        "safe housing if rejected by family",
+        "legal support for birth registration",
+        "long-term follow-up for mother and child"
+      ]
+    },
+    "children_born_of_rape": {
+      "name": "Children Born of Sexual Violence",
+      "tigrinya_name": "ቆልዑ ዝተወለዱ ካብ ዓመጽ",
+      "context": "In Tigray, children born from genocidal rape face unique challenges. Research from Rwanda shows that mother-child relationships can heal with proper support. These children are victims too and deserve full community inclusion.",
+      "for_mothers": [
+        "Complex feelings (love, resentment, grief) are ALL normal",
+        "Seeing perpetrator's features in child can trigger flashbacks - this is trauma, not failure as a mother",
+        "You can love your child AND hate how they were conceived",
+        "Open communication (when age-appropriate) helps healing - Rwanda research shows this",
+        "Economic support is critical - seek help without shame",
+        "Bonding may take time and that is okay",
+        "Getting support for yourself helps you support your child"
+      ],
+      "for_community_helpers": [
+        "These children are victims too - never blame them",
+        "Never call them 'rape babies' or 'children of the enemy'",
+        "Boys often face more stigma (seen as 'potential criminals like fathers') - this is wrong and harmful",
+        "Support the mother-child bond actively",
+        "Both mother and child need long-term support, not one-time assistance",
+        "Include these families fully in community activities",
+        "Challenge stigmatizing language when you hear it"
+      ],
+      "for_the_children": [
+        "How you were conceived does not define who you are",
+        "You are not your biological father",
+        "Your mother's love for you is real, even if complicated",
+        "You deserve full community inclusion and recognition",
+        "Your identity is Tigrayan - no one can take that from you",
+        "You have the right to know your story when you are ready"
+      ],
+      "identity_development": [
+        "Children may ask about their fathers - prepare honest, age-appropriate answers",
+        "Tigrayan identity can be affirmed regardless of biological father",
+        "Community acceptance is crucial for healthy identity",
+        "Counseling support for both mother and child as child grows"
+      ]
+    },
+    "hal_circles": {
+      "name": "HAL Circles (Helpful Active Listening)",
+      "tigrinya_name": "ዓንኬላታት HAL",
+      "origin": "Developed after Rwanda genocide, successfully adapted for Tigray by survivor-facilitators",
+      "how_it_works": [
+        "Women-to-women groups of 10 survivors",
+        "Facilitators are survivors themselves (trained for 5 days)",
+        "6 sessions over 3 months, approximately 3 hours each",
+        "Focus on understanding trauma RESPONSES, NOT retelling assault details",
+        "Uses cultural metaphors (e.g., 'bent stick' for psychological breaking)",
+        "Sessions held in safe, private community spaces"
+      ],
+      "key_principles": [
+        "You are not alone - the core message",
+        "Trauma responses are NORMAL reactions to abnormal events",
+        "Peer support from those who truly understand",
+        "No pressure to share details of what happened",
+        "Regaining sense of control and agency",
+        "Community healing alongside individual healing"
+      ],
+      "what_helps": [
+        "Knowing you are not alone in your experiences",
+        "Learning that trauma responses (flashbacks, nightmares, shame) are NORMAL",
+        "Peer support from those who truly understand without explanation",
+        "Practical coping strategies that work",
+        "Regaining sense of control over your own story"
+      ],
+      "outcomes": [
+        "Reduced PTSD symptoms",
+        "Less self-blame and shame",
+        "Better family relationships",
+        "Increased community participation",
+        "Ability to support other survivors",
+        "Restored sense of hope and future"
+      ],
+      "cultural_metaphors_used": {
+        "bent_stick": "Psychological breaking that can be straightened with care",
+        "community_fire": "Healing warmth that comes from gathering together",
+        "shared_water": "Tears and stories that flow between survivors"
+      }
+    }
+  },
+  "crisis_intervention": {
+    "suicidal_thoughts": {
+      "name": "Suicide Risk",
+      "tigrinya_name": "ሓሳብ ገዛእ ነብሲ ምቕታል",
+      "recognition": [
+        "talking about wanting to die or kill self",
+        "looking for ways to harm self",
+        "talking about being a burden to others",
+        "feeling hopeless or having no reason to live",
+        "giving away possessions",
+        "saying goodbye to people",
+        "increased alcohol or drug use"
+      ],
+      "immediate_action": [
+        "take all talk of suicide seriously",
+        "ask directly: 'Are you thinking of hurting yourself?'",
+        "listen without judgment",
+        "do not leave person alone if immediate risk",
+        "remove access to means (weapons, pills, rope)",
+        "help create safety plan with trusted contacts",
+        "connect to professional help urgently"
+      ],
+      "do_not": [
+        "do not promise to keep suicidal plans secret",
+        "do not leave high-risk person alone",
+        "do not judge or lecture",
+        "do not challenge or dare them",
+        "do not minimize their pain"
+      ],
+      "safety_planning": [
+        "identify warning signs person notices in self",
+        "list coping strategies that help",
+        "identify 2-3 people to contact for support",
+        "remove or secure means of self-harm",
+        "identify professional resources"
+      ]
+    },
+    "panic_attack": {
+      "name": "Panic Attack",
+      "tigrinya_name": "ድንገተኛ ፍርሒ",
+      "recognition": [
+        "sudden intense fear or discomfort",
+        "racing heart, chest pain",
+        "shortness of breath",
+        "trembling or shaking",
+        "feeling of choking",
+        "dizziness or lightheadedness",
+        "fear of dying or losing control"
+      ],
+      "immediate_action": [
+        "stay calm and speak slowly",
+        "reassure: 'This will pass, you are safe'",
+        "guide slow breathing: in for 4, out for 6",
+        "use grounding: 'tell me 5 things you see'",
+        "stay with person until symptoms reduce",
+        "do not dismiss or minimize experience"
+      ],
+      "after_care": [
+        "encourage rest",
+        "discuss what may have triggered it",
+        "teach breathing techniques to use",
+        "refer if panic attacks are frequent"
+      ]
+    },
+    "dissociation": {
+      "name": "Dissociation/Flashback",
+      "tigrinya_name": "ምፍላይ ካብ ሓቂ",
+      "recognition": [
+        "person seems 'frozen' or unresponsive",
+        "staring blankly, not aware of surroundings",
+        "reliving a past traumatic event",
+        "confusion about where they are",
+        "may not recognize familiar people",
+        "rapid breathing or sweating"
+      ],
+      "immediate_action": [
+        "speak calmly using their name",
+        "use grounding: 'You are safe. You are in [location]'",
+        "ask to describe room: colors, objects",
+        "encourage slow breathing",
+        "ask to feel feet on floor, hands on chair",
+        "do not touch without permission",
+        "stay present until they return to awareness"
+      ]
+    }
+  },
+  "psychological_first_aid": {
+    "principles": ["Look", "Listen", "Link"],
+    "look": [
+      "check for safety and ongoing threats",
+      "observe who may need help",
+      "identify physical injuries needing care",
+      "notice signs of acute distress",
+      "observe basic needs: shelter, food, water"
+    ],
+    "listen": [
+      "approach person respectfully",
+      "ask about needs and concerns",
+      "listen actively without interrupting",
+      "accept their feelings without judgment",
+      "help person feel calm using grounding",
+      "do not pressure to talk about what happened"
+    ],
+    "link": [
+      "help access basic needs (food, water, shelter)",
+      "connect to family and social support",
+      "provide information about available services",
+      "help solve immediate practical problems",
+      "link to professional help if needed"
+    ],
+    "do_not_do": [
+      "do not force people to share their story",
+      "do not make promises you cannot keep",
+      "do not tell them how they should feel",
+      "do not give simple reassurances like 'it will be fine'",
+      "do not tell your own story instead of listening"
+    ]
+  },
+  "coping_strategies": {
+    "grounding_techniques": {
+      "name": "Grounding (For Flashbacks/Panic)",
+      "tigrinya_name": "ምርግጋእ",
+      "five_senses": [
+        "5 things you can SEE",
+        "4 things you can TOUCH",
+        "3 things you can HEAR",
+        "2 things you can SMELL",
+        "1 thing you can TASTE"
+      ],
+      "physical_grounding": [
+        "press feet firmly into floor",
+        "hold an ice cube or cold water",
+        "stretch arms overhead",
+        "splash cold water on face",
+        "describe your surroundings out loud"
+      ]
+    },
+    "breathing_exercises": {
+      "name": "Breathing Exercises",
+      "tigrinya_name": "ስልጣን ምስላን",
+      "slow_breathing": [
+        "breathe in slowly through nose for 4 counts",
+        "hold for 1-2 counts",
+        "breathe out slowly through mouth for 6 counts",
+        "repeat 5-10 times",
+        "focus only on breath"
+      ],
+      "belly_breathing": [
+        "place one hand on chest, one on belly",
+        "breathe in so belly rises (not chest)",
+        "breathe out slowly, belly falls",
+        "repeat for 2-5 minutes"
+      ]
+    },
+    "social_connection": {
+      "name": "Social Connection",
+      "tigrinya_name": "ማሕበራዊ ምትእስሳር",
+      "strategies": [
+        "identify 2-3 trusted people to talk to",
+        "spend time with family even if quiet",
+        "participate in community or religious activities",
+        "help others as able - helping heals",
+        "avoid isolation even when wanting to withdraw"
+      ]
+    },
+    "daily_routine": {
+      "name": "Daily Routine",
+      "tigrinya_name": "መዓልታዊ ስርዓት",
+      "importance": "Routine provides stability during crisis",
+      "elements": [
+        "wake at consistent time each day",
+        "eat regular meals even if small",
+        "include physical activity (walking)",
+        "do one meaningful activity daily",
+        "consistent sleep time"
+      ]
+    },
+    "sleep_hygiene": {
+      "name": "Sleep Improvement",
+      "tigrinya_name": "ጽቡቕ ድቃስ",
+      "strategies": [
+        "consistent sleep and wake times",
+        "avoid coffee after midday",
+        "wind down 1 hour before bed",
+        "keep room dark and quiet",
+        "if nightmares, keep light nearby",
+        "avoid alcohol to sleep"
+      ]
+    }
+  },
+  "stigma_reduction": {
+    "common_myths": [
+      "mental illness is a sign of weakness",
+      "people with mental illness are dangerous",
+      "mental illness is caused by spirits or curses",
+      "depression means you are not faithful enough",
+      "talking about suicide gives people ideas",
+      "children cannot have mental health problems"
+    ],
+    "sexual_violence_myths": [
+      "MYTH: She could have prevented it if she fought harder",
+      "FACT: Freeze response is a normal survival mechanism - many cannot fight or flee",
+      "MYTH: She brought it on herself by her clothing or behavior",
+      "FACT: Rape is about power and violence, not attraction. Perpetrators chose to attack.",
+      "MYTH: A 'good' woman would die rather than be raped",
+      "FACT: Survival is strength. Living to tell the story is resistance.",
+      "MYTH: If she became pregnant, she must have enjoyed it",
+      "FACT: Pregnancy is a biological response that can occur during any sexual act, including violent assault",
+      "MYTH: Children born of rape carry the father's evil",
+      "FACT: Children are innocent of how they were conceived. They are victims too."
+    ],
+    "facts": [
+      "mental illness is a medical condition like diabetes",
+      "1 in 4 people experience mental health problems",
+      "treatment helps most people recover or improve",
+      "mental illness affects all families, all communities",
+      "trauma can affect anyone - it is not weakness",
+      "asking about suicide reduces risk, does not increase it",
+      "rape survivors did nothing to cause their assault",
+      "seeking help after trauma is strength, not shame"
+    ],
+    "how_to_talk": [
+      "use person-first language: 'person with depression'",
+      "avoid words like 'crazy' or 'mad'",
+      "share that seeking help shows strength",
+      "emphasize that healing is possible",
+      "reduce shame by normalizing struggles"
+    ],
+    "how_to_support_rape_survivors": [
+      "believe them - do not question their account",
+      "say 'I believe you. This was not your fault.'",
+      "do not ask for details of the assault",
+      "respect their choices about reporting",
+      "maintain confidentiality",
+      "offer practical help without conditions",
+      "acknowledge the ethnic/genocidal dimension",
+      "do not tell them to forgive before they are ready"
+    ],
+    "community_approach": [
+      "mental health is everyone's responsibility",
+      "support networks protect mental health",
+      "traditional practices can complement treatment",
+      "reduce barriers to seeking help",
+      "create safe spaces to discuss struggles",
+      "welcome survivors and their children back into community",
+      "challenge stigmatizing language about rape survivors",
+      "support peer-led healing circles"
+    ]
+  },
+  "special_populations": {
+    "children": {
+      "symptoms_different": [
+        "may not describe feelings verbally",
+        "may show distress through behavior (tantrums)",
+        "regression to younger behaviors (bedwetting)",
+        "physical complaints (stomach aches)",
+        "changes in play or school performance"
+      ],
+      "support_strategies": [
+        "maintain routines as much as possible",
+        "provide honest, age-appropriate information",
+        "allow expression through play and drawing",
+        "physical comfort and reassurance",
+        "limit exposure to distressing content"
+      ]
+    },
+    "survivors_of_violence": {
+      "key_considerations": [
+        "ensure physical safety first",
+        "respect confidentiality strictly",
+        "believe and validate their experience",
+        "support their choices and autonomy",
+        "do not pressure to report if not ready"
+      ],
+      "support_approach": [
+        "ask how you can help",
+        "provide information about options",
+        "connect to specialized services if available",
+        "maintain long-term supportive relationship"
+      ]
+    },
+    "caregivers": {
+      "importance": "Caregivers need support too",
+      "self_care": [
+        "you cannot help others if depleted",
+        "take breaks when possible",
+        "share caring responsibilities",
+        "acknowledge your own feelings",
+        "seek support for yourself"
+      ]
+    }
+  },
+  "local_resources": {
+    "note": "Resources for Tigray region mental health and sexual violence support",
+    "sexual_violence_services": {
+      "medical": [
+        "health centers can provide PEP (HIV prevention) - must start within 72 hours",
+        "emergency contraception available within 72-120 hours",
+        "fistula repair available at some hospitals",
+        "STI testing and treatment"
+      ],
+      "psychosocial": [
+        "HAL Circles - peer support groups for survivors (ask at health centers)",
+        "one-stop centers where available",
+        "community health workers trained in PFA",
+        "women's associations may have support programs"
+      ],
+      "practical": [
+        "economic support programs for survivors",
+        "legal aid for those who choose to report",
+        "safe housing when needed",
+        "child support services"
+      ]
+    },
+    "general_guidance": [
+      "health centers may have mental health services",
+      "community health workers can provide first support",
+      "religious leaders often provide counseling",
+      "NGOs may have specialized programs",
+      "peer support from others with similar experiences",
+      "HAL Circles specifically for sexual violence survivors"
+    ],
+    "when_professional_needed": [
+      "suicidal thoughts or self-harm",
+      "psychosis (losing touch with reality)",
+      "severe symptoms not improving",
+      "unable to care for self or dependents",
+      "medication may be needed",
+      "physical injuries from assault",
+      "HIV exposure (urgent - within 72 hours)",
+      "pregnancy from assault"
+    ],
+    "key_organizations": {
+      "unfpa": "UN Population Fund - sexual violence response",
+      "who": "World Health Organization - mental health guidelines",
+      "hal_circles": "Community-based peer support for survivors"
+    }
+  }
+}
