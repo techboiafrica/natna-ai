@@ -6,7 +6,7 @@ NATNA is a self-contained AI education platform that runs entirely offline. It c
 
 Built for communities with limited or no internet access.
 
-![Desktop Dashboard](docs/images/desktop-dashboard.jpeg)
+![Desktop Dashboard](docs/images/desktop-dashboard.png)
 
 ### Mobile Demo
 
