@@ -1,0 +1,355 @@
+{
+  "metadata": {
+    "created": "2025-12-30T01:12:39.992011",
+    "source": "Parabl Medical Knowledge System",
+    "version": "1.0",
+    "focus": "Tigray Region Healthcare"
+  },
+  "symptoms": {
+    "fever": {
+      "possible_causes": [
+        "malaria",
+        "typhoid",
+        "pneumonia",
+        "viral_infection"
+      ],
+      "immediate_care": [
+        "Paracetamol 500mg every 6 hours",
+        "Oral rehydration solution",
+        "Sponge with lukewarm water",
+        "Seek medical care if fever >39°C or persists >3 days"
+      ],
+      "danger_signs": [
+        "convulsions",
+        "difficulty_breathing",
+        "severe_headache",
+        "neck_stiffness"
+      ]
+    },
+    "diarrhea": {
+      "possible_causes": [
+        "cholera",
+        "typhoid",
+        "food_poisoning",
+        "dysentery"
+      ],
+      "immediate_care": [
+        "Oral Rehydration Solution (ORS)",
+        "Continue breastfeeding if infant",
+        "Zinc supplementation for children",
+        "BRAT diet (banana, rice, apple, toast)"
+      ],
+      "danger_signs": [
+        "blood_in_stool",
+        "severe_dehydration",
+        "high_fever",
+        "continuous_vomiting"
+      ]
+    },
+    "cough": {
+      "possible_causes": [
+        "tuberculosis",
+        "pneumonia",
+        "bronchitis",
+        "asthma"
+      ],
+      "immediate_care": [
+        "Honey for sore throat",
+        "Steam inhalation",
+        "Adequate fluid intake",
+        "Rest"
+      ],
+      "danger_signs": [
+        "blood_in_sputum",
+        "difficulty_breathing",
+        "chest_pain",
+        "weight_loss"
+      ]
+    },
+    "headache": {
+      "possible_causes": [
+        "malaria",
+        "typhoid",
+        "meningitis",
+        "dehydration",
+        "hypertension"
+      ],
+      "immediate_care": [
+        "Paracetamol 500mg",
+        "Rest in quiet, dark room",
+        "Adequate hydration",
+        "Cool compress"
+      ],
+      "danger_signs": [
+        "neck_stiffness",
+        "fever",
+        "vomiting",
+        "confusion",
+        "vision_changes"
+      ]
+    }
+  },
+  "conditions": {},
+  "medications": {
+    "paracetamol": {
+      "uses": [
+        "fever",
+        "pain",
+        "headache"
+      ],
+      "adult_dose": "500-1000mg every 6 hours, max 4g/day",
+      "child_dose": "10-15mg/kg every 6 hours",
+      "precautions": [
+        "Avoid in liver disease",
+        "Do not exceed maximum dose"
+      ],
+      "availability": "Usually available"
+    },
+    "artemether_lumefantrine": {
+      "uses": [
+        "uncomplicated malaria"
+      ],
+      "adult_dose": "4 tablets twice daily for 3 days with food",
+      "child_dose": "Weight-based dosing",
+      "precautions": [
+        "Take with fatty food",
+        "Complete full course"
+      ],
+      "availability": "First-line malaria treatment"
+    },
+    "amoxicillin": {
+      "uses": [
+        "pneumonia",
+        "ear_infections",
+        "skin_infections"
+      ],
+      "adult_dose": "500mg three times daily",
+      "child_dose": "40-50mg/kg/day in 3 divided doses",
+      "precautions": [
+        "Avoid if penicillin allergy",
+        "Complete full course"
+      ],
+      "availability": "Common antibiotic"
+    },
+    "ors": {
+      "uses": [
+        "diarrhea",
+        "dehydration",
+        "vomiting"
+      ],
+      "preparation": "1 packet in 1 liter clean water",
+      "administration": "Small frequent sips, continue feeding",
+      "precautions": [
+        "Use within 24 hours",
+        "Continue until diarrhea stops"
+      ],
+      "availability": "Should be widely available"
+    }
+  },
+  "emergency_procedures": {
+    "severe_malaria": {
+      "recognition": [
+        "unconsciousness",
+        "convulsions",
+        "severe_anemia",
+        "difficulty_breathing"
+      ],
+      "immediate_action": [
+        "Clear airway",
+        "Position patient on side",
+        "Give rectal artesunate if available",
+        "Cool with wet cloths",
+        "Transport to hospital immediately"
+      ]
+    },
+    "severe_dehydration": {
+      "recognition": [
+        "sunken_eyes",
+        "dry_mouth",
+        "skin_pinch_slow",
+        "weakness"
+      ],
+      "immediate_action": [
+        "Give ORS frequently",
+        "If unable to drink, give IV fluids if trained",
+        "Monitor urine output",
+        "Seek medical care"
+      ]
+    },
+    "respiratory_distress": {
+      "recognition": [
+        "fast_breathing",
+        "chest_retractions",
+        "blue_lips",
+        "inability_to_speak"
+      ],
+      "immediate_action": [
+        "Position upright",
+        "Clear airway",
+        "Give oxygen if available",
+        "Salbutamol inhaler if asthma",
+        "Transport immediately"
+      ]
+    },
+    "severe_bleeding": {
+      "recognition": [
+        "rapid_blood_loss",
+        "weakness",
+        "pale_skin",
+        "rapid_pulse"
+      ],
+      "immediate_action": [
+        "Apply direct pressure",
+        "Elevate bleeding part if possible",
+        "Use pressure points",
+        "Prevent shock - elevate legs",
+        "Transport immediately"
+      ]
+    }
+  },
+  "preventive_care": {
+    "vaccination_schedule": {
+      "infants": {
+        "birth": [
+          "BCG",
+          "Hepatitis_B"
+        ],
+        "6_weeks": [
+          "DPT1",
+          "Polio1",
+          "PCV1"
+        ],
+        "10_weeks": [
+          "DPT2",
+          "Polio2",
+          "PCV2"
+        ],
+        "14_weeks": [
+          "DPT3",
+          "Polio3",
+          "PCV3"
+        ],
+        "9_months": [
+          "Measles1"
+        ],
+        "15_months": [
+          "Measles2"
+        ]
+      }
+    },
+    "nutrition_guidelines": {
+      "breastfeeding": [
+        "Exclusive breastfeeding 0-6 months",
+        "Continue breastfeeding up to 2 years",
+        "Start complementary foods at 6 months"
+      ],
+      "malnutrition_prevention": [
+        "Diverse diet with vegetables, grains, proteins",
+        "Vitamin A supplementation",
+        "Iron supplementation for pregnant women",
+        "Monitor child growth"
+      ]
+    },
+    "malaria_prevention": {
+      "bed_nets": "Use insecticide-treated nets every night",
+      "environment": "Eliminate standing water around home",
+      "clothing": "Wear long sleeves and pants at dusk",
+      "treatment": "Seek immediate care for any fever"
+    }
+  },
+  "regional_diseases": {
+    "malaria": {
+      "name": "Malaria",
+      "prevalence": "Very High in Tigray",
+      "symptoms": [
+        "fever",
+        "chills",
+        "headache",
+        "nausea",
+        "muscle_pain"
+      ],
+      "prevention": [
+        "Use mosquito nets",
+        "Eliminate standing water",
+        "Use insect repellent",
+        "Seek immediate treatment for fever"
+      ],
+      "treatment": [
+        "Artemether-lumefantrine (Coartem) - first line",
+        "Oral rehydration therapy",
+        "Paracetamol for fever",
+        "Seek medical care immediately"
+      ],
+      "complications": [
+        "cerebral malaria",
+        "severe anemia",
+        "organ failure"
+      ],
+      "emergency_signs": [
+        "convulsions",
+        "unconsciousness",
+        "severe weakness",
+        "difficulty breathing"
+      ]
+    },
+    "visceral_leishmaniasis": {
+      "name": "Visceral Leishmaniasis (Kala-azar)",
+      "prevalence": "Endemic in Tigray",
+      "symptoms": [
+        "prolonged fever",
+        "weight_loss",
+        "enlarged_spleen",
+        "anemia"
+      ],
+      "transmission": "Sandfly bites",
+      "prevention": [
+        "Use bed nets",
+        "Avoid outdoor activities at dusk/dawn",
+        "Use protective clothing"
+      ],
+      "treatment": [
+        "Amphotericin B (requires hospital)",
+        "Miltefosine (oral option)",
+        "Supportive care for anemia"
+      ]
+    },
+    "cutaneous_leishmaniasis": {
+      "name": "Cutaneous Leishmaniasis",
+      "prevalence": "Present in Tigray",
+      "symptoms": [
+        "skin_ulcers",
+        "nodules",
+        "slow_healing_wounds"
+      ],
+      "prevention": [
+        "sandfly protection",
+        "wound care"
+      ],
+      "treatment": [
+        "topical paromomycin",
+        "wound cleaning",
+        "antibiotic if infected"
+      ]
+    },
+    "respiratory_infections": {
+      "name": "Acute Respiratory Infections",
+      "prevalence": "Rising outbreak in Tigray",
+      "symptoms": [
+        "cough",
+        "fever",
+        "difficulty_breathing",
+        "chest_pain"
+      ],
+      "treatment": [
+        "Amoxicillin for bacterial infections",
+        "Supportive care",
+        "Oxygen if available"
+      ],
+      "prevention": [
+        "vaccination",
+        "hygiene",
+        "avoid crowding"
+      ]
+    }
+  }
+}

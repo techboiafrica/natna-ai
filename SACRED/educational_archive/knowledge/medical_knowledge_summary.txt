@@ -1,0 +1,19 @@
+Parabl Medical Knowledge Database - Summary
+=============================================
+
+Created: 2025-12-30T01:12:39.992011
+Total entries: 23
+
+Categories:
+  symptoms: 4 entries
+  conditions: 0 entries
+  medications: 4 entries
+  emergency_procedures: 4 entries
+  preventive_care: 3 entries
+  regional_diseases: 4 entries
+
+Sample Content:
+Regional Diseases: malaria, visceral_leishmaniasis, respiratory_infections
+Symptoms: fever, diarrhea, cough, headache
+Medications: paracetamol, artemether_lumefantrine, amoxicillin, ORS
+Emergencies: severe_malaria, dehydration, respiratory_distress

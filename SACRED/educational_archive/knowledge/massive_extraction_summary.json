@@ -1,0 +1,20 @@
+{
+  "extraction_type": "massive_educational",
+  "category_groups": [
+    "math_science_tech",
+    "agriculture_environment",
+    "basic_education",
+    "advanced_education",
+    "professional_technical"
+  ],
+  "results": {
+    "math_science_tech": 14274,
+    "agriculture_environment": 479,
+    "basic_education": 165,
+    "advanced_education": 345,
+    "professional_technical": 83
+  },
+  "total_articles": 15346,
+  "extraction_date": "2026-01-24 18:36:38",
+  "databases_location": "/Volumes/Natna v1/NATNA AI/SACRED/educational_archive/knowledge"
+}

@@ -1,0 +1,45 @@
+# === NATNA AI .gitignore ===
+# Databases are hosted on Hugging Face, not GitHub
+educational_archive/knowledge/*.db
+educational_archive/knowledge/*.db-shm
+educational_archive/knowledge/*.db-wal
+educational_archive/knowledge/*.ndjson.gz
+organized_data/databases/*.db
+organized_data/databases/*.db-shm
+organized_data/databases/*.db-wal
+organized_data/curriculum_cache/*.db
+
+# Runtime (downloaded by installer)
+runtime/
+models/
+
+# Training data (development only)
+All_corpus_training_data/
+
+# Helsinki EN->TI model (optional, hosted on HF)
+en_to_ti_model/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+._*
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+organized_data/config/natna_conversations.log
+organized_data/config/startup.log
+organized_data/config/import_progress.log
+organized_data/config/nllb_import.log
+
+# Claude / dev session artifacts
+.claude/

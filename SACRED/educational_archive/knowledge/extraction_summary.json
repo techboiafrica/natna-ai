@@ -1,0 +1,13 @@
+{
+  "domains": [
+    "mathematics",
+    "science",
+    "technology",
+    "agriculture",
+    "education",
+    "higher_education"
+  ],
+  "total_articles": 9678,
+  "extraction_date": "2026-01-24 18:13:33",
+  "databases_location": "/Volumes/Natna v1/NATNA AI/SACRED/educational_archive/knowledge"
+}

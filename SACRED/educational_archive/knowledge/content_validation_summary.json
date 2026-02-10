@@ -1,0 +1,213 @@
+{
+  "validation_date": "2026-01-24 22:07:46",
+  "total_databases": 3,
+  "total_articles": 200,
+  "tigray_relevant_articles": 86,
+  "tigray_percentage": 43.0,
+  "database_details": [
+    {
+      "database": "african_geography_demo_educational_wikipedia.db",
+      "total_articles": 78,
+      "tigray_relevant": 39,
+      "high_quality": 0,
+      "word_stats": {
+        "average": 153.7,
+        "maximum": 442,
+        "minimum": 51
+      },
+      "score_stats": {
+        "average": 1.36,
+        "maximum": 5.0
+      },
+      "top_articles": [
+        {
+          "title": "Geography of Ethiopia",
+          "words": 165,
+          "score": 5.0,
+          "tigray_relevant": true,
+          "quality": "low"
+        },
+        {
+          "title": "Ethiopian Highlands",
+          "words": 166,
+          "score": 4.0,
+          "tigray_relevant": true,
+          "quality": "low"
+        },
+        {
+          "title": "Alu (Ethiopia)",
+          "words": 57,
+          "score": 4.0,
+          "tigray_relevant": true,
+          "quality": "low"
+        },
+        {
+          "title": "Grand Ethiopian Renaissance Dam",
+          "words": 320,
+          "score": 4.0,
+          "tigray_relevant": true,
+          "quality": "medium"
+        },
+        {
+          "title": "Church forests of Ethiopia",
+          "words": 135,
+          "score": 4.0,
+          "tigray_relevant": true,
+          "quality": "low"
+        }
+      ],
+      "tigray_content": [
+        {
+          "title": "Geography of Ethiopia",
+          "words": 165,
+          "score": 5.0
+        },
+        {
+          "title": "Ethiopian Highlands",
+          "words": 166,
+          "score": 4.0
+        },
+        {
+          "title": "Alu (Ethiopia)",
+          "words": 57,
+          "score": 4.0
+        }
+      ]
+    },
+    {
+      "database": "african_history_demo_educational_wikipedia.db",
+      "total_articles": 75,
+      "tigray_relevant": 45,
+      "high_quality": 0,
+      "word_stats": {
+        "average": 182.7,
+        "maximum": 695,
+        "minimum": 51
+      },
+      "score_stats": {
+        "average": 2.07,
+        "maximum": 5.0
+      },
+      "top_articles": [
+        {
+          "title": "Ethiopian Empire",
+          "words": 612,
+          "score": 5.0,
+          "tigray_relevant": true,
+          "quality": "medium"
+        },
+        {
+          "title": "History of Ethiopia",
+          "words": 269,
+          "score": 5.0,
+          "tigray_relevant": true,
+          "quality": "low"
+        },
+        {
+          "title": "Kingdom of Aksum",
+          "words": 490,
+          "score": 5.0,
+          "tigray_relevant": true,
+          "quality": "medium"
+        },
+        {
+          "title": "Economy of the Ethiopian Empire",
+          "words": 306,
+          "score": 5.0,
+          "tigray_relevant": true,
+          "quality": "medium"
+        },
+        {
+          "title": "Government of the Ethiopian Empire",
+          "words": 123,
+          "score": 5.0,
+          "tigray_relevant": true,
+          "quality": "low"
+        }
+      ],
+      "tigray_content": [
+        {
+          "title": "Ethiopian Empire",
+          "words": 612,
+          "score": 5.0
+        },
+        {
+          "title": "History of Ethiopia",
+          "words": 269,
+          "score": 5.0
+        },
+        {
+          "title": "Kingdom of Aksum",
+          "words": 490,
+          "score": 5.0
+        }
+      ]
+    },
+    {
+      "database": "arab_world_demo_educational_wikipedia.db",
+      "total_articles": 47,
+      "tigray_relevant": 2,
+      "high_quality": 0,
+      "word_stats": {
+        "average": 187.1,
+        "maximum": 475,
+        "minimum": 54
+      },
+      "score_stats": {
+        "average": 1.09,
+        "maximum": 2.0
+      },
+      "top_articles": [
+        {
+          "title": "Berber languages",
+          "words": 388,
+          "score": 2.0,
+          "tigray_relevant": false,
+          "quality": "medium"
+        },
+        {
+          "title": "History of Kuwait",
+          "words": 64,
+          "score": 2.0,
+          "tigray_relevant": false,
+          "quality": "low"
+        },
+        {
+          "title": "Geography of Mesopotamia",
+          "words": 137,
+          "score": 2.0,
+          "tigray_relevant": false,
+          "quality": "low"
+        },
+        {
+          "title": "Science in the medieval Islamic world",
+          "words": 239,
+          "score": 2.0,
+          "tigray_relevant": false,
+          "quality": "low"
+        },
+        {
+          "title": "Anbar (town)",
+          "words": 90,
+          "score": 1.0,
+          "tigray_relevant": false,
+          "quality": "low"
+        }
+      ],
+      "tigray_content": [
+        {
+          "title": "Ichthyophagi",
+          "words": 264,
+          "score": 1.0
+        },
+        {
+          "title": "Gulf airlines",
+          "words": 232,
+          "score": 1.0
+        }
+      ]
+    }
+  ],
+  "extraction_success": true,
+  "quality_assessment": "Educational content successfully extracted with proper Tigray/Ethiopia emphasis"
+}

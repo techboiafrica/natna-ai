@@ -1,0 +1,356 @@
+{
+  "metadata": {
+    "created": "2025-12-30T07:30:00Z",
+    "source": "Tigray Technical Knowledge System",
+    "version": "1.0",
+    "focus": "Practical Repair, Solar, Water, Engineering for Tigray"
+  },
+  "solar_systems": {
+    "basic_solar_setup": {
+      "components": {
+        "solar_panels": {
+          "types": ["Monocrystalline", "Polycrystalline"],
+          "sizing": "Calculate: Daily power needs ÷ 4 hours average sun = Panel wattage needed",
+          "installation": [
+            "Mount panels facing south at 15° angle",
+            "Avoid shading between 9 AM - 3 PM",
+            "Secure mounting to withstand wind",
+            "Leave 2-inch gaps around panels for airflow"
+          ],
+          "maintenance": [
+            "Clean panels weekly with soft cloth and water",
+            "Check connections monthly for corrosion",
+            "Inspect mounting hardware quarterly",
+            "Trim vegetation that creates shade"
+          ]
+        },
+        "batteries": {
+          "types": ["Lead-acid (gel/AGM)", "Lithium (LiFePO4)"],
+          "sizing": "Daily power needs × 3 days autonomy ÷ 50% depth of discharge",
+          "maintenance": [
+            "Check voltage monthly with multimeter",
+            "Clean terminals and apply petroleum jelly",
+            "Ensure proper ventilation for lead-acid",
+            "Replace if voltage drops below 50% capacity"
+          ],
+          "safety": [
+            "Always disconnect negative terminal first",
+            "Use insulated tools only",
+            "Store in cool, dry location",
+            "Never short-circuit terminals"
+          ]
+        },
+        "charge_controllers": {
+          "types": ["PWM (cheaper)", "MPPT (more efficient)"],
+          "wiring": [
+            "Connect battery first, then solar panel",
+            "Use proper wire gauge for current capacity",
+            "Install fuse between battery and controller",
+            "Mount in shaded, ventilated location"
+          ],
+          "troubleshooting": [
+            "No charging: Check panel connections and fuse",
+            "Overcharging: Verify controller settings",
+            "Battery not full: Check panel output voltage",
+            "Error lights: Consult manual for error codes"
+          ]
+        },
+        "inverters": {
+          "sizing": "Sum of all AC loads × 1.25 safety factor",
+          "installation": [
+            "Install close to batteries (short DC cables)",
+            "Use proper ventilation - inverters generate heat",
+            "Connect AC output through transfer switch",
+            "Install DC disconnect switch for safety"
+          ],
+          "common_problems": [
+            "Low voltage alarm: Check battery voltage",
+            "Overload alarm: Reduce connected loads",
+            "Overheating: Improve ventilation",
+            "No output: Check DC input fuse"
+          ]
+        }
+      },
+      "system_troubleshooting": {
+        "no_power_generation": [
+          "Check if panels are clean and unshaded",
+          "Verify all connections are tight",
+          "Test panel output voltage with multimeter",
+          "Check fuses and circuit breakers"
+        ],
+        "battery_not_charging": [
+          "Test charge controller with multimeter",
+          "Verify battery bank connections",
+          "Check for sulfated batteries (white deposits)",
+          "Ensure proper controller settings"
+        ],
+        "inverter_issues": [
+          "Check DC voltage at inverter input",
+          "Verify AC load is within inverter capacity",
+          "Test cooling fan operation",
+          "Reset inverter after addressing issues"
+        ]
+      }
+    },
+    "lighting_systems": {
+      "led_lighting": {
+        "advantages": ["Low power consumption", "Long life", "Instant on"],
+        "installation": [
+          "Use 12V DC LED strips for efficiency",
+          "Install switches on positive wire",
+          "Use appropriate wire gauge for run length",
+          "Protect connections from moisture"
+        ],
+        "troubleshooting": [
+          "Dim lights: Check battery voltage",
+          "Flickering: Verify connections",
+          "No light: Test with multimeter for continuity"
+        ]
+      },
+      "fluorescent_vs_led": {
+        "power_comparison": "LED uses 80% less power than fluorescent",
+        "replacement": "Retrofit existing fixtures with LED tubes"
+      }
+    }
+  },
+  "water_systems": {
+    "hand_pumps": {
+      "types": ["India Mark II", "Afridev", "Play Pump"],
+      "maintenance": [
+        "Lubricate moving parts monthly",
+        "Check pump head bolts quarterly",
+        "Inspect pump rod for wear",
+        "Replace seals annually"
+      ],
+      "common_repairs": {
+        "no_water": [
+          "Check if pump rod is broken",
+          "Verify cylinder is properly seated",
+          "Test for air leaks in rising main",
+          "Prime pump if necessary"
+        ],
+        "low_water_flow": [
+          "Check for worn cylinder seals",
+          "Inspect pump rod coupling",
+          "Clear blockages in foot valve",
+          "Adjust pump stroke length"
+        ],
+        "hard_pumping": [
+          "Lubricate pump head mechanism",
+          "Check for sand in cylinder",
+          "Verify proper pump rod alignment",
+          "Replace worn bearings"
+        ]
+      }
+    },
+    "water_storage": {
+      "tank_maintenance": [
+        "Clean tanks every 6 months",
+        "Inspect for cracks and leaks",
+        "Check inlet/outlet connections",
+        "Maintain proper chlorination"
+      ],
+      "pipe_repairs": {
+        "pvc_pipes": [
+          "Cut damaged section with pipe cutter",
+          "Clean pipe ends with sandpaper",
+          "Apply PVC cement to fitting and pipe",
+          "Insert and hold for 30 seconds"
+        ],
+        "leak_detection": [
+          "Listen for running water sounds",
+          "Check water meter when all taps closed",
+          "Look for wet spots or vegetation growth",
+          "Pressure test sections of system"
+        ]
+      }
+    },
+    "solar_pumping": {
+      "components": ["Solar panels", "Pump controller", "Submersible pump", "Storage tank"],
+      "sizing": [
+        "Calculate daily water needs",
+        "Determine pumping head (depth + pressure)",
+        "Size pump motor for requirements",
+        "Size solar array for pump power + 25%"
+      ],
+      "troubleshooting": [
+        "Pump not running: Check solar panel output and controller",
+        "Low water flow: Inspect for clogs or worn impeller",
+        "Pump cycles on/off: Check pressure tank and switch"
+      ]
+    }
+  },
+  "mechanical_repairs": {
+    "bicycle_repair": {
+      "common_issues": {
+        "flat_tire": [
+          "Remove wheel using tire levers",
+          "Locate hole by inflating tube in water",
+          "Clean area around hole with sandpaper",
+          "Apply patch glue and wait 2 minutes",
+          "Press patch firmly for 1 minute",
+          "Reassemble tire and inflate"
+        ],
+        "chain_problems": [
+          "Chain skipping: Adjust derailleur tension",
+          "Chain falling off: Check chainring alignment",
+          "Stiff links: Clean and lubricate chain",
+          "Broken chain: Use chain tool to connect master link"
+        ],
+        "brake_issues": [
+          "Squeaky brakes: Clean rim and brake pads",
+          "Weak braking: Adjust brake cable tension",
+          "Brake rub: Center brake caliper over rim",
+          "Worn pads: Replace when grooves are gone"
+        ]
+      },
+      "tools_needed": ["Tire levers", "Patch kit", "Pump", "Multi-tool", "Chain lubricant"]
+    },
+    "generator_maintenance": {
+      "diesel_generators": {
+        "routine_maintenance": [
+          "Check oil level before each use",
+          "Change oil every 100 hours",
+          "Replace air filter every 300 hours",
+          "Check fuel quality and water contamination"
+        ],
+        "troubleshooting": {
+          "won't_start": [
+            "Check fuel level and quality",
+            "Verify battery voltage (for electric start)",
+            "Clean air filter if clogged",
+            "Check for water in fuel system"
+          ],
+          "low_power": [
+            "Replace clogged fuel filter",
+            "Clean or replace air filter",
+            "Check for air leaks in fuel system",
+            "Verify proper fuel injection timing"
+          ],
+          "overheating": [
+            "Check coolant level and radiator",
+            "Clean cooling fins and radiator",
+            "Verify proper belt tension",
+            "Check for blocked exhaust"
+          ]
+        }
+      }
+    },
+    "small_engine_repair": {
+      "4_stroke_engines": {
+        "maintenance": [
+          "Change oil every 25 hours",
+          "Check spark plug every 100 hours",
+          "Clean air filter regularly",
+          "Check fuel lines for cracks"
+        ],
+        "common_problems": [
+          "Hard starting: Clean/replace spark plug",
+          "Won't idle: Clean carburetor",
+          "Low power: Replace air filter",
+          "Vibration: Check engine mounting bolts"
+        ]
+      }
+    }
+  },
+  "electrical_basics": {
+    "safety": [
+      "Always turn off power before working",
+      "Use insulated tools only",
+      "Test circuits with multimeter before touching",
+      "Never work alone on electrical systems"
+    ],
+    "basic_wiring": {
+      "wire_sizing": "Use proper gauge for current load - 14 AWG for 15A, 12 AWG for 20A",
+      "connections": [
+        "Strip wire 3/4 inch for connections",
+        "Use wire nuts for splices",
+        "Wrap connections with electrical tape",
+        "Keep connections in junction boxes"
+      ],
+      "troubleshooting": {
+        "no_power": [
+          "Check circuit breaker or fuse",
+          "Test outlet with multimeter",
+          "Verify connections are tight",
+          "Look for damaged wiring"
+        ],
+        "intermittent_power": [
+          "Check for loose connections",
+          "Inspect wire for damage",
+          "Test switch operation",
+          "Verify proper grounding"
+        ]
+      }
+    },
+    "multimeter_use": [
+      "Set to appropriate range for measurement",
+      "Red probe to positive, black to negative",
+      "For AC voltage: Set to VAC, test outlet",
+      "For DC voltage: Set to VDC, observe polarity",
+      "For continuity: Use ohms setting, expect beep"
+    ]
+  },
+  "construction_basics": {
+    "masonry": {
+      "cement_mixing": [
+        "Standard mix: 1 cement : 3 sand : 6 gravel",
+        "For mortar: 1 cement : 4 sand",
+        "Add water gradually while mixing",
+        "Use within 2 hours of mixing"
+      ],
+      "brick_laying": [
+        "Level foundation and spread mortar bed",
+        "Lay bricks with 10mm mortar joints",
+        "Check level and plumb frequently",
+        "Strike joints when mortar thumbprint hard"
+      ],
+      "concrete_curing": [
+        "Keep concrete moist for 7 days minimum",
+        "Cover with plastic or wet burlap",
+        "Avoid rapid drying in hot weather",
+        "Allow 28 days for full strength"
+      ]
+    },
+    "roofing": {
+      "corrugated_iron": [
+        "Overlap sheets by 2 corrugations",
+        "Use proper roofing screws with washers",
+        "Start installation from prevailing wind side",
+        "Install ridge caps with adequate overlap"
+      ],
+      "leak_repair": [
+        "Clean area around leak thoroughly",
+        "Apply roofing sealant compound",
+        "Cover with patch material if large hole",
+        "Paint over repair to prevent rust"
+      ]
+    }
+  },
+  "workshop_setup": {
+    "basic_tools": [
+      "Adjustable wrench set",
+      "Screwdriver set (flathead and Phillips)",
+      "Pliers (needle-nose and standard)",
+      "Wire strippers and cutters",
+      "Multimeter",
+      "Hammer and measuring tape",
+      "Level and square",
+      "Pipe wrenches for plumbing"
+    ],
+    "safety_equipment": [
+      "Safety glasses",
+      "Work gloves",
+      "Hearing protection",
+      "First aid kit",
+      "Fire extinguisher",
+      "Emergency lighting"
+    ],
+    "organization": [
+      "Label and organize tool storage",
+      "Keep workspace clean and well-lit",
+      "Store materials off the ground",
+      "Maintain inventory of common parts"
+    ]
+  }
+}

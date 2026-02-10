@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "files": {
+    "educational_archive/knowledge/massive_wikipedia.db": {
+      "sha256": "4b39702a2e202f762d34136aa8fa30adad505eb427d3ef03ec82af3bfd9944d4",
+      "size": 4757803008
+    },
+    "educational_archive/knowledge/medical_wikipedia.db": {
+      "sha256": "fccc868c572ef49548ddc18a7a200703ee70da0b9197b08fe08a0d7896afcb80",
+      "size": 20533248
+    },
+    "educational_archive/knowledge/k12_education_wikipedia.db": {
+      "sha256": "c8912ad3c8a3d9fc49a5302c0604a5cbd1f26202dd001fe9aa2ff2cd9af8148e",
+      "size": 2752512
+    },
+    "educational_archive/knowledge/college_education_wikipedia.db": {
+      "sha256": "b8205979c4a446a5f11b6d43392ee9523d813b230dc35d936364f98ae38a0131",
+      "size": 4866048
+    },
+    "educational_archive/knowledge/mathematics_wikipedia.db": {
+      "sha256": "fb28d48316526d05fb3b44fc6fe522f75f963ce63a527854e90ceb6d949fdc84",
+      "size": 1908736
+    },
+    "educational_archive/knowledge/agriculture_wikipedia.db": {
+      "sha256": "2833a074be0a8fcc042f77b3692e272cf518b6a0ffb06cf65864adf395dfc360",
+      "size": 339968
+    },
+    "educational_archive/knowledge/technical_education_wikipedia.db": {
+      "sha256": "e0db0bd74a7b7d2e8c086bb2e956d315bbd8c0ba23823913543fd1a49e205689",
+      "size": 3911680
+    },
+    "educational_archive/knowledge/technical_enhanced_wikipedia.db": {
+      "sha256": "966912788f8fc8c47cd214a33cdd4531cd41437503a590a01f1c8865cfa5b3be",
+      "size": 544768
+    },
+    "educational_archive/knowledge/african_arab_world_massive_wikipedia.db": {
+      "sha256": "2124e8c9836e62d79e8f3e013e6df32f234f79d2271e51ca7282bf0886d4bed3",
+      "size": 1929216
+    },
+    "organized_data/databases/massive_tigrinya_database.db": {
+      "sha256": "bb347e1e44403035da3e9f0b0f1b8327a8bc3f4c85571c80e9c803ee0845f9e1",
+      "size": 189456384
+    },
+    "organized_data/databases/academic_translations_v2.db": {
+      "sha256": "d3d3552621c7fb1a6e12d11b365fd82d9a5f4f0f06fda3062abef0fb5d7693fd",
+      "size": 127582208
+    },
+    "organized_data/databases/cultural_translations_v2.db": {
+      "sha256": "0f5a7f355bb65ca5060463ed11947c274f800acf45cf88cb353cccdd6316d7ae",
+      "size": 136695808
+    },
+    "organized_data/databases/academic_translations.db": {
+      "sha256": "9dbbf64f9fc3f55e54ae3813fa3bdbf0645bc9a843963c73e8b2a8c2f7f1e50b",
+      "size": 88510464
+    },
+    "organized_data/databases/cultural_translations.db": {
+      "sha256": "28cf66b31a1d2447b1731b5f8b344767e72cfadeddfed5fe15aab3b7b7db62f6",
+      "size": 45453312
+    },
+    "organized_data/databases/word_dictionary_v2.db": {
+      "sha256": "d04d907dd9a4b33b1d90e57cd3d5028fabc7867c3c958909e6fc7a1703d9b157",
+      "size": 6127616
+    },
+    "organized_data/databases/hot_cache_translations_v2.db": {
+      "sha256": "d24968ee9020299bfee6de0d0189f380ac3dad7c462d215b381f297636875c9c",
+      "size": 176128
+    },
+    "organized_data/databases/hot_cache_translations.db": {
+      "sha256": "e415d8240517b67ac1f3d13f52e8d25bf9b220d4b70337adef6a57368c848f47",
+      "size": 24576
+    },
+    "organized_data/curriculum_cache/curriculum_database.db": {
+      "sha256": "8227479fc82f886e37c8cc9e53c27411e7a191e54057d9d5158658a9d2a12b4b",
+      "size": 270336
+    }
+  }
+}

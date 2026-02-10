@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "created": "2025-12-30T07:25:00Z",
+    "source": "Tigray Agricultural Knowledge System",
+    "version": "1.0",
+    "focus": "Tigray Region Agriculture & Livestock"
+  },
+  "crops": {
+    "teff": {
+      "name": "Teff (Eragrostis tef)",
+      "tigrinya_name": "ጤፍ",
+      "growing_season": "Meher (June-September)",
+      "planting_time": "June-July",
+      "harvest_time": "November-December",
+      "water_requirements": "600-800mm annual rainfall",
+      "soil_type": "Well-drained vertisols, ideal pH 6.0-8.0",
+      "varieties": ["DZ-01-99", "DZ-Cr-37", "Quncho", "Magna"],
+      "seeding_rate": "25-30 kg/hectare",
+      "common_diseases": ["lodging", "head smut", "shoot fly"],
+      "management_practices": [
+        "Plant in rows 20cm apart",
+        "Apply fertilizer: 100kg DAP + 50kg Urea per hectare",
+        "Weed control at 25-30 days after planting",
+        "Harvest when grain moisture is 18-20%"
+      ],
+      "yield_expectations": "1.5-3.0 tons/hectare under good conditions",
+      "traditional_wisdom": [
+        "Plant after first good rains",
+        "Mixed cropping with legumes improves soil",
+        "Store in traditional gota (underground storage)"
+      ]
+    },
+    "sorghum": {
+      "name": "Sorghum",
+      "tigrinya_name": "ማሽላ",
+      "growing_season": "Both Meher and Belg seasons",
+      "drought_tolerance": "Excellent - survives 400-500mm rainfall",
+      "varieties": ["Meko-1", "Gambella-1107", "Local red sorghum"],
+      "planting_density": "15-20 plants per square meter",
+      "management": [
+        "Drought-resistant crop for marginal areas",
+        "Plant 15-20cm spacing between plants",
+        "Minimal fertilizer required in good soils",
+        "Bird protection needed during grain filling"
+      ],
+      "uses": ["Food grain", "Animal feed", "Construction material", "Traditional beer"],
+      "storage": "Dry to 12% moisture, store in sealed containers"
+    },
+    "barley": {
+      "name": "Barley",
+      "tigrinya_name": "ገብስ",
+      "growing_season": "Meher season",
+      "altitude_preference": "2000-3500m elevation",
+      "varieties": ["HB-1307", "Shege", "Local six-row barley"],
+      "cold_tolerance": "Excellent for highland areas",
+      "management": [
+        "Plant September-October in highlands",
+        "Row spacing 25cm, seeding rate 125kg/ha",
+        "Good for crop rotation after legumes",
+        "Harvest before overmaturity to prevent shattering"
+      ],
+      "traditional_uses": ["Food", "Local beer (tella)", "Animal feed"]
+    },
+    "wheat": {
+      "name": "Wheat",
+      "tigrinya_name": "ስንዴ",
+      "varieties": ["Digelu", "Hidase", "Kakaba"],
+      "growing_season": "Meher season (highlands)",
+      "management": [
+        "Requires 450-650mm water during growing season",
+        "Plant in well-prepared seedbed",
+        "Apply 100kg DAP + 100kg Urea per hectare",
+        "Critical weed control first 6 weeks"
+      ],
+      "diseases": ["yellow rust", "black stem rust", "septoria"],
+      "yield_potential": "2-4 tons per hectare"
+    }
+  },
+  "livestock": {
+    "cattle": {
+      "local_breeds": ["Raya", "Begait", "Arado"],
+      "management": {
+        "feeding": [
+          "Dry season: hay, crop residues, concentrate",
+          "Wet season: natural pasture grazing",
+          "Supplement with salt and minerals",
+          "Water requirements: 30-50 liters/day per animal"
+        ],
+        "health": [
+          "Vaccinate against FMD, anthrax, blackleg",
+          "Deworm every 3-4 months",
+          "Check for ticks and treat with acaricide",
+          "Isolate sick animals immediately"
+        ],
+        "breeding": [
+          "Natural service or AI during rainy season",
+          "Gestation period: 9 months",
+          "Wean calves at 6-8 months",
+          "Select bulls with good conformation"
+        ]
+      },
+      "common_diseases": [
+        "trypanosomiasis", "tick-borne diseases", "mastitis", "foot and mouth disease"
+      ],
+      "traditional_treatments": [
+        "Neem leaves for tick control",
+        "Garlic and onion for deworming",
+        "Local herbs for mastitis treatment"
+      ]
+    },
+    "small_ruminants": {
+      "goats": {
+        "breeds": ["Abergelle", "Begait", "Central Highland"],
+        "management": [
+          "Browse and graze on marginal lands",
+          "House in dry, well-ventilated shelters",
+          "Breeding twice per year possible",
+          "Kid mortality reduction through proper care"
+        ]
+      },
+      "sheep": {
+        "breeds": ["Tigray Highland", "Abergelle", "Afar"],
+        "wool_production": "Local sheep produce coarse wool for traditional clothing",
+        "meat_production": "Ram fattening for markets"
+      }
+    }
+  },
+  "soil_fertility": {
+    "composting": {
+      "materials": ["Crop residues", "Animal manure", "Kitchen waste", "Ash"],
+      "method": [
+        "Layer organic materials 1.5m wide x 1m high",
+        "Turn every 2 weeks for first 2 months",
+        "Ready after 3-4 months (dark brown color)",
+        "Apply 5-10 tons per hectare"
+      ]
+    },
+    "crop_rotation": [
+      "Cereals → Legumes → Cereals rotation",
+      "Include nitrogen-fixing crops (beans, peas)",
+      "Fallow periods for soil recovery",
+      "Mixed cropping with complementary plants"
+    ],
+    "soil_conservation": [
+      "Terracing on slopes >12%",
+      "Stone bunds for water conservation",
+      "Tree planting for erosion control",
+      "Contour plowing techniques"
+    ]
+  },
+  "water_management": {
+    "rainfall_patterns": {
+      "belg_season": "February-May (short rains)",
+      "meher_season": "June-September (main rains)",
+      "dry_season": "October-January"
+    },
+    "irrigation": {
+      "traditional_methods": ["Spate irrigation", "River diversion", "Wells"],
+      "water_harvesting": [
+        "Pond construction for rainwater storage",
+        "Roof catchment systems",
+        "Check dams for groundwater recharge"
+      ]
+    },
+    "drought_management": [
+      "Early maturing crop varieties",
+      "Drought-tolerant crops (sorghum, millet)",
+      "Livestock destocking strategies",
+      "Water point development"
+    ]
+  },
+  "traditional_farming_calendar": {
+    "january": "Land preparation, terracing, tree planting",
+    "february": "Belg season planting (barley, wheat in highlands)",
+    "march": "Weeding belg crops, livestock breeding",
+    "april": "Continued belg crop management",
+    "may": "Belg harvest preparation",
+    "june": "Main season (Meher) planting - teff, sorghum",
+    "july": "Meher crop establishment, weeding",
+    "august": "Crop management, pest control",
+    "september": "Late meher planting, continued management",
+    "october": "Early harvest of short-season crops",
+    "november": "Main harvest season - teff, sorghum",
+    "december": "Post-harvest processing, storage preparation"
+  },
+  "climate_adaptation": {
+    "drought_strategies": [
+      "Use of drought-tolerant crop varieties",
+      "Water harvesting and storage",
+      "Livestock early warning systems",
+      "Diversified cropping systems"
+    ],
+    "soil_degradation": [
+      "Integrated watershed management",
+      "Agroforestry practices",
+      "Improved grazing management",
+      "Gully rehabilitation"
+    ]
+  }
+}
