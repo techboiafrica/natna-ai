@@ -1,6 +1,6 @@
 # NATNA AI
 
-**Offline Education AI for Tigray and the Global South**
+**Offline Education AI for Tigray and Leapfrog Regions**
 
 NATNA is a self-contained AI education platform that runs entirely offline. It combines large language models, a 142,000+ entry Tigrinya-English dictionary, curated Wikipedia knowledge bases, and domain-specific knowledge cards for medicine, agriculture, mental health, and more.
 
@@ -132,4 +132,4 @@ MIT
 
 ## Credits
 
-Built by [techboiafrica](https://github.com/techboiafrica) for Tigray and the Global South.
+Built by [techboiafrica](https://github.com/techboiafrica) for Tigray and Leapfrog Regions.
