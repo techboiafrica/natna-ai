@@ -8,9 +8,7 @@ Built for communities with limited or no internet access.
 
 ![Desktop Dashboard](docs/images/desktop-dashboard.png)
 
-### Mobile Demo
-
-https://github.com/techboiafrica/natna-ai/releases/download/v0.1.0/NatnaMobileDemo.MP4
+![Mobile Dashboard](docs/images/mobile-dashboard.jpeg)
 
 ## Quick Start
 
