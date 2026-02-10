@@ -6,6 +6,12 @@ NATNA is a self-contained AI education platform that runs entirely offline. It c
 
 Built for communities with limited or no internet access.
 
+![Desktop Dashboard](docs/images/desktop-dashboard.jpeg)
+
+### Mobile Demo
+
+https://github.com/techboiafrica/natna-ai/releases/download/v0.1.0/NatnaMobileDemo.MP4
+
 ## Quick Start
 
 ```bash
@@ -52,6 +58,10 @@ Launch_NATNA_all_OS\NATNA_Launch_Windows.bat
 - **Multiple AI models** — Switch between models in the UI. From 360M parameters to 14B+
 - **Fully offline** — Everything runs locally after setup. No cloud, no API keys, no subscriptions
 - **Cross-platform** — macOS (Intel & Apple Silicon), Linux, Windows
+
+## Tigrinya Language Status
+
+> **Note:** The Tigrinya (ትግርኛ) translation capability is actively being developed and is very limited right now. With help from Mekelle University, Mekelle Institute of Technology, and other partners, we are building the world's first LLM natively trained in Tigrinya. Stay tuned.
 
 ## Model Choices
 
