@@ -4,6 +4,7 @@ Terminal UI - Simple, fast, no fluff
 """
 
 from http.server import HTTPServer, BaseHTTPRequestHandler, ThreadingHTTPServer
+import hmac
 import json
 import requests
 import os
@@ -295,24 +296,16 @@ def log_memory_status():
     print(f"[STATS] Memory: {memory['rss']}MB physical, {memory['percent']}% system")
 
     # Alert if memory usage is high for field laptops
-    if memory['rss'] > 500:  # 500MB threshold for field laptops
-        print(f"[WARN] High memory usage: {memory['rss']}MB - consider restart if issues occur")
-    elif memory['rss'] > 1000:  # 1GB critical threshold
+    if memory['rss'] > 1000:  # 1GB critical threshold
         print(f"[CRIT] Critical memory usage: {memory['rss']}MB - field laptops may struggle")
+    elif memory['rss'] > 500:  # 500MB threshold for field laptops
+        print(f"[WARN] High memory usage: {memory['rss']}MB - consider restart if issues occur")
 
     return memory
 
 # Register cleanup for singleton lock
 atexit.register(cleanup_singleton)
 
-# Signal handler for graceful shutdown (kill script compatibility)
-def signal_handler(signum, frame):
-    print(f"\n[SIGNAL] Received signal {signum}, shutting down gracefully...")
-    cleanup_singleton()
-    sys.exit(0)
-
-signal.signal(signal.SIGTERM, signal_handler)
-signal.signal(signal.SIGINT, signal_handler)
 
 # Initialize AI
 print("[LOADING] Starting AI...")
@@ -2538,7 +2531,7 @@ class TerminalHandler(BaseHTTPRequestHandler):
                 </button>
                 <button onclick="openPickerDrawer('model')">
                     <span class="picker-label">Model</span>
-                    <span id="mobileModelLabel">Qwen 3 0.6B</span>
+                    <span id="mobileModelLabel">Qwen 2.5 0.5B</span>
                 </button>
             </div>
 
@@ -2619,7 +2612,7 @@ Type /FAQ for a full guide on domains, models, bilingual mode, and more.
                 <div style="display: flex; align-items: center; gap: 8px;">
                     <span id="last-query-time" style="color: var(--text-muted);">Ready</span>
                     <button id="clearHistoryBtn" onclick="clearHistory()" style="background: var(--bg-surface); border: 1px solid var(--border-color); color: var(--text-secondary); padding: 4px 10px; border-radius: 6px; cursor: pointer; font-size: 11px; transition: all 150ms ease;">Clear</button>
-                    <button id="expandAnswerBtn" onclick="expandAnswer()" style="background: var(--accent); border: none; color: #fff; padding: 4px 10px; border-radius: 6px; cursor: pointer; font-size: 11px; display: none; font-weight: 500;" title="Enhance answer with Wikipedia context">Expand</button>
+                    <button id="expandAnswerBtn" onclick="expandAnswer()" style="background: var(--accent); border: none; color: #fff; padding: 4px 10px; border-radius: 6px; cursor: pointer; font-size: 11px; display: none; font-weight: 500;" title="Get a deeper answer using Wikipedia context">Deep Answer</button>
                     <div class="toggle-buttons">
                         <button class="lang-toggle" id="langToggle" onclick="toggleLanguage()" title="Toggle Tigrinya responses">Ti/En</button>
                         <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()">Dark</button>
@@ -3524,7 +3517,7 @@ Type /FAQ for a full guide on domains, models, bilingual mode, and more.
 <ul>
   <li>The <strong>Research Panel</strong> on the right shows relevant Wikipedia sources for each question</li>
   <li>Click any source to read the full article</li>
-  <li>Use <strong>Expand Answer</strong> to ask the AI to go deeper using Wikipedia context</li>
+  <li>Use <strong>Deep Answer</strong> to ask the AI to go deeper using Wikipedia context</li>
 </ul>
 
 <h3>Tips &amp; Shortcuts</h3>
@@ -3903,7 +3896,7 @@ Type /FAQ for a full guide on domains, models, bilingual mode, and more.
 
             // Disable button and show loading
             expandBtn.disabled = true;
-            expandBtn.textContent = 'Expanding...';
+            expandBtn.textContent = 'Thinking...';
 
             const requestData = {
                 original_answer: lastEnglishAnswer,
@@ -3957,7 +3950,7 @@ Type /FAQ for a full guide on domains, models, bilingual mode, and more.
             .finally(() => {
                 // Re-enable button
                 expandBtn.disabled = false;
-                expandBtn.textContent = 'Expand';
+                expandBtn.textContent = 'Deep Answer';
             });
         }
 

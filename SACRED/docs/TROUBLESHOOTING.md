@@ -52,6 +52,16 @@ Kill the process or change NATNA's port in `NatnaUI.py`.
 
 ---
 
+## Browser Issues
+
+### Incognito / Private Browsing Not Supported
+
+NATNA does not work reliably in incognito or private browser windows. Queries may return "Error: No response" even when the server is running and responding normally in regular browser windows.
+
+**Use a regular browser window.** This applies to all browsers (Chrome, Firefox, Safari, Edge). Incognito/private mode enforces stricter local network restrictions that can block communication with the local NATNA server.
+
+---
+
 ## Connection Issues
 
 ### "Rhizome Server: Disconnected"
@@ -287,6 +297,7 @@ curl -X POST http://localhost:8080/api/search_wikipedia \
 
 | Issue | Quick Fix |
 |-------|-----------|
+| "No response" in incognito | Use a regular browser window |
 | Won't start | Run kill script, try again |
 | Ollama disconnected | Check terminal, restart launcher |
 | No Wikipedia | Wait for warming, check db path |

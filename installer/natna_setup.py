@@ -94,6 +94,11 @@ def sha256_file(filepath, chunk_size=1 << 20):
 def download_file(url, dest, expected_size=None, expected_sha256=None):
     """
     Download a file with progress bar and resume support.
+
+    Uses HTTP Range headers for resuming interrupted downloads.
+    Falls back to full download if the server ignores the Range
+    request (responds 200 instead of 206 Partial Content).
+
     Returns True on success, False on failure.
     """
     dest = Path(dest)
@@ -116,7 +121,7 @@ def download_file(url, dest, expected_size=None, expected_sha256=None):
 
     req = urllib.request.Request(url, headers=headers)
     try:
-        resp = urllib.request.urlopen(req, timeout=30)
+        resp = urllib.request.urlopen(req, timeout=60)
     except urllib.error.HTTPError as e:
         if e.code == 416:  # Range not satisfiable — file complete
             if partial.exists():
@@ -127,6 +132,22 @@ def download_file(url, dest, expected_size=None, expected_sha256=None):
     except Exception as e:
         print(f"\n  Error downloading {url}: {e}")
         return False
+
+    # Verify the server actually honored our Range request.
+    # HTTP 206 = Partial Content (resume works).
+    # HTTP 200 = Full content (server ignored Range header,
+    #   e.g. CDN redirect stripped the header or server
+    #   doesn't support byte-range requests).
+    # If we get 200 when we asked for a range, we must
+    # overwrite the partial file instead of appending,
+    # otherwise we'd end up with partial + full = corrupt.
+    resp_code = resp.getcode()
+    if start_byte > 0 and resp_code != 206:
+        print(
+            f"  Server did not honor resume"
+            f" (HTTP {resp_code}). Restarting download."
+        )
+        start_byte = 0
 
     # Determine total size
     content_range = resp.headers.get("Content-Range")
@@ -155,10 +176,23 @@ def download_file(url, dest, expected_size=None, expected_sha256=None):
                     pct = downloaded / total
                     bar_len = 30
                     filled = int(bar_len * pct)
-                    bar = "=" * filled + ">" + " " * (bar_len - filled - 1)
-                    print(f"\r  [{bar}] {pct*100:5.1f}%  {human_size(downloaded)}/{human_size(total)}  ", end="", flush=True)
+                    bar = (
+                        "=" * filled
+                        + ">"
+                        + " " * (bar_len - filled - 1)
+                    )
+                    print(
+                        f"\r  [{bar}] {pct*100:5.1f}%"
+                        f"  {human_size(downloaded)}"
+                        f"/{human_size(total)}  ",
+                        end="", flush=True,
+                    )
                 else:
-                    print(f"\r  Downloaded {human_size(downloaded)}  ", end="", flush=True)
+                    print(
+                        f"\r  Downloaded"
+                        f" {human_size(downloaded)}  ",
+                        end="", flush=True,
+                    )
 
         print()  # newline after progress bar
     except Exception as e:
