@@ -1,8 +1,16 @@
 @echo off
 setlocal enabledelayedexpansion
+
+:: Resolve repo root (one level up from Launch_NATNA_all_OS)
+set "REPO_ROOT=%~dp0.."
+pushd "%REPO_ROOT%"
+set "REPO_ROOT=%CD%"
+popd
+
 echo [FIRE] LAUNCHING BULLETPROOF NATNA AI DESKTOP [FIRE]
 echo =============================================
-echo [FOLDER] Sacred files directory: %~dp0
+echo [FOLDER] NATNA root: %REPO_ROOT%
+echo [FOLDER] Sacred files: %REPO_ROOT%\SACRED
 echo [DB] Database: massive_tigrinya_database.db (265,972+ entries)
 echo [BRAIN] AI Engine: intelligent_translator.py (DeepSeek + SQL fallback)
 echo [GLOBE] Interface: NatnaUI.py with 6-Layer Defense System
@@ -10,7 +18,7 @@ echo.
 
 :: STEP 1: Start Ollama Server with NATNA Drive Models
 echo [AI] Step 1: Starting Ollama server with NATNA drive models...
-set "OLLAMA_MODELS=%~dp0SACRED\runtime\models"
+set "OLLAMA_MODELS=%REPO_ROOT%\SACRED\runtime\models"
 set "OLLAMA_HOST=127.0.0.1:11434"
 
 :: [LAUNCH] MAXIMUM PERFORMANCE CONFIGURATION
@@ -27,7 +35,7 @@ set "OLLAMA_KEEP_ALIVE=10m"
 echo   [OK] MAXIMUM PERFORMANCE Ollama configuration applied
 
 :: Start portable Ollama from NATNA drive
-set "OLLAMA_PATH=%~dp0SACRED\runtime\ollama-windows\ollama.exe"
+set "OLLAMA_PATH=%REPO_ROOT%\SACRED\runtime\ollama-windows\ollama.exe"
 if exist "%OLLAMA_PATH%" (
     echo   [LAUNCH] Starting portable Ollama server...
     start /B "" "%OLLAMA_PATH%" serve
@@ -66,8 +74,8 @@ echo [SHIELD] Step 2: Starting NATNA web interface with 6-Layer Defense System..
 
 :: Find NatnaUI.py
 set "SCRIPT_PATH="
-if exist "%~dp0SACRED\APP_Production\NatnaUI.py" (
-    set "SCRIPT_PATH=%~dp0SACRED\APP_Production\NatnaUI.py"
+if exist "%REPO_ROOT%\SACRED\APP_Production\NatnaUI.py" (
+    set "SCRIPT_PATH=%REPO_ROOT%\SACRED\APP_Production\NatnaUI.py"
 ) else if exist "%~dp0APP_Production\NatnaUI.py" (
     set "SCRIPT_PATH=%~dp0APP_Production\NatnaUI.py"
 ) else if exist "%~dp0NatnaUI.py" (
@@ -87,8 +95,8 @@ for %%F in ("%SCRIPT_PATH%") do set "SCRIPT_DIR=%%~dpF"
 cd /d "%SCRIPT_DIR%"
 
 :: Resolve bundled Python
-set "PYTHON_BIN=%~dp0SACRED\runtime\python\windows-x64\python\python.exe"
-set "PYTHONPATH=%~dp0SACRED\runtime\python\packages;%~dp0SACRED\APP_Production\dependencies"
+set "PYTHON_BIN=%REPO_ROOT%\SACRED\runtime\python\windows-x64\python\python.exe"
+set "PYTHONPATH=%REPO_ROOT%\SACRED\runtime\python\packages;%REPO_ROOT%\SACRED\APP_Production\dependencies"
 if not exist "%PYTHON_BIN%" (
     echo   [WARN] Bundled Python not found at %PYTHON_BIN%, falling back to system python...
     set "PYTHON_BIN=python"
