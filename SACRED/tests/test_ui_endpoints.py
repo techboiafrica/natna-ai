@@ -89,7 +89,7 @@ class TestUIServerEndpoints:
                 pytest.skip("Context status endpoint not available")
 
             data = response.json()
-            assert "percentage" in data or "usage" in data or "tokens" in data
+            assert "limit" in data or "history_tokens" in data or "percentage" in data
         except requests.exceptions.ConnectionError:
             pytest.skip("NATNA server not running")
 

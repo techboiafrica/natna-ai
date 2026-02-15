@@ -106,7 +106,7 @@ class TestModelLimits:
         """Verify Qwen 0.6B has expected context limit"""
         from context_manager import get_context_limit
         limit = get_context_limit("qwen3:0.6b")
-        assert limit == 2048, f"Qwen 0.6B should have 2048 limit, got {limit}"
+        assert limit == 8192, f"Qwen 0.6B should have 8192 limit, got {limit}"
 
     def test_unknown_model_default(self):
         """Verify unknown models get default limit"""
